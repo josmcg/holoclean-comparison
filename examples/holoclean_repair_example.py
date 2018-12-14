@@ -11,7 +11,7 @@ from repair.featurize import LangModelFeat
 # 1. Setup a HoloClean session.
 hc = holoclean.HoloClean(
     pruning_topk=0.1,
-    epochs=30,
+    epochs=10,
     weight_decay=0.01,
     threads=20,
     batch_size=1,
@@ -21,8 +21,8 @@ hc = holoclean.HoloClean(
 ).session
 
 # 2. Load training data and denial constraints.
-hc.load_data('hospital', '../testdata/hospital.csv')
-hc.load_dcs('../testdata/hospital_constraints_att.txt')
+hc.load_data('adult', '../testdata/jr77/Adult20.csv')
+hc.load_dcs('../testdata/jr77/adult_fbis.txt')
 hc.ds.set_constraints(hc.get_dcs())
 
 # 3. Detect erroneous cells using these two detectors.
@@ -43,4 +43,4 @@ hc.repair_errors(featurizers)
 
 
 # 5. Evaluate the correctness of the results.
-hc.evaluate('../testdata/hospital_clean.csv', 'tid', 'attribute', 'correct_val')
+# hc.evaluate('../testdata/hospital_clean.csv', 'tid', 'attribute', 'correct_val')

@@ -78,7 +78,8 @@ class ConstraintFeat(Featurizer):
         """
         attr =  predicate.components[0][1]
         op = predicate.operation
-        const = '"{}"'.format(predicate.components[1])
+        c = predicate.components[1]
+        const = c if c.startswith('\'') else '"{}"'.format(c)
         return attr, op, const
 
     def relax_binary_predicate(self, predicate, rel_idx):

@@ -19,13 +19,13 @@ class FeaturizedDataset:
         tensor = torch.cat(tensors,2)
         # DEBUGING
         self.debugging = {}
-        print("========== DEBUGGING ==========")
-        for i, t in enumerate(tensors):
-            debug = t[9324, :, :].numpy()
-            feat = featurizers[i].name
-            self.debugging[feat] = {}
-            self.debugging[feat]['size'] = debug.shape
-            self.debugging[feat]['weights'] = debug
+        # print("========== DEBUGGING ==========")
+        # for i, t in enumerate(tensors):
+        #     debug = t[9324, :, :].numpy()
+        #     feat = featurizers[i].name
+        #     self.debugging[feat] = {}
+        #     self.debugging[feat]['size'] = debug.shape
+        #     self.debugging[feat]['weights'] = debug
             
         self.tensor = tensor
         # TODO: remove after we validate it is not needed.
