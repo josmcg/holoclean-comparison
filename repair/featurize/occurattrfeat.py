@@ -72,6 +72,8 @@ class OccurAttrFeaturizer(Featurizer):
                         if rv_val in rv_domain_idx:
                             index = rv_attr_idx * self.attrs_number + attr_idx
                             tensor[0][rv_domain_idx[rv_val]][index] = prob
+                            if rv_val == 'empty' or val == 'empty':
+                                tensor[0][rv_domain_idx[rv_val]][index] = -10
         return tensor
 
     def feature_names(self):
