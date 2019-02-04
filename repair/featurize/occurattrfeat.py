@@ -9,7 +9,7 @@ from dataset import AuxTables
 from utils import NULL_REPR
 
 # A feature value to represent co-occurrence with NULLs, which is not applicable.
-NA_COOCCUR_FV = -10
+NA_COOCCUR_FV = 0
 
 
 class OccurAttrFeaturizer(Featurizer):
@@ -77,6 +77,7 @@ class OccurAttrFeaturizer(Featurizer):
                             index = rv_attr_idx * self.attrs_number + attr_idx
                             tensor[0][rv_domain_idx[rv_val]][index] = prob
                             # We cannot compute co-occurrence for NULLs; override with the NA feature value.
+                            # TODO(richard, mina): move this to the stats computations and handle empty stats here.
                             if rv_val == NULL_REPR or val == NULL_REPR:
                                 tensor[0][rv_domain_idx[rv_val]][index] = NA_COOCCUR_FV
         return tensor
