@@ -4,10 +4,10 @@ import time
 from tqdm import tqdm
 import itertools
 import random
-import math
 
 from dataset import AuxTables, CellStatus
 from .estimators import Logistic
+from utils import NULL_REPR
 
 
 class DomainEngine:
@@ -355,12 +355,12 @@ class DomainEngine:
                         logging.error('Missing value: {}'.format(missing_val))
                         raise
 
-        # Remove _nan_ if added due to correlated attributes.
-        domain.discard('_nan_')
+        # Remove NULL_REPR (_nan_) if added due to correlated attributes.
+        domain.discard(NULL_REPR)
         # Add initial value in domain
         if pd.isnull(row[attr]):
-            domain.update({'_nan_'})
-            init_value = '_nan_'
+            domain.update({NULL_REPR})
+            init_value = NULL_REPR
         else:
             domain.update({row[attr]})
             init_value = row[attr]

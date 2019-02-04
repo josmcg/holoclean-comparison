@@ -7,6 +7,7 @@ import pandas as pd
 
 from dataset import AuxTables
 from dataset.table import Table, Source
+from utils import NULL_REPR
 
 errors_template = Template('SELECT count(*) ' \
                            'FROM  "$init_table" as t1, "$grdt_table" as t2 ' \
@@ -44,7 +45,7 @@ class EvalEngine:
         tic = time.clock()
         try:
             raw_data = pd.read_csv(fpath, na_values=na_values, encoding='utf-8')
-            raw_data.fillna('_nan_', inplace=True)
+            raw_data.fillna(NULL_REPR, inplace=True)
             raw_data.rename({tid_col: '_tid_',
                              attr_col: '_attribute_',
                              val_col: '_value_'},

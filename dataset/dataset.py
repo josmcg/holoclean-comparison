@@ -7,7 +7,7 @@ import pandas as pd
 
 from .dbengine import DBengine
 from .table import Table, Source
-from utils import dictify_df
+from utils import dictify_df, NULL_REPR
 
 
 class AuxTables(Enum):
@@ -100,8 +100,8 @@ class Dataset:
                 # use entity IDs as _tid_'s directly
                 df.rename({entity_col: '_tid_'}, axis='columns', inplace=True)
 
-            # Use '_nan_' to represent NULL values
-            df.fillna('_nan_', inplace=True)
+            # Use NULL_REPR to represent NULL values
+            df.fillna(NULL_REPR, inplace=True)
 
             logging.info("Loaded %d rows with %d cells", self.raw_data.df.shape[0], self.raw_data.df.shape[0] * self.raw_data.df.shape[1])
 

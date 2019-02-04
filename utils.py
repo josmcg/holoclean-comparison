@@ -1,3 +1,7 @@
+# Some constants.
+NULL_REPR = '_nan_'
+
+
 def dictify_df(frame):
     """
     dictify_df converts a frame with columns
