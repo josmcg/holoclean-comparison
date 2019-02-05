@@ -242,7 +242,7 @@ class Dataset:
             self.pair_attr_stats[cond_attr] = {}
             for trg_attr in self.get_attributes():
                 if trg_attr != cond_attr:
-                    self.pair_attr_stats[cond_attr][trg_attr] = self.get_stats_pair(cond_attr,trg_attr)
+                    self.pair_attr_stats[cond_attr][trg_attr] = self.get_stats_pair(cond_attr, trg_attr)
 
     def get_stats_single(self, attr):
         """
@@ -251,7 +251,8 @@ class Dataset:
         """
         # need to decode values into unicode strings since we do lookups via
         # unicode strings from Postgres
-        return self.get_raw_data()[[attr]].groupby([attr]).size().to_dict()
+        data_df = self.get_raw_data()
+        return data_df[[attr]].loc[data_df[attr] != NULL_REPR].groupby([attr]).size().to_dict()
 
     def get_stats_pair(self, first_attr, second_attr):
         """
@@ -259,8 +260,14 @@ class Dataset:
             <first_val>: all possible values for first_attr
             <second_val>: all values for second_attr that appear at least once with <first_val>
             <count>: frequency (# of entities) where first_attr=<first_val> AND second_attr=<second_val>
+        Filters out NULL values so no entries in the dictionary would have nulls.
         """
-        tmp_df = self.get_raw_data()[[first_attr, second_attr]].groupby([first_attr, second_attr]).size().reset_index(name="count")
+        data_df = self.get_raw_data()
+        tmp_df = data_df[[first_attr, second_attr]]\
+            .loc[(data_df[first_attr] != NULL_REPR) & (data_df[second_attr] != NULL_REPR)]\
+            .groupby([first_attr, second_attr])\
+            .size()\
+            .reset_index(name="count")
         return dictify_df(tmp_df)
 
     def get_domain_info(self):

@@ -6,10 +6,7 @@ from tqdm import tqdm
 
 from .featurizer import Featurizer
 from dataset import AuxTables
-from utils import NULL_REPR
-
-# A feature value to represent co-occurrence with NULLs, which is not applicable.
-NA_COOCCUR_FV = 0
+from utils import NULL_REPR, NA_COOCCUR_FV
 
 
 class OccurAttrFeaturizer(Featurizer):
@@ -49,37 +46,34 @@ class OccurAttrFeaturizer(Featurizer):
         return combined
 
     def gen_feat_tensor(self, row, tuple):
-        tensor = torch.zeros(1, self.classes, self.attrs_number*self.attrs_number)
+        tensor = torch.zeros(1, self.classes, self.attrs_number * self.attrs_number)
         rv_attr = row['attribute']
         domain = row['domain'].split('|||')
         rv_domain_idx = {val: idx for idx, val in enumerate(domain)}
         rv_attr_idx = self.ds.attr_to_idx[rv_attr]
         for attr in self.all_attrs:
-            if attr != rv_attr and (not pd.isnull(tuple[attr])):
-                attr_idx = self.ds.attr_to_idx[attr]
-                val = tuple[attr]
-                count1 = float(self.single_stats[attr][val])
-                # Get topK values
-                if val not in self.pair_stats[attr][rv_attr]:
-                    if not pd.isnull(tuple[rv_attr]):
-                        logging.error('Cannot find attribute: {} with value {} in pair-wise statistics'.format(attr, val))
-                        raise Exception('Something is wrong with the pairwise statistics. <Val> should be present in dictionary.')
-                else:
-                    all_vals = self.pair_stats[attr][rv_attr][val]
-                    if len(all_vals) <= len(rv_domain_idx):
-                        candidates = all_vals
-                    else:
-                        candidates = domain
-                    for rv_val in candidates:
-                        count2 = float(all_vals.get(rv_val, 0.0))
-                        prob = count2 / count1
-                        if rv_val in rv_domain_idx:
-                            index = rv_attr_idx * self.attrs_number + attr_idx
-                            tensor[0][rv_domain_idx[rv_val]][index] = prob
-                            # We cannot compute co-occurrence for NULLs; override with the NA feature value.
-                            # TODO(richard, mina): move this to the stats computations and handle empty stats here.
-                            if rv_val == NULL_REPR or val == NULL_REPR:
-                                tensor[0][rv_domain_idx[rv_val]][index] = NA_COOCCUR_FV
+            val = tuple[attr]
+
+            # Ignore co-occurrences of same attribute or with null values.
+            if attr == rv_attr \
+                    or pd.isnull(val) \
+                    or val == NULL_REPR \
+                    or val not in self.single_stats[attr] \
+                    or val not in self.pair_stats[attr][rv_attr]:
+                continue
+            attr_idx = self.ds.attr_to_idx[attr]
+            count1 = float(self.single_stats[attr][val])
+            all_vals = self.pair_stats[attr][rv_attr][val]
+            if len(all_vals) <= len(rv_domain_idx):
+                candidates = all_vals
+            else:
+                candidates = domain
+            for rv_val in candidates:
+                count2 = float(all_vals.get(rv_val, 0.0))
+                prob = count2 / count1
+                if rv_val in rv_domain_idx:
+                    index = rv_attr_idx * self.attrs_number + attr_idx
+                    tensor[0][rv_domain_idx[rv_val]][index] = prob
         return tensor
 
     def feature_names(self):

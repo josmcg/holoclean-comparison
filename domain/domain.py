@@ -201,13 +201,16 @@ class DomainEngine:
             app = []
             for attr in self.active_attributes:
                 init_value, dom = self.get_domain_cell(attr, row)
-                init_value_idx = dom.index(init_value)
+                # If init_value is NULL, we would not have it in the domain since we filtered it out.
+                init_value_idx = -1
+                if init_value in dom:
+                    init_value_idx = dom.index(init_value)
                 # We will use an estimator model for additional weak labelling
                 # below, which requires an initial pruned domain first.
                 weak_label = init_value
                 weak_label_idx = init_value_idx
+                cid = self.ds.get_cell_id(tid, attr)
                 if len(dom) > 1:
-                    cid = self.ds.get_cell_id(tid, attr)
                     app.append({"_tid_": tid,
                                 "attribute": attr,
                                 "_cid_": cid,
@@ -225,7 +228,6 @@ class DomainEngine:
                     # Check if attribute has more than one unique values.
                     if len(add_domain) > 0:
                         dom.extend(self.get_random_domain(attr, init_value))
-                        cid = self.ds.get_cell_id(tid, attr)
                         app.append({"_tid_": tid,
                                     "attribute": attr,
                                     "_cid_": cid,
@@ -280,7 +282,7 @@ class DomainEngine:
             domain_values = [val for val, proba in sorted(preds, key=lambda pred: pred[1], reverse=True)[:self.max_domain]]
 
             # ensure the initial value is included
-            if row['init_value'] not in domain_values:
+            if row['init_value'] not in domain_values and row['init_value'] != NULL_REPR:
                 domain_values.append(row['init_value'])
             # update our memoized domain values for this row again
             row['domain'] = '|||'.join(domain_values)
@@ -292,7 +294,7 @@ class DomainEngine:
             weak_label, weak_label_prob = max(preds, key=lambda pred: pred[1])
 
             if weak_label_prob >= self.weak_label_thresh:
-                num_weak_labels+=1
+                num_weak_labels += 1
 
                 weak_label_idx = domain_values.index(weak_label)
                 row['weak_label'] = weak_label
@@ -313,7 +315,7 @@ class DomainEngine:
     def get_domain_cell(self, attr, row):
         """
         get_domain_cell returns a list of all domain values for the given
-        entity (row) and attribute.
+        entity (row) and attribute. The domain never has null as a possible value.
 
         We define domain values as values in 'attr' that co-occur with values
         in attributes ('cond_attr') that are correlated with 'attr' at least in
@@ -331,40 +333,29 @@ class DomainEngine:
 
         :return: (initial value of entity-attribute, domain values for entity-attribute).
         """
-
+        attr_val = row[attr]  # Initial value
         domain = set([])
+        # Get the attributes that are correlated at least self.cor_strength with 'attr'.
         correlated_attributes = self.get_corr_attributes(attr, self.cor_strength)
-        # Iterate through all attributes correlated at least self.cor_strength ('cond_attr')
-        # and take the top K co-occurrence values for 'attr' with the current
-        # row's 'cond_attr' value.
+        # Iterate through all correlated attributes and take the top K co-occurrence values
+        # for 'attr' with the current row's 'cond_attr' value.
         for cond_attr in correlated_attributes:
             if cond_attr == attr or cond_attr == 'index' or cond_attr == '_tid_':
                 continue
             cond_val = row[cond_attr]
-            if not pd.isnull(cond_val):
-                if not self.pair_stats[cond_attr][attr]:
-                    break
-                s = self.pair_stats[cond_attr][attr]
-                try:
-                    candidates = s[cond_val]
-                    domain.update(candidates)
-                except KeyError as missing_val:
-                    if not pd.isnull(row[attr]):
-                        # Error since co-occurrence must be at least 1 (since
-                        # the current row counts as one co-occurrence).
-                        logging.error('Missing value: {}'.format(missing_val))
-                        raise
+            attr_val = row[attr]
+            # Ignore co-occurrences with if any value is null.
+            if cond_val == NULL_REPR or attr_val == NULL_REPR or pd.isnull(cond_val) or pd.isnull(attr_val):
+                continue
+            s = self.pair_stats[cond_attr][attr]
+            candidates = s[cond_val]
+            domain.update(candidates)
 
-        # Remove NULL_REPR (_nan_) if added due to correlated attributes.
-        domain.discard(NULL_REPR)
-        # Add initial value in domain
-        if pd.isnull(row[attr]):
-            domain.update({NULL_REPR})
-            init_value = NULL_REPR
-        else:
-            domain.update({row[attr]})
-            init_value = row[attr]
-        return init_value, list(domain)
+        # Add the initial value to the domain if it is not null.
+        if attr_val != NULL_REPR:
+            domain.update({attr_val})
+
+        return attr_val, list(domain)
 
     def get_random_domain(self, attr, cur_value):
         """
