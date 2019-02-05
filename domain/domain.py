@@ -146,11 +146,12 @@ class DomainEngine:
         that are correlated with attr with magnitude at least self.cor_strength
         (init parameter).
 
+        :param attr: (string) the original attribute to get the correlated attributes for.
         :param thres: (float) correlation threshold (absolute) for returned attributes.
         """
         # Not memoized: find correlated attributes from correlation dataframe.
         if (attr, thres) not in self._corr_attrs:
-            self._corr_attrs[(attr,thres)] = []
+            self._corr_attrs[(attr, thres)] = []
 
             if attr in self.correlations:
                 d_temp = self.correlations[attr]
@@ -198,7 +199,6 @@ class DomainEngine:
         self.all_attrs = list(records.dtype.names)
         for row in tqdm(list(records)):
             tid = row['_tid_']
-            app = []
             for attr in self.active_attributes:
                 init_value, dom = self.get_domain_cell(attr, row)
                 # If init_value is NULL, we would not have it in the domain since we filtered it out.
@@ -207,40 +207,50 @@ class DomainEngine:
                     init_value_idx = dom.index(init_value)
                 # We will use an estimator model for additional weak labelling
                 # below, which requires an initial pruned domain first.
-                weak_label = init_value
-                weak_label_idx = init_value_idx
+                # Weak labels will be trained on the init values.
                 cid = self.ds.get_cell_id(tid, attr)
-                if len(dom) > 1:
-                    app.append({"_tid_": tid,
-                                "attribute": attr,
-                                "_cid_": cid,
-                                "_vid_": vid,
-                                "domain": "|||".join(dom),
-                                "domain_size": len(dom),
-                                "init_value": init_value,
-                                "init_index": init_value_idx,
-                                "weak_label": weak_label,
-                                "weak_label_idx": weak_label_idx,
-                                "fixed": CellStatus.NOT_SET.value})
-                    vid += 1
-                else:
-                    add_domain = self.get_random_domain(attr, init_value)
-                    # Check if attribute has more than one unique values.
-                    if len(add_domain) > 0:
-                        dom.extend(self.get_random_domain(attr, init_value))
-                        app.append({"_tid_": tid,
-                                    "attribute": attr,
-                                    "_cid_": cid,
-                                    "_vid_": vid,
-                                    "domain": "|||".join(dom),
-                                    "domain_size": len(dom),
-                                    "init_value": init_value,
-                                    "init_index": init_value_idx,
-                                    "weak_label": init_value,
-                                    "weak_label_idx": init_value_idx,
-                                    "fixed": CellStatus.SINGLE_VALUE.value})
-                        vid += 1
-            cells.extend(app)
+
+                # Originally, all cells have a NOT_SET status to be considered
+                # in weak labelling.
+                cell_status = CellStatus.NOT_SET.value
+
+                if len(dom) <= 1:
+                    # Not enough domain values, we need to get some random
+                    # values (other than 'init_value') for training. However,
+                    # this might still get us zero domain values. We handle it
+                    # next.
+                    rand_dom_values = self.get_random_domain(attr, init_value)
+
+                    # the rand_dom_values might still be empty. In this case,
+                    # there are no other possible values for this cell. There
+                    # is not point to use this cell for training and there is no
+                    # point to run inference on it since we cannot even generate
+                    # a random domain. Therefore, we just ignore it from the
+                    # final tensor.
+                    if len(rand_dom_values) == 0:
+                        continue
+
+                    # Otherwise, just add the random domain values to the domain
+                    # and set the cell status accordingly.
+                    dom.extend(rand_dom_values)
+
+                    # Set the cell status that this is a single value and was
+                    # randomly assigned other values in the domain. These will
+                    # not be modified by the estimator.
+                    cell_status = CellStatus.SINGLE_VALUE.value
+
+                cells.append({"_tid_": tid,
+                              "attribute": attr,
+                              "_cid_": cid,
+                              "_vid_": vid,
+                              "domain": "|||".join(dom),
+                              "domain_size": len(dom),
+                              "init_value": init_value,
+                              "init_index": init_value_idx,
+                              "weak_label": init_value,
+                              "weak_label_idx": init_value_idx,
+                              "fixed": cell_status})
+                vid += 1
         domain_df = pd.DataFrame(data=cells).sort_values('_vid_')
         logging.debug('DONE generating initial set of domain values in %.2f', time.clock() - tic)
 
@@ -287,8 +297,10 @@ class DomainEngine:
             # update our memoized domain values for this row again
             row['domain'] = '|||'.join(domain_values)
             row['domain_size'] = len(domain_values)
-            row['weak_label_idx'] = domain_values.index(row['weak_label'])
-            row['init_index'] = domain_values.index(row['init_value'])
+            if row['init_value'] != NULL_REPR:
+                row['init_index'] = domain_values.index(row['init_value'])
+            if row['weak_label'] != NULL_REPR:
+                row['weak_label_idx'] = domain_values.index(row['weak_label'])
 
             # Assign weak label if domain value exceeds our weak label threshold
             weak_label, weak_label_prob = max(preds, key=lambda pred: pred[1])
@@ -365,6 +377,7 @@ class DomainEngine:
 
         domain_pool = set(self.single_stats[attr].keys())
         domain_pool.discard(cur_value)
+        domain_pool.discard(NULL_REPR)
         size = len(domain_pool)
         if size > 0:
             k = min(self.max_sample, size)

@@ -64,11 +64,7 @@ class OccurAttrFeaturizer(Featurizer):
             attr_idx = self.ds.attr_to_idx[attr]
             count1 = float(self.single_stats[attr][val])
             all_vals = self.pair_stats[attr][rv_attr][val]
-            if len(all_vals) <= len(rv_domain_idx):
-                candidates = all_vals
-            else:
-                candidates = domain
-            for rv_val in candidates:
+            for rv_val in domain:
                 count2 = float(all_vals.get(rv_val, 0.0))
                 prob = count2 / count1
                 if rv_val in rv_domain_idx:
