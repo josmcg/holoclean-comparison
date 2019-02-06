@@ -6,6 +6,7 @@ import random
 
 import numpy as np
 import pandas as pd
+from pyitlib import discrete_random_variable as drv
 import scipy.stats as ss
 
 from dataset import AuxTables, CellStatus
@@ -58,7 +59,21 @@ class DomainEngine:
         the pairwise correlations between attributes (values are treated as
         discrete categories).
         """
-        self.correlations = self._compute_correlations_cramer_v()
+        self.correlations = self._compute_correlation_conditional_entropy()
+
+    def _compute_correlation_conditional_entropy(self):
+        df = self.ds.get_raw_data()
+        attrs = self.ds.get_attributes()
+        corr = {}
+        for j in attrs:
+            corr[j] = {}
+            for k in attrs:
+                J = df[j]
+                K = df[k]
+                corr[j][k] = drv.entropy_conditional(J, K)
+        corr_df = pd.DataFrame(corr)
+        # Order columns alphabetically like rows.
+        return corr_df.reindex(sorted(corr_df.columns), axis=1)
 
     def _compute_correlations_pearson(self):
         """
