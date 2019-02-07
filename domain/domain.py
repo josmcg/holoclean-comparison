@@ -59,26 +59,31 @@ class DomainEngine:
         the pairwise correlations between attributes (values are treated as
         discrete categories).
         """
-        norm_cond_entropy = self._compute_norm_cond_entropy()
-        # The normalized conditional entropy is 0 for strongly correlated
-        # attributes and 1 for completely independent attributes. We reverse
-        # this to reflect the correlation.
-        self.correlations = 1.0 - norm_cond_entropy
+        self.correlations = self._compute_norm_cond_entropy_corr()
+        print(self.correlations)
 
-    def _compute_norm_cond_entropy(self):
+    def _compute_norm_cond_entropy_corr(self):
         """
         Computes the correlations between attributes by calculating
         the normalized conditional entropy between them. The conditional
         entropy is asymmetric, therefore we need pairwise computation.
 
+        The computed correlations are stored in a dictionary in the format:
+        {
+          attr_x: { cond_attr_i: corr_strength_x_i,
+                    cond_attr_j: corr_strength_x_j, ... },
+          attr_y: { cond_attr_i: corr_strength_y_i, ...}
+        }
+
+        :return a dictionary of correlations
         """
         data_df = self.ds.get_raw_data()
         attrs = self.ds.get_attributes()
 
-        norm_cond_entropy = {}
+        corr = {}
         # Compute pair-wise conditional entropy.
         for a in attrs:
-            norm_cond_entropy[a] = {}
+            corr[a] = {}
             a_vals = data_df[a]
             a_entropy = drv.entropy(a_vals)
             for b in attrs:
@@ -86,9 +91,8 @@ class DomainEngine:
                 b_entropy = drv.entropy(b_vals)
 
                 if a_entropy == 0.0 or b_entropy == 0:
-                    # Set to max entropy (1) plus another factor (1) that makes
-                    # the correlation = -1 after subtracting it from 1.
-                    norm_cond_entropy[a][b] = 2.0
+                    # Set the correlation to -1 (NA) so that it is never selected.
+                    corr[a][b] = -1
                     continue
 
                 # Compute the conditional entropy H(a|b) = H(a,b) - H(b).
@@ -97,64 +101,12 @@ class DomainEngine:
                 a_b_entropy = drv.entropy_conditional(a_vals, b_vals)
 
                 # Normalize by dividing H(a|b) / H(a).
-                norm_cond_entropy[a][b] = a_b_entropy / a_entropy
+                # The normalized conditional entropy is 0 for strongly correlated
+                # attributes and 1 for completely independent attributes. We reverse
+                # this to reflect the correlation.
+                corr[a][b] = 1.0 - (a_b_entropy / a_entropy)
 
-        # Create a dataframe from the dictionary.
-        entropy_df = pd.DataFrame(norm_cond_entropy)
-
-        # Order columns alphabetically.
-        return entropy_df.reindex(sorted(entropy_df.columns), axis=1)
-
-    def _compute_correlations_pearson(self):
-        """
-        Computes Pearson's correlation.
-        """
-        df = self.ds.get_raw_data()[self.ds.get_attributes()].copy()
-        # Convert dataset to categories/factors.
-        for attr in df.columns:
-            df[attr] = df[attr].astype('category').cat.codes
-        # Drop columns with only one value and tid column.
-        df = df.loc[:, (df != 0).any(axis=0)]
-        # Compute correlation across attributes.
-        m_corr = df.corr()
-        return m_corr
-
-    def _compute_correlations_cramer_v(self):
-        """
-        Computes Cramer's V correlation for all pairs of attributes based on Chi-Square.
-        """
-        logging.debug("computing Cramer's V correlations between attribute pairs...")
-        df = self.ds.get_raw_data()
-        attrs = self.ds.get_attributes()
-        corr = {}
-        for j in attrs:
-            corr[j] = {}
-            for k in attrs:
-                if j == k:
-                    correlation = 1.0
-                else:
-                    correlation = self._compute_correlations_cramer_v_two_attrs(df, j, k)
-                corr[j][k] = correlation
-        corr_df = pd.DataFrame(corr)
-        # Order columns alphabetically like rows.
-        return corr_df.reindex(sorted(corr_df.columns), axis=1)
-
-    def _compute_correlations_cramer_v_two_attrs(self, df, attr_a, attr_b):
-        """
-        Computes Cramer's V for two attributes in the dataset.
-        """
-        confusion_matrix = pd.crosstab(df[attr_a], df[attr_b]).values
-        x2 = ss.chi2_contingency(confusion_matrix)[0]  # Get the chi-2 test statistic.
-        n = confusion_matrix.sum()
-        p2 = x2 / n
-        r, k = confusion_matrix.shape
-        phi2corr = max(0, p2 - ((k - 1) * (r - 1)) / (n - 1))
-        r_corr = r - ((r - 1) ** 2) / (n - 1)
-        k_corr = k - ((k - 1) ** 2) / (n - 1)
-        div = min((k_corr - 1), (r_corr - 1))
-        if div == 0:  # In case one of the attributes is empty.
-            return 0.0
-        return np.sqrt(phi2corr / div)
+        return corr
 
     def store_domains(self, domain):
         """
@@ -232,19 +184,23 @@ class DomainEngine:
 
     def get_corr_attributes(self, attr, thres):
         """
-        get_corr_attributes returns attributes from self.correlations
-        that are correlated with attr with magnitude at least self.cor_strength
+        get_corr_attributes returns attributes from 'self.correlations'
+        that are correlated with 'attr' with magnitude at least 'self.cor_strength'
         (init parameter).
 
+        :param attr: (str) the attribute to get correlated attributes for.
         :param thres: (float) correlation threshold (absolute) for returned attributes.
+        :return list of correlated attributes that determine 'attr'.
         """
         # Not memoized: find correlated attributes from correlation dataframe.
         if (attr, thres) not in self._corr_attrs:
-            self._corr_attrs[(attr,thres)] = []
+            self._corr_attrs[(attr, thres)] = []
 
             if attr in self.correlations:
-                d_temp = self.correlations[attr]
-                self._corr_attrs[(attr,thres)] = [rec[0] for rec in d_temp[d_temp > thres].iteritems() if rec[0] != attr]
+                attr_correlations = self.correlations[attr]
+                self._corr_attrs[(attr, thres)] = [corr_attr
+                                                   for corr_attr, corr_strength in attr_correlations.items()
+                                                   if corr_attr != attr and corr_strength > thres]
         return self._corr_attrs[(attr, thres)]
 
     def generate_domain(self):

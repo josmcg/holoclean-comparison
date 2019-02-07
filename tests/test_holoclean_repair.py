@@ -10,7 +10,7 @@ def test_hospital():
         domain_thresh_2=0.0,
         weak_label_thresh=0.90,
         max_domain=10000,
-        cor_strength=0.0,
+        cor_strength=0.5,
         epochs=20,
         weight_decay=0.01,
         threads=1,
