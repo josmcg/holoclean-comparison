@@ -6,6 +6,7 @@ import random
 
 import numpy as np
 import pandas as pd
+from pyitlib import discrete_random_variable as drv
 import scipy.stats as ss
 
 from dataset import AuxTables, CellStatus
@@ -44,7 +45,7 @@ class DomainEngine:
         """
         tic = time.time()
         random.seed(self.env['seed'])
-        self.find_correlations()
+        self.compute_correlations()
         self.setup_attributes()
         domain = self.generate_domain()
         self.store_domains(domain)
@@ -52,13 +53,57 @@ class DomainEngine:
         toc = time.time()
         return status, toc - tic
 
-    def find_correlations(self):
+    def compute_correlations(self):
         """
-        find_correlations memoizes to self.correlations; a DataFrame containing
+        compute_correlations memoizes to self.correlations; a DataFrame containing
         the pairwise correlations between attributes (values are treated as
         discrete categories).
         """
-        self.correlations = self._compute_correlations_cramer_v()
+        norm_cond_entropy = self._compute_norm_cond_entropy()
+        # The normalized conditional entropy is 0 for strongly correlated
+        # attributes and 1 for completely independent attributes. We reverse
+        # this to reflect the correlation.
+        self.correlations = 1.0 - norm_cond_entropy
+
+    def _compute_norm_cond_entropy(self):
+        """
+        Computes the correlations between attributes by calculating
+        the normalized conditional entropy between them. The conditional
+        entropy is asymmetric, therefore we need pairwise computation.
+
+        """
+        data_df = self.ds.get_raw_data()
+        attrs = self.ds.get_attributes()
+
+        norm_cond_entropy = {}
+        # Compute pair-wise conditional entropy.
+        for a in attrs:
+            norm_cond_entropy[a] = {}
+            a_vals = data_df[a]
+            a_entropy = drv.entropy(a_vals)
+            for b in attrs:
+                b_vals = data_df[b]
+                b_entropy = drv.entropy(b_vals)
+
+                if a_entropy == 0.0 or b_entropy == 0:
+                    # Set to max entropy (1) plus another factor (1) that makes
+                    # the correlation = -1 after subtracting it from 1.
+                    norm_cond_entropy[a][b] = 2.0
+                    continue
+
+                # Compute the conditional entropy H(a|b) = H(a,b) - H(b).
+                # H(a,b) denotes H(a U b).
+                # If H(a|b) = 0, then b determines a, i.e., b -> a.
+                a_b_entropy = drv.entropy_conditional(a_vals, b_vals)
+
+                # Normalize by dividing H(a|b) / H(a).
+                norm_cond_entropy[a][b] = a_b_entropy / a_entropy
+
+        # Create a dataframe from the dictionary.
+        entropy_df = pd.DataFrame(norm_cond_entropy)
+
+        # Order columns alphabetically.
+        return entropy_df.reindex(sorted(entropy_df.columns), axis=1)
 
     def _compute_correlations_pearson(self):
         """
@@ -199,9 +244,7 @@ class DomainEngine:
 
             if attr in self.correlations:
                 d_temp = self.correlations[attr]
-                d_temp = d_temp.abs()
                 self._corr_attrs[(attr,thres)] = [rec[0] for rec in d_temp[d_temp > thres].iteritems() if rec[0] != attr]
-
         return self._corr_attrs[(attr, thres)]
 
     def generate_domain(self):
