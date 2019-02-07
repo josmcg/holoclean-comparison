@@ -4,10 +4,8 @@ from tqdm import tqdm
 import itertools
 import random
 
-import numpy as np
 import pandas as pd
 from pyitlib import discrete_random_variable as drv
-import scipy.stats as ss
 
 from dataset import AuxTables, CellStatus
 from .estimators import Logistic
@@ -60,7 +58,6 @@ class DomainEngine:
         discrete categories).
         """
         self.correlations = self._compute_norm_cond_entropy_corr()
-        print(self.correlations)
 
     def _compute_norm_cond_entropy_corr(self):
         """
