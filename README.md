@@ -1,3 +1,6 @@
+# NOTE: THIS IS A FORK OF THE ACTUAL HOLOCLEAN REPO ONLY FOR PURPOSES OF COMPARISON TO ANOTHER FRAMEWORK. DO NOT USE THIS AS YOUR HOLOCLEAN DISTRIBUTION
+
+
 # HoloClean: A Machine Learning System for Data Enrichment
 
 [HoloClean](http://www.holoclean.io) is built on top of PyTorch and Postgres.
