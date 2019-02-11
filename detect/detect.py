@@ -9,6 +9,7 @@ class DetectEngine:
     def __init__(self, env, dataset):
         self.env = env
         self.ds = dataset
+        self.errors_df = None
 
     def detect_errors(self, detectors):
         errors = []
@@ -23,6 +24,7 @@ class DetectEngine:
             errors.append(error_df)
         errors_df = pd.concat(errors, ignore_index=True).drop_duplicates().reset_index(drop=True)
         errors_df['_cid_'] = errors_df.apply(lambda x: self.ds.get_cell_id(x['_tid_'], x['attribute']), axis=1)
+        self.errors_df = errors_df
         self.store_detected_errors(errors_df)
         status = "DONE with error detection."
         toc_total = time.clock()
