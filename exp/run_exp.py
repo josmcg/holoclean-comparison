@@ -1,4 +1,6 @@
 import holoclean
+import pandas as pd
+from os.path import join
 from argparse import ArgumentParser
 from detect import NullDetector, ViolationDetector
 from repair.featurize import InitFeaturizer
@@ -45,11 +47,18 @@ def get_attr(row):
 def get_value(row):
     return row['correct_val'].lower()
 
-
+# inferred df
 inferred_df = hc.ds.repaired_data.df
+
 print(inferred_df.head(4))
 
+# error dataframe
 error_df = hc.detect_engine.errors_df
 print(error_df.head(4))
+#original data
+print(hc.ds.raw_data.df.head(4))
+
+clean_df = pd.read_csv(join(args.data_dir, args.clean_file))
+print(clean_df.head(4))
 
 # hc.evaluate(args.data_dir, args.clean_file, get_tid, get_attr, get_value)
