@@ -1,0 +1,1000 @@
+inspectionid,dbaname,akaname,license,facilitytype,risk,address,city,state,zip,inspectiondate,inspectiontype,results,latitude,longitude
+44247,eat a pita,eat a pita,1222441,restaurant,risk 1 (high),3155 n halsted st ,chicago,il,60657,2010-01-05,complaint,pass,41.93944116,-87.64910277
+44248,la gondola,la gondola,1336561,restaurant,risk 1 (high),2914 n ashland ave ,chicago,il,60657,2010-01-21,canvass,pass,41.93467889,-87.66862497
+44249,azha restaurant inc.,azha restaurant,1334073,restaurant,risk 1 (high),960 w belmont ave ,chicago,il,60657,2010-01-21,canvass re-inspection,pass,41.94002688,-87.65381103
+44250,saint joseph hospital,saint joseph hospital,1144381,hospital,risk 1 (high),2900 n lake shore dr ,chicago,il,60657,2010-02-09,canvass,pass,41.93440299,-87.63680584
+44251,saint joseph hospital,saint joseph hospital,1144380,hospital,risk 1 (high),2900 n lake shore dr ,chicago,il,60657,2010-02-09,canvass,pass,41.93440299,-87.63680584
+44252,chartwell's dining,chartwell's dining,1193131,restaurant,risk 1 (high),2250 n sheffield ave ,chicago,il,60614,2010-03-18,suspected food poisoning,pass,41.92323687,-87.65368543
+44253,rocks lakeview,rocks lakeview,1875067,restaurant,risk 1 (high),3463-3465 n broadway ,chicago,il,60657,2010-04-01,canvass,pass w/ conditions,41.94497417,-87.64565976
+44254,subway,subway,2026336,restaurant,risk 1 (high),5554 n clark st ,chicago,il,60640,2010-04-01,license re-inspection,pass,41.9833127,-87.66886836
+44255,"tony's burrito mex, inc","tony's burrito mex, inc",1576687,restaurant,risk 1 (high),1957 w belmont ave ,chicago,il,60657,2010-05-05,complaint,fail,41.93946536,-87.67815712
+44256,eat a pita,eat a pita,1222441,restaurant,risk 1 (high),3155 n halsted st ,chicago,il,60657,2010-05-05,complaint,pass w/ conditions,41.93944116,-87.64910277
+44257,amundsen high school,amundsen hiigh school,46031,school,risk 1 (high),5110 n damen ave ,chicago,il,60625,2010-05-11,canvass,pass w/ conditions,41.97507922,-87.67952139
+44258,jimmy johns sandwich shop,jimmy johns sandwich shop,1383444,restaurant,risk 1 (high),2336 w lawrence ave ,chicago,il,60625,2010-05-11,canvass,pass,41.96874385,-87.68793653
+44259,northside college prep.,northside college prep,46061,school,risk 1 (high),5501 n kedzie ave ,chicago,il,60625,2010-05-12,canvass,pass,41.98135196,-87.70867192
+44260,albany park campus/edison regional gifted ctr.,albany park campus/edison regional gifted ctr.,32011,school,risk 1 (high),4929 n sawyer st ,chicago,il,60625,2010-05-12,canvass,pass,41.9711433,-87.70962725
+44261,walgreens #6270,walgreens #6270,2004388,grocery store,risk 3 (low),1001 w belmont ave ,chicago,il,60657,2010-05-17,license re-inspection,pass,41.93980098,-87.65416109
+44262,new peking restaurant,new peking restaurant,31997,restaurant,risk 1 (high),3132 n broadway ,chicago,il,60657,2010-06-09,canvass,pass,41.93864794,-87.64449909
+48212,el gran burrito,el gran burrito,40974,restaurant,risk 1 (high),5632 w north ave ,chicago,il,60639,2010-01-08,complaint,pass,41.9094746,-87.76676192
+48213,restaurant el ranchito,restaurant el ranchito,1273737,restaurant,risk 1 (high),5959 w grand ave ,chicago,il,60639,2010-01-08,complaint,pass,41.92042652,-87.775499
+48214,la panaderia central bakery,la panaderia central bakery,61169,bakery,risk 1 (high),4348 w armitage ave ,chicago,il,60639,2010-01-11,complaint,pass,41.91715968,-87.73587246
+48215,golden crown restaurant,golden crown restaurant,2013539,restaurant,risk 1 (high),2341 n narragansett ave ,chicago,il,60639,2010-01-11,license re-inspection,fail,41.92309768,-87.78527866
+48216,hanson park,hanson park,24461,school,risk 1 (high),5411 w fullerton ave ,chicago,il,60639,2010-01-13,canvass,pass,41.92392771,-87.76152094
+48217,hanson park branch,hanson park branch,24462,school,risk 1 (high),2318 n lorel st ,chicago,il,60639,2010-01-13,canvass,pass,41.92283114,-87.75994375
+48218,cielito lindo restaurant inc,cielito lindo restaurant inc,1336088,restaurant,risk 1 (high),5344 w fullerton ave ,chicago,il,60639,2010-01-13,canvass,pass,41.92416136,-87.76045394
+48219,taqueria la fiesta,el taconazo la fiesta,1937437,restaurant,risk 1 (high),2701 n central ave ,chicago,il,60639,2010-01-25,canvass,pass,41.92950116,-87.76603642
+48220,jorge prieto,dr. jorge prieto school,26771,school,risk 1 (high),2231 n central ave ,chicago,il,60639,2010-01-26,canvass,pass,41.92131717,-87.7657438
+48221,taqueria la paz,taqueria la paz,1953320,restaurant,risk 1 (high),5134 w grand ave ,chicago,il,60639,2010-01-26,canvass,fail,41.91697889,-87.75474306
+48222,burbank,burbank elementary school,22401,school,risk 1 (high),2035 n mobile ,chicago,il,60639,2010-01-28,canvass,fail,41.91759334,-87.78266267
+48223,el guanaco 2,el guanaco 2,1514780,restaurant,risk 1 (high),6345 w grand ave ,chicago,il,60639,2010-01-28,canvass,pass,41.92226642,-87.78461492
+48224,joe's barbecue & fish # 2,joe's barbecue & fish # 2,2017606,restaurant,risk 1 (high),5931 w north ave ,chicago,il,60639,2010-02-08,license,fail,41.90915796,-87.77445019
+48225,shriners hospitals for children,shriners hospitals for children,15783,hospital,risk 1 (high),2211 n oak park ave ,chicago,il,60707,2010-03-02,canvass,pass,41.92033617,-87.7949943
+48226,shriners hospitals for children,shriners hospitals for children,15784,hospital,risk 1 (high),2211 n oak park ave ,chicago,il,60707,2010-03-02,canvass,pass,41.92033617,-87.7949943
+48227,mc donald's,mc donald's,1933100,restaurant,risk 2 (medium),5133 w north ave ,chicago,il,60639,2010-03-10,canvass,pass,41.90940466,-87.75476387
+48228,taste of joi restaurant cafe b,taste  of joi restaurant,2021735,restaurant,risk 1 (high),5933 w north ave ,chicago,il,60639,2010-03-19,license re-inspection,pass,41.909157,-87.77452778
+48229,las islas marias,las islas marias,1095992,restaurant,risk 1 (high),4770 w grand ave ,chicago,il,60639,2010-03-19,canvass,pass,41.91399921,-87.74586369
+48230,pizzaro's,pizzaro's,2032324,restaurant,risk 1 (high),6924 w grand ave ,chicago,il,60707,2010-05-06,license,fail,41.92367998,-87.79876127
+52234,cafe 608,cafe 608,2013328,restaurant,risk 1 (high),608 w barry ave ,chicago,il,60657,2010-01-04,license re-inspection,pass,41.93800688,-87.64475457
+52235,lake view (h/s),lake view (h/s),46211,school,risk 1 (high),4015 n ashland ave ,chicago,il,60613,2010-01-22,canvass,fail,41.95478361,-87.66891643
+52236,lakeview subway,lakeview subway,1305059,restaurant,risk 1 (high),3952 n ashland ave ,chicago,il,60613,2010-01-22,canvass re-inspection,pass w/ conditions,41.953978,-87.66918631
+52237,disney magnet,disney magnet,29401,school,risk 1 (high),4140 n marine dr ,chicago,il,60613,2010-02-18,canvass,fail,41.95680712,-87.6461175
+52238,disney magnet,disney magnet,29401,school,risk 1 (high),4140 n marine dr ,chicago,il,60613,2010-03-05,consultation,fail,41.95680712,-87.6461175
+52239,disney magnet,disney magnet,29401,school,risk 1 (high),4140 n marine dr ,chicago,il,60613,2010-03-09,canvass re-inspection,pass,41.95680712,-87.6461175
+52240,lakeside boarding home,lakeside boarding home,1515987,long term care,risk 1 (high),6330 n sheridan rd ,chicago,il,60660,2010-03-10,canvass re-inspection,fail,41.99725812,-87.65575405
+52241,eden  supportive  living,eden  supportive  living,74931,long term care,risk 1 (high),4131 n sheridan rd ,chicago,il,60613,2010-03-19,canvass re-inspection,pass,41.95746872,-87.65448098
+52242,inter-american,inter-american,29191,school,risk 1 (high),851 w waveland ,chicago,il,60613,2010-03-23,canvass,pass w/ conditions,41.94897646,-87.65153745
+52243,popeyes #2857,popeyes,12630,restaurant,risk 1 (high),1600 w irving park rd ,chicago,il,60613,2010-03-31,canvass,pass w/ conditions,41.9543993,-87.66911287
+52244,peoples church of chicago,peoples church of chicago,0,soup kitchen,risk 1 (high),941 w lawrence ave ,chicago,il,60640,2010-04-14,complaint,fail,41.96899004,-87.65405445
+52245,i-cafe,i-cafe,1767227,restaurant,risk 1 (high),1814 w irving park rd ,chicago,il,60613,2010-04-16,canvass,fail,41.95431724,-87.67483357
+52246,"children's creative center, inc.","children's creative center, inc.",77784,daycare (2 - 6 years),risk 1 (high),1911 w irving park rd ,chicago,il,60613,2010-04-19,license,fail,41.95407205,-87.67682369
+52247,peoples church of chicago,peoples church of chicago,0,soup kitchen,risk 1 (high),941 w lawrence ave ,chicago,il,60640,2010-04-21,complaint re-inspection,pass,41.96899004,-87.65405445
+52248,apple tree learning center,apple tree learning center,66696,daycare (2 - 6 years),risk 1 (high),1733 w irving park rd ,chicago,il,60613,2010-04-23,license,pass,41.95412784,-87.67277541
+52249,park view montessori school #3,park view montessori school #3,44217,daycare (2 - 6 years),risk 1 (high),640 w irving park rd ,chicago,il,60613,2010-04-26,license,fail,41.95472485,-87.64658231
+52250,kc's academy of early childhood,kc's academy of early childhood,1650257,daycare (2 - 6 years),risk 1 (high),835-837 w sheridan rd ,chicago,il,60613,2010-04-27,license re-inspection,pass,41.95261657,-87.65104544
+52251,orange garden restaurant llc,orange garden restaurant llc,1942679,restaurant,risk 1 (high),1942 w irving park rd ,chicago,il,60613,2010-04-28,canvass,fail,41.95427602,-87.6780333
+52253,orange garden restaurant llc,orange garden restaurant llc,1942679,restaurant,risk 1 (high),1942 w irving park rd ,chicago,il,60613,2010-05-05,canvass re-inspection,pass,41.95427602,-87.6780333
+52254,red brick,red brick,1985321,restaurant,risk 1 (high),1938 w irving park rd ,chicago,il,60613,2010-05-05,canvass,pass,41.95427796,-87.67788273
+52255,red brick,red brick,1985322,restaurant,risk 3 (low),1938 irving park rd ,chicago,il,60613,2010-05-05,canvass,pass,41.95427796,-87.67788273
+52256,orange garden restaurant llc,orange garden restaurant llc,1942679,restaurant,risk 1 (high),1942 w irving park rd ,chicago,il,60613,2010-05-11,suspected food poisoning,fail,41.95427602,-87.6780333
+52257,passages  charter school,passages  charter school,66191,school,risk 1 (high),1643 w bryn mawr ave ,chicago,il,60660,2010-05-12,canvass,pass,41.98334408,-87.6711545
+52258,stockton,stockton,25501,school,risk 1 (high),4420 n beacon (1338w) ,chicago,il,60640,2010-05-18,canvass,fail,41.9623189,-87.66388983
+52259,kit kat lounge and restaurant,kit kat lounge and restaurant,1044305,restaurant,risk 1 (high),3700 n halsted st ,chicago,il,60613,2010-05-18,canvass,pass w/ conditions,41.94914734,-87.64968984
+52260,katerina's street of dreams,katerina's street of dreams,79417,restaurant,risk 1 (high),1920 w irving park rd ,chicago,il,60613,2010-05-21,canvass,pass,41.9542867,-87.67720518
+52261,oakwood '83,oakwood '83,6282,restaurant,risk 1 (high),1959 w montrose ave ,chicago,il,60613,2010-05-24,canvass re-inspection,pass,41.96135532,-87.67830516
+52262,stockton,stockton,25501,school,risk 1 (high),4420 n beacon (1338w) ,chicago,il,60640,2010-05-26,canvass re-inspection,pass,41.9623189,-87.66388983
+52263,cordis brothers supper club,the  piggery,1800521,restaurant,risk 1 (high),1625 w irving park rd ,chicago,il,60613,2010-06-09,canvass,pass w/ conditions,41.95416537,-87.67012784
+52264,young's restaurant,young's restaurant,1356070,restaurant,risk 1 (high),3949 n ashland ave ,chicago,il,60613,2010-06-10,complaint,pass w/ conditions,41.95387291,-87.66888934
+52265,filipino american council,filipino american council,39977,restaurant,risk 2 (medium),1332 w irving park rd ,chicago,il,60613,2010-06-11,complaint,pass,41.95447295,-87.66358644
+52266,filipino american council,rizal center(golden diner),2032636,golden diner,risk 1 (high),1332 w irving park rd ,chicago,il,60613,2010-06-11,canvass,pass,41.95447295,-87.66358644
+52267,sarpinos pizzeria,sarpinos pizzeria,1899258,restaurant,risk 2 (medium),1435 w montrose ave ,chicago,il,60613,2010-06-24,short form complaint,pass,41.96152004,-87.66634371
+52268,"chicago montessori, nfp","chicago montessori, nfp",1845360,daycare (2 - 6 years),risk 1 (high),1713 w cullom ave ,chicago,il,60613,2010-06-30,canvass re-inspection,pass,41.95962989,-87.67135903
+52269,holiday club,holiday club,1352227,restaurant,risk 1 (high),4000 n sheridan rd ,chicago,il,60613,2010-06-30,canvass,fail,41.95453269,-87.65469302
+52270,chicago's pizza,chicago's pizza,1336958,restaurant,risk 1 (high),1919-1921 w montrose ave ,chicago,il,60613,2010-07-01,canvass,pass,41.96137293,-87.67682523
+52271,dollop  coffee co.,dollop  coffee co.,1542300,restaurant,risk 2 (medium),4181 n clarendon ave ,chicago,il,60613,2010-07-07,canvass,pass w/ conditions,41.95794015,-87.64965206
+52272,holiday club,holiday club,1352227,restaurant,risk 1 (high),4000 n sheridan rd ,chicago,il,60613,2010-07-08,canvass re-inspection,pass,41.95453269,-87.65469302
+54212,dons pizza & grill,dons pizza & grill,1992130,restaurant,risk 1 (high),5915 w division st ,chicago,il,60651,2010-01-05,complaint,pass,41.90191359,-87.77363179
+54213,sunset liquors,sunset liquors,13541,grocery store,risk 3 (low),5921 w division st ,chicago,il,60651,2010-01-05,canvass,pass,41.90190966,-87.77390477
+54214,dunkin donuts / baskin robbins,dunkin donuts / baskin robbins,1649847,restaurant,risk 2 (medium),800 n kedzie ave ,chicago,il,60651,2010-01-06,canvass,pass w/ conditions,41.89561531,-87.70670533
+54215,j & j fish,j & j fish,1194275,restaurant,risk 2 (medium),800 n kedzie ave ,chicago,il,60651,2010-01-06,complaint,pass,41.89561531,-87.70670533
+54216,blue sharks,blue sharks,1974637,restaurant,risk 2 (medium),3450 w chicago ave ,chicago,il,60651,2010-01-06,complaint,pass w/ conditions,41.89559733,-87.71344867
+54217,barney's pizza,barney's pizza,1742764,restaurant,risk 1 (high),5648 w chicago ave ,chicago,il,60651,2010-01-07,complaint,fail,41.89493601,-87.76732423
+54218,happy dog avenue,happy dog avenue,1819281,restaurant,risk 1 (high),5614 w chicago ave ,chicago,il,60651,2010-01-07,canvass,pass,41.89495336,-87.76606263
+54219,"monticello food mart, inc","monticello food mart, inc",2013259,grocery store,risk 2 (medium),1000 n monticello ave ,chicago,il,60651,2010-01-08,license re-inspection,pass,41.89918623,-87.71780427
+54220,abe's and tommie's carryout,abe's and tommie's carryout,2008833,restaurant,risk 2 (medium),5107 w chicago ave ,chicago,il,60651,2010-01-11,license,fail,41.8948497,-87.75348965
+54221,milton brunson elementary,milton brunson elementary,2034637,school,risk 1 (high),932 n central ave ,chicago,il,60651,2010-01-11,complaint,pass,41.89767761,-87.76564297
+54222,yo mamas pizza,yo mamas pizza,1938489,restaurant,risk 1 (high),633 n cicero ave ,chicago,il,60644,2010-01-11,complaint,fail,41.89231802,-87.74556872
+54223,subway,subway,1909605,restaurant,risk 1 (high),800 n kedzie ave ,chicago,il,60651,2010-01-12,canvass,pass,41.89561531,-87.70670533
+54224,beefee submarine inc,beefee submarine inc,60297,restaurant,risk 2 (medium),3357 w chicago ave ,chicago,il,60651,2010-01-12,canvass,pass,41.89539877,-87.71121631
+54225,little caesar pizza,little caesar pizza,1868353,restaurant,risk 2 (medium),800 n kedzie ave ,chicago,il,60651,2010-01-12,canvass,pass w/ conditions,41.89561531,-87.70670533
+54226,see thru chinese restaurant,see thru chinese restaurant,1227055,restaurant,risk 1 (high),800 n kedzie ave ,chicago,il,60651,2010-01-12,canvass,pass,41.89561531,-87.70670533
+54227,subway,subway,1986621,restaurant,risk 1 (high),5619 w division st ,chicago,il,60651,2010-01-13,canvass,pass,41.9020223,-87.76641277
+54228,captain hooks fish & chicken,firehouse steak and lemonade,1922193,restaurant,risk 2 (medium),5601 w division st ,chicago,il,60651,2010-01-13,canvass,fail,41.90203403,-87.76571211
+54229,al's food mart,al's food mart,1943229,grocery store,risk 2 (medium),5401 w augusta blvd ,chicago,il,60651,2010-01-11,complaint,fail,41.89842933,-87.7609112
+54230,al's food mart,al's food mart,1943229,grocery store,risk 2 (medium),5401 w augusta blvd ,chicago,il,60651,2010-01-14,complaint,pass,41.89842933,-87.7609112
+54231,new philadelphia c.o.g.i.c.,new philadelphia c.o.g.i.c.,1916655,grocery store,risk 3 (low),205 s cicero ave ,chicago,il,60644,2010-01-20,canvass,pass,41.87771536,-87.74503186
+54232,abe's and tommie's carryout,abe's and tommie's carryout,2008833,restaurant,risk 2 (medium),5107 w chicago ave ,chicago,il,60651,2010-01-21,license re-inspection,pass,41.8948497,-87.75348965
+54233,macy's gyros,macy's gyros,2014079,restaurant,risk 2 (medium),4201 w division st ,chicago,il,60651,2010-01-22,license,pass,41.90247921,-87.73134482
+54234,church's chicken # 577,church's chicken # 577,1273264,restaurant,risk 2 (medium),431 n austin blvd ,chicago,il,60644,2010-01-22,complaint,pass,41.88799311,-87.77476283
+54235,qorner foods,qorner foods,2013363,grocery store,risk 3 (low),5556 w harrison st ,chicago,il,60644,2010-01-22,license,fail,41.87294753,-87.76377219
+54236,"madison food mart, inc","madison food mart, inc",2014259,grocery store,risk 3 (low),5402 w madison st ,chicago,il,60644,2010-01-25,license,fail,41.88041576,-87.76027851
+54237,more for less,more for less,1948557,grocery store,risk 2 (medium),4851 w chicago ave ,chicago,il,60651,2010-01-25,complaint,pass,41.89487825,-87.74782979
+54238,swan's food & deli,swan's food & deli,1646850,grocery store,risk 2 (medium),1325 n central ave ,chicago,il,60651,2010-01-26,canvass,pass,41.90481036,-87.76560356
+54239,mcdonald's restaurant,mcdonald's restaurant,1193659,restaurant,risk 2 (medium),5015 w madison st ,chicago,il,60644,2010-01-27,canvass,fail,41.88031771,-87.75074636
+54240,burger king #12371,burger king #12371,1698081,restaurant,risk 2 (medium),3953 w chicago ave ,chicago,il,60651,2010-02-01,complaint,pass,41.89526095,-87.72574429
+54241,jimmy's sandwich shop,jimmy's sandwich shop,6294,restaurant,risk 2 (medium),4000 w grand ave ,chicago,il,60651,2010-02-01,complaint,pass,41.90625887,-87.72635348
+54242,grand sub,grand sub,1095025,restaurant,risk 2 (medium),3952 w grand ave ,chicago,il,60651,2010-02-01,canvass,pass,41.90600597,-87.72572323
+54243,mcdonald's restaurant,mcdonald's restaurant,1193659,restaurant,risk 2 (medium),5015 w madison st ,chicago,il,60644,2010-02-05,canvass re-inspection,pass,41.88031771,-87.75074636
+54244,chi-town fried chicken,chi-town fried chicken,1899172,restaurant,risk 1 (high),4152 w chicago ave ,chicago,il,60651,2010-02-16,canvass,pass,41.89539165,-87.73068265
+54245,papa charlies,papa charlies,1675267,restaurant,risk 1 (high),1206 n central ave ,chicago,il,60651,2010-02-16,canvass,pass,41.90235982,-87.76580522
+54246,mr. philly,mr. philly,1649619,restaurant,risk 2 (medium),5254 w chicago ave ,chicago,il,60651,2010-02-16,complaint,fail,41.89502331,-87.75783481
+54247,depriest elementary,depriest elementary,26631,school,risk 1 (high),139 s parkside ave ,chicago,il,60644,2010-02-17,canvass,pass,41.87799914,-87.7662615
+54248,mr. philly,mr. philly,1649619,restaurant,risk 2 (medium),5254 w chicago ave ,chicago,il,60651,2010-02-17,complaint,fail,41.89502331,-87.75783481
+54249,sun  sumrine fast food,sun  sumrine fast food,1225837,restaurant,risk 2 (medium),321 n laramie ave ,chicago,il,60644,2010-02-18,complaint,fail,41.88633174,-87.75513777
+54250,rib place inc.,rib place,2017189,restaurant,risk 1 (high),5607 w corcoran pl ,chicago,il,60644,2010-02-18,license,fail,41.88710618,-87.76543552
+54251,mcnair,mcnair,26301,school,risk 1 (high),4820 w walton st. ,chicago,il,60651,2010-02-22,canvass,pass,41.8978464,-87.74674645
+54252,market fresh inc,market fresh inc,52593,grocery store,risk 2 (medium),800 n kedzie ave ,chicago,il,60651,2010-02-22,canvass,pass,41.89561531,-87.70670533
+54253,van-central food & liqs,van-central food & liqs,6023,grocery store,risk 3 (low),5575 w van buren st ,chicago,il,60644,2010-02-25,complaint,fail,41.87462048,-87.76450474
+54254,mr. philly,mr. philly,1649619,restaurant,risk 2 (medium),5254 w chicago ave ,chicago,il,60651,2010-03-02,complaint re-inspection,pass,41.89502331,-87.75783481
+54255,j & w jamaican jerk restaurant,j & w jamaican jerk restaurant,2021433,restaurant,risk 1 (high),13 n laramie ave ,chicago,il,60644,2010-03-04,license,pass,41.88078915,-87.75493376
+54256,see thru chinese kitchen,see thru chinese kitchen,1770322,restaurant,risk 1 (high),5656 w roosevelt rd ,chicago,il,60644,2010-03-08,complaint,pass,41.86567514,-87.76662585
+58225,whole foods market,whole foods market,1933690,grocery store,risk 1 (high),1550 n kingsbury st ,chicago,il,60642,2010-01-05,complaint,pass,41.90939879,-87.6530507
+58226,kikka- kingsbury,kikka- kingsbury,1968898,restaurant,risk 1 (high),1550 n kingsbury st ,chicago,il,60642,2010-01-05,canvass,pass,41.90939879,-87.6530507
+58227,dunkin donuts,dunkin donuts,2013341,restaurant,risk 2 (medium),2805 w division st ,chicago,il,60622,2010-01-06,license re-inspection,pass,41.90281333,-87.69712881
+58228,podhalanka restaurant,podhalanka restaurant,10559,restaurant,risk 1 (high),1549 w division st ,chicago,il,60642,2010-01-06,canvass,fail,41.90324287,-87.66706205
+58229,filter coffee lounge,filter,2013495,restaurant,risk 1 (high),1373 n milwaukee ave ,chicago,il,60622,2010-01-06,consultation,fail,41.90686821,-87.67174892
+58230,chicago cafe caterers,chicago cafe caterers,1932046,catering,risk 1 (high),1629 w grand ave ,chicago,il,60622,2010-01-06,canvass,pass,41.89085551,-87.6683029
+58231,delux bar & grill,delux bar & grill,1332477,restaurant,risk 1 (high),669 n milwaukee ave ,chicago,il,60642,2010-01-06,canvass,pass,41.8938344,-87.65146287
+58232,the dining room at kendall nfp,the dining room,1963511,restaurant,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-01-07,canvass,pass,41.89896533,-87.64809026
+58233,subway,subway,28635,restaurant,risk 1 (high),1129 n western ave ,chicago,il,60622,2010-01-08,canvass,fail,41.90204391,-87.68685825
+58235,the dining room at kendall nfp,the dining room,1979756,restaurant,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-01-07,canvass,pass,41.89896533,-87.64809026
+58236,the dining room at kendall nfp,the dining room,1979756,restaurant,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-01-07,canvass,pass,41.89896533,-87.64809026
+58237,the dining room at kendall nfp,the dining room,1963512,restaurant,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-01-07,canvass,pass,41.89896533,-87.64809026
+58239,pockets,pockets,1913960,restaurant,risk 2 (medium),1001 w north ave ,chicago,il,60622,2010-01-08,complaint,pass,41.91072929,-87.65315262
+58241,aberdeen,aberdeen,1245120,restaurant,risk 1 (high),1856 w north ave ,chicago,il,60622,2010-01-08,no entry,pass,41.91063613,-87.67487609
+58242,latin american rest & lounge,latin american rest & lounge,1058,restaurant,risk 1 (high),2743 w division st ,chicago,il,60622,2010-01-08,canvass,fail,41.90282133,-87.6961433
+58243,von humboldt c.p.c.,von humboldt c.p.c.,25692,school,risk 1 (high),1345 n rockwell st ,chicago,il,60622,2010-01-11,canvass,pass,41.90616869,-87.69188625
+58244,the parthenon restaurant inc,the parthenon restaurant inc,32259,restaurant,risk 1 (high),314 s halsted st ,chicago,il,60661,2010-01-11,complaint re-inspection,pass,41.87746697,-87.64737446
+58245,the silver palm restaurant,the silver palm restaurant,1168049,restaurant,risk 1 (high),768 n milwaukee ave ,chicago,il,60642,2010-01-11,no entry,pass,41.89575893,-87.65489622
+58246,the juicy wine co.,the juicy wine co.,1738131,restaurant,risk 2 (medium),694 n milwaukee ave ,chicago,il,60642,2010-01-11,canvass,pass w/ conditions,41.89422978,-87.65252071
+58247,iggy's,iggy's,23502,empty,risk 2 (medium),700 n milwaukee ave ,chicago,il,60622,2010-01-11,out of business,pass,41.8943325,-87.65268021
+58248,barista coffee house inc.,barista coffee house inc.,1579130,restaurant,risk 2 (medium),852 n damen ave ,chicago,il,60622,2010-01-11,canvass,pass,41.89749701,-87.67724471
+58249,bagel on damen,bagel on damen,2009342,restaurant,risk 2 (medium),1252 n damen ave ,chicago,il,60622,2010-01-12,license,fail,41.9048842,-87.67745148
+58250,von humboldt,von humboldt,25691,school,risk 1 (high),2620 w hirsch st ,chicago,il,60622,2010-01-13,canvass,pass,41.90672216,-87.69300325
+58251,podhalanka restaurant,podhalanka restaurant,10559,restaurant,risk 1 (high),1549 w division st ,chicago,il,60642,2010-01-13,canvass re-inspection,pass,41.90324287,-87.66706205
+58252,jam,jam,1979195,restaurant,risk 1 (high),937-939 n damen ave ,chicago,il,60622,2010-01-13,complaint,pass w/ conditions,41.89886802,-87.67698935
+58253,jukin '  pizza,jukin '  pizza,1618939,empty,risk 1 (high),2640 w chicago ave ,chicago,il,60622,2010-01-13,out of business,pass,41.89578616,-87.69342746
+58254,hole in one pizza,hole in one pizza,1225184,empty,risk 1 (high),2640 w chicago ave ,chicago,il,60622,2010-01-13,out of business,pass,41.89578616,-87.69342746
+58255,hole-in-one-pizza,hole-in-one-pizza,66812,empty,risk 1 (high),2640 w chicago ave ,chicago,il,60622,2010-01-13,out of business,pass,41.89578616,-87.69342746
+58256,taco el jaliciense,taco el jaliciense,1478565,restaurant,risk 1 (high),2859 w chicago ave ,chicago,il,60622,2010-01-13,canvass,pass,41.89552708,-87.69909818
+58257,tantrik chicago,tantrik chicago,1974373,liquor,risk 1 (high),800 w superior st ,chicago,il,60642,2010-01-19,license,fail,41.89566757,-87.64777938
+58258,bagel on damen,bagel on damen,2009342,restaurant,risk 2 (medium),1252 n damen ave ,chicago,il,60622,2010-01-19,license re-inspection,pass,41.9048842,-87.67745148
+58259,wendy's #001206,wendy's #001206,6773,restaurant,risk 1 (high),1623 w division st ,chicago,il,60622,2010-01-19,suspected food poisoning,fail,41.90322156,-87.66848596
+58260,santullo's eatery,santullo's eatery,1767714,restaurant,risk 1 (high),1943-1945 w north ave ,chicago,il,60622,2010-01-20,complaint,fail,41.91038686,-87.67683124
+58261,jerry's sandwiches,jerry's sandwiches,1985220,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-01-21,license,fail,41.90331444,-87.67641672
+58262,jerry's sandwiches,jerry's sandwiches,1985222,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-01-21,license,fail,41.90331444,-87.67641672
+58263,division draft,division draft,1800100,restaurant,risk 2 (medium),2525 w division st ,chicago,il,60622,2010-01-21,no entry,pass,41.90287407,-87.69050019
+58264,trinidad head start,trinidad head start,21725,daycare (2 - 6 years),risk 1 (high),2921 w division st ,chicago,il,60622,2010-01-21,license,fail,41.90278482,-87.70031498
+58266,subway,subway,28635,restaurant,risk 1 (high),1129 n western ave ,chicago,il,60622,2010-01-22,canvass re-inspection,pass,41.90204391,-87.68685825
+58267,latin american rest & lounge,latin american rest & lounge,1058,restaurant,risk 1 (high),2743 w division st ,chicago,il,60622,2010-01-22,canvass re-inspection,pass,41.90282133,-87.6961433
+58268,la plena restaurant,la plena restaurant,1844120,restaurant,risk 1 (high),2617 w division st ,chicago,il,60622,2010-01-22,canvass,pass,41.90285201,-87.69268542
+58269,santullo's eatery,santullo's eatery,1767714,restaurant,risk 1 (high),1943-1945 w north ave ,chicago,il,60622,2010-01-22,complaint re-inspection,pass,41.91038686,-87.67683124
+58270,debonair social club,debonair,1226806,liquor,risk 2 (medium),1575 n milwaukee ave ,chicago,il,60622,2010-01-22,canvass re-inspection,pass,41.91021618,-87.67698445
+58271,carpenter,carpenter,22561,school,risk 1 (high),1250 w erie st ,chicago,il,60622,2010-01-25,canvass,pass,41.8935757,-87.65936676
+58272,golden diner,west town logan square,2038643,golden diner,risk 1 (high),1613 w chicago ave ,chicago,il,60622,2010-01-25,canvass,pass w/ conditions,41.89595485,-87.66782142
+58273,bite,bite,51992,restaurant,risk 1 (high),1039 n western ave ,chicago,il,60622,2010-01-25,canvass,fail,41.90052793,-87.68681613
+58274,alliance bakery,alliance bakery,1820302,bakery,risk 2 (medium),1736 w division st ,chicago,il,60622,2010-01-25,complaint,fail,41.90338992,-87.67152182
+58275,ameer kabob,ameer kabob,2016793,restaurant,risk 1 (high),1050 n milwaukee ave ,chicago,il,60642,2010-01-26,license,fail,41.90088615,-87.66285624
+58276,the red canary,the red canary,1954520,restaurant,risk 1 (high),691-695 n milwaukee ave ,chicago,il,60642,2010-01-26,no entry,fail,41.89427507,-87.65214171
+58277,wendy's #001206,wendy's #001206,6773,restaurant,risk 1 (high),1623 w division st ,chicago,il,60622,2010-01-26,suspected food poisoning re-inspection,pass,41.90322156,-87.66848596
+58278,filter coffee lounge,filter,2013495,restaurant,risk 1 (high),1373 n milwaukee ave ,chicago,il,60622,2010-01-27,license,pass,41.90686821,-87.67174892
+58279,jerry's sandwiches,jerry's sandwiches,1985220,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-01-27,license re-inspection,fail,41.90331444,-87.67641672
+58280,jerry's sandwiches,jerry's sandwiches,1985222,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-01-27,license re-inspection,fail,41.90331444,-87.67641672
+58281,shambles bar,jun bar,1823615,restaurant,risk 1 (high),2050 w division st ,chicago,il,60622,2010-01-27,no entry,pass,41.90326362,-87.67927827
+58282,thai village restaurant,thai village restaurant,55418,restaurant,risk 1 (high),2053 w division st ,chicago,il,60622,2010-01-27,canvass,pass w/ conditions,41.90304274,-87.67934669
+58283,taqueria super burrito,taqueria super burrito,24883,restaurant,risk 1 (high),1502 n western ave ,chicago,il,60622,2010-01-27,canvass,pass,41.90863767,-87.6873245
+58284,andersen,andersen,31011,school,risk 1 (high),1148 n honore st ,chicago,il,60622,2010-01-28,canvass,pass,41.90290876,-87.67373263
+58285,mexique,mexique,1802986,restaurant,risk 1 (high),1529 w chicago ave ,chicago,il,60642,2010-01-28,canvass,pass,41.89598205,-87.66604607
+58286,the silver palm restaurant,the silver palm restaurant,1168049,restaurant,risk 1 (high),768 n milwaukee ave ,chicago,il,60642,2010-01-28,canvass,pass,41.89575893,-87.65489622
+58287,thai village restaurant,thai village restaurant,55418,restaurant,risk 1 (high),2053 w division st ,chicago,il,60622,2010-01-28,consultation,pass,41.90304274,-87.67934669
+58288,el barco restaurant,el barco restaurant,53569,restaurant,risk 1 (high),1035 n ashland ave ,chicago,il,60622,2010-02-01,complaint,pass,41.9006407,-87.66727141
+58289,ameer kabob,ameer kabob,2016793,restaurant,risk 1 (high),1050 n milwaukee ave ,chicago,il,60642,2010-02-01,license re-inspection,pass,41.90088615,-87.66285624
+58290,moonshine,moonshine,1243382,restaurant,risk 1 (high),1824 w division st ,chicago,il,60622,2010-02-01,canvass,fail,41.90335951,-87.67339734
+58291,las palmas restaurant,las palmas restaurant,1166786,restaurant,risk 1 (high),1835 w north ave ,chicago,il,60622,2010-02-01,no entry,pass,41.91042963,-87.67394168
+58292,lockdown,lockdown bar & grill,1965180,restaurant,risk 1 (high),1024 n western ave ,chicago,il,60622,2010-02-01,no entry,pass,41.90024592,-87.68710609
+58293,jerry's sandwiches,jerry's sandwiches,1985220,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-02-02,license re-inspection,pass,41.90331444,-87.67641672
+58294,jerry's sandwiches,jerry's sandwiches,1985222,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-02-02,license re-inspection,pass,41.90331444,-87.67641672
+58295,bite,bite,51992,restaurant,risk 1 (high),1039 n western ave ,chicago,il,60622,2010-02-02,canvass re-inspection,pass,41.90052793,-87.68681613
+58296,whole foods market,whole foods market,1933690,grocery store,risk 1 (high),1550 n kingsbury st ,chicago,il,60642,2010-02-03,consultation,pass,41.90939879,-87.6530507
+58297,letiza's natural bakery / enoteca roma,letiza's natural bakery / enoteca roma,1489064,restaurant,risk 1 (high),2144-2146 w division st ,chicago,il,60622,2010-02-03,complaint,pass w/ conditions,41.90322676,-87.68149122
+58298,zullo's inc.,zullo's,2017431,catering,risk 1 (high),1103 w grand ave ,chicago,il,60642,2010-02-04,license,fail,41.89099764,-87.6547725
+58299,alliance bakery,alliance bakery,1820302,bakery,risk 2 (medium),1736 w division st ,chicago,il,60622,2010-02-04,complaint re-inspection,pass,41.90338992,-87.67152182
+58300,"kitchen chicago, llc","kitchen chicago, llc",1976048,shared kitchen,risk 1 (high),324 n leavitt st ,chicago,il,60612,2010-02-04,canvass,fail,41.88743405,-87.68184949
+58301,stanley's,stanley's,15042,grocery store,risk 2 (medium),1558 n elston ave ,chicago,il,60622,2010-02-05,complaint,fail,41.91057467,-87.66223523
+58302,flora confections,empty,2017593,candy,risk 3 (low),324 n leavitt st ,chicago,il,60612,2010-02-08,license re-inspection,pass,41.88743405,-87.68184949
+58303,"kitchen chicago, llc","kitchen chicago, llc",1976048,shared kitchen,risk 1 (high),324 n leavitt st ,chicago,il,60612,2010-02-08,canvass re-inspection,pass,41.88743405,-87.68184949
+58304,kendall college,lab kitchen b-room 120b.,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-09,license,pass,41.89896533,-87.64809026
+58305,artemio's bakery #2,artemio's bakery #2,15004,bakery,risk 2 (medium),1443 n milwaukee ave ,chicago,il,60622,2010-02-10,canvass,pass,41.90821988,-87.67386766
+58306,moonshine,moonshine,1243382,restaurant,risk 1 (high),1824 w division st ,chicago,il,60622,2010-02-10,canvass re-inspection,pass,41.90335951,-87.67339734
+58307,tantrik chicago,tantrik chicago,1974373,liquor,risk 1 (high),800 w superior st ,chicago,il,60642,2010-02-10,license re-inspection,fail,41.89566757,-87.64777938
+58308,a tavola,a tavola,45044,restaurant,risk 1 (high),2148 w chicago ave ,chicago,il,60622,2010-02-10,canvass,fail,41.89594582,-87.68145004
+58309,stanley's,stanley's,15042,grocery store,risk 2 (medium),1558 n elston ave ,chicago,il,60622,2010-02-16,complaint re-inspection,pass,41.91057467,-87.66223523
+58310,stanley's,stanley's,15042,grocery store,risk 2 (medium),1558 n elston ave ,chicago,il,60622,2010-02-17,consultation,pass,41.91057467,-87.66223523
+58311,zullo's inc.,zullo's,2017431,catering,risk 1 (high),1103 w grand ave ,chicago,il,60642,2010-02-17,license re-inspection,pass,41.89099764,-87.6547725
+58312,bari,bari,1245246,grocery store,risk 1 (high),1120 w grand ave ,chicago,il,60642,2010-02-17,complaint,pass,41.89121012,-87.65556024
+58313,municipal foods,municipal foods,1478386,grocery store,risk 2 (medium),2559 w division st ,chicago,il,60622,2010-02-18,complaint,pass w/ conditions,41.90285923,-87.69188858
+58314,western round up,western round up,59381,empty,risk 1 (high),949 n western ave ,chicago,il,60622,2010-02-18,short form complaint,pass,41.89902107,-87.68677928
+58315,tantrik chicago,tantrik chicago,1974373,liquor,risk 1 (high),800 w superior st ,chicago,il,60642,2010-02-18,license re-inspection,pass,41.89566757,-87.64777938
+58316,starfruit cafe,starfruit cafe,1893555,restaurant,risk 2 (medium),1745 w division st ,chicago,il,60622,2010-02-18,canvass,pass,41.90316856,-87.67164495
+58317,the red canary,the red canary,1954520,restaurant,risk 1 (high),691-695 n milwaukee ave ,chicago,il,60642,2010-02-18,complaint,pass,41.89427507,-87.65214171
+58318,kendall college,devos kitchen room 128,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58319,kendall college,lab kitchen a room 120a,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58320,kendall college,chocolate & sugar kitchen room 317,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58321,kendall college,cooktek pastry 2 room 320b,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58322,kendall college,garde manger kitchen room 330,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58323,kendall college,room 340,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58324,kendall college,wood mode auditorium room 525,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58325,kendall college,franke kitchen room 526,2013962,school,risk 1 (high),900 n north branch st ,chicago,il,60642,2010-02-19,license,pass,41.89896533,-87.64809026
+58326,nivia red hot chicago,nivia red hot chicago,1645741,restaurant,risk 2 (medium),1232 w north ave ,chicago,il,60622,2010-02-19,complaint,fail,41.91087554,-87.65827824
+58327,hollywood grill,hollywood grill,44712,restaurant,risk 1 (high),1601 w north ave ,chicago,il,60622,2010-02-22,complaint,pass w/ conditions,41.91051964,-87.66774969
+58328,candy's grocery,candy's grocery,1804339,grocery store,risk 3 (low),1366 w ohio st ,chicago,il,60642,2010-02-22,complaint,fail,41.8925997,-87.6621487
+58329,pritzker,pritzker,25871,school,risk 1 (high),2009 w schiller st ,chicago,il,60622,2010-02-23,canvass,pass,41.907025,-87.67779555
+58330,odges,odges,7868,restaurant,risk 1 (high),730 n damen ave ,chicago,il,60622,2010-02-23,canvass,pass,41.89500137,-87.6771711
+58331,whole foods market,whole foods market,1933690,grocery store,risk 1 (high),1550 n kingsbury st ,chicago,il,60642,2010-02-23,consultation,pass,41.90939879,-87.6530507
+58332,the juicy wine co.,the juicy wine co.,1738131,restaurant,risk 2 (medium),694 n milwaukee ave ,chicago,il,60642,2010-02-23,consultation,pass,41.89422978,-87.65252071
+58333,river west healthy eatery,river west healthy eatery,1618062,restaurant,risk 1 (high),770 n halsted st ,chicago,il,60642,2010-02-23,canvass,pass,41.89637817,-87.64789119
+58334,"shokolad pastry & cafe, inc","shokolad pastry & cafe, inc",1883567,restaurant,risk 1 (high),2524 w chicago ave ,chicago,il,60622,2010-02-24,canvass,pass,41.89581526,-87.69048155
+58335,kasia's,kasia's,1473392,grocery store,risk 1 (high),2101 w chicago ave ,chicago,il,60622,2010-02-24,canvass,pass,41.8957563,-87.6796197
+58336,garrett's popcorn shops,garrett's popcorn shops,1770430,wholesale,risk 3 (low),1716 w hubbard st ,chicago,il,60622,2010-02-25,canvass,pass,41.8899446,-87.67028663
+58337,jane's,mable's table,1620385,restaurant,risk 1 (high),1653-1655 w cortland st ,chicago,il,60622,2010-02-25,canvass,pass,41.91596941,-87.66995938
+58338,center home for hispanic elderly,center home for hispanic elderly,1893767,long term care,risk 1 (high),1401 n california ave ,chicago,il,60622,2010-02-25,canvass,fail,41.90667133,-87.69682456
+58339,mr taco's,mr taco's,63583,restaurant,risk 1 (high),810 n marshfield ave ,chicago,il,60622,2010-02-26,canvass,pass,41.89641176,-87.66867223
+58340,norwegian-americian hospital,norwegian-american hospital,21776,hospital,risk 1 (high),1044 n francisco ave ,chicago,il,60622,2010-02-26,canvass,fail,41.90052496,-87.69943295
+58341,norwegian-americian hospital,norwegian-american hospital,21772,hospital,risk 1 (high),1044 n francisco ave ,chicago,il,60622,2010-03-02,canvass,fail,41.90052496,-87.69943295
+58342,sangria/radiostar/hogs & honeys,sangria/radiostar/hogs & honeys,27196,restaurant,risk 1 (high),901 w weed st ,chicago,il,60622,2010-03-02,complaint,fail,41.90970258,-87.6511788
+58343,republic,republic,55715,liquor,risk 3 (low),901 w weed st ,chicago,il,60622,2010-03-02,canvass,fail,41.90970258,-87.6511788
+58344,mud bug,offtrack betting,45012,restaurant,risk 1 (high),901 w weed st ,chicago,il,60622,2010-03-02,canvass,pass,41.90970258,-87.6511788
+58345,burger king #1512,burger king #1512,1473491,restaurant,risk 2 (medium),2344 w chicago ave ,chicago,il,60622,2010-03-04,complaint,pass,41.89586332,-87.68619201
+58346,hollywood grill,hollywood grill,44712,restaurant,risk 1 (high),1601 w north ave ,chicago,il,60622,2010-03-04,consultation,pass,41.91051964,-87.66774969
+58347,the savoy,the savoy,1964646,restaurant,risk 1 (high),1408 n milwaukee ave ,chicago,il,60642,2010-03-04,canvass,pass,41.90742473,-87.67307367
+58348,university of aesthetics/touch clinic,university of aesthetics/touch clinic,0,empty,empty,1357 n milwaukee ave ,empty,il,60622,2010-03-04,short form complaint,pass,41.90659584,-87.67132302
+58349,center home for hispanic elderly,center home for hispanic elderly,1893767,long term care,risk 1 (high),1401 n california ave ,chicago,il,60622,2010-03-04,canvass re-inspection,pass,41.90667133,-87.69682456
+58350,el taco veloz taqueria,el taco veloz taqueria,45693,restaurant,risk 1 (high),1745 w chicago ave ,chicago,il,60622,2010-03-05,complaint,fail,41.89589266,-87.67156245
+58351,nivia red hot chicago,nivia red hot chicago,1645741,restaurant,risk 2 (medium),1232 w north ave ,chicago,il,60622,2010-03-05,complaint re-inspection,pass,41.91087554,-87.65827824
+58352,candy's grocery,candy's grocery,1804339,grocery store,risk 3 (low),1366 w ohio st ,chicago,il,60642,2010-03-08,complaint re-inspection,pass,41.8925997,-87.6621487
+58353,jerry's sandwiches,jerry's sandwiches,1985220,restaurant,risk 1 (high),1938-1940 w division st ,chicago,il,60622,2010-03-08,short form complaint,pass,41.90331444,-87.67641672
+58354,jerry's sandwiches,jerry's sandwiches,1772358,restaurant,risk 1 (high),1938 w division st ,chicago,il,60622,2010-03-08,out of business,pass,41.90331444,-87.67641672
+58355,folklore,folklore,1842767,restaurant,risk 1 (high),2100-2102 w division st ,chicago,il,60622,2010-03-08,canvass,pass,41.90325452,-87.67982505
+58356,social club,empty,0,empty,empty,1105 n california ave ,chicago,il,60622,2010-03-08,short form complaint,pass,41.901286,-87.69669243
+58357,norwegian-americian hospital,norwegian-american hospital,21776,hospital,risk 1 (high),1044 n francisco ave ,chicago,il,60622,2010-03-09,canvass re-inspection,pass,41.90052496,-87.69943295
+58358,norwegian-americian hospital,norwegian-american hospital,21772,hospital,risk 1 (high),1044 n francisco ave ,chicago,il,60622,2010-03-09,canvass re-inspection,pass,41.90052496,-87.69943295
+58359,norwegian-americian hospital,norwegian-american hospital,21773,hospital,risk 1 (high),1044 n francisco ave ,chicago,il,60622,2010-03-09,out of business,pass,41.90052496,-87.69943295
+58360,ey cafe,ey cafe,1922329,restaurant,risk 1 (high),1044 n mozart st ,chicago,il,60622,2010-03-09,canvass,pass,41.90051788,-87.69821707
+58361,sangria/radiostar/hogs & honeys,sangria/radiostar/hogs & honeys,27196,restaurant,risk 1 (high),901 w weed st ,chicago,il,60622,2010-03-09,complaint re-inspection,pass,41.90970258,-87.6511788
+58362,lido's  caffe  east,lido's caffe east,1991007,restaurant,risk 2 (medium),1530 n dayton st ,chicago,il,60642,2010-03-09,canvass,pass,41.90954219,-87.64960961
+58363,zentra,zentra,37577,restaurant,risk 3 (low),923 w weed st ,chicago,il,60642,2010-03-09,no entry,pass,41.90968971,-87.65195482
+58364,boriken,boriken,1649303,grocery store,risk 3 (low),2500 w division st ,chicago,il,60622,2010-03-10,canvass,pass,41.90310194,-87.68955175
+58365,western round up,western round up,59381,empty,risk 1 (high),949 n western ave ,chicago,il,60622,2010-03-10,short form complaint,pass,41.89902107,-87.68677928
+58366,northwestern university settlement association,northwestern university settlement association,10731,children's services facility,risk 1 (high),1400 w augusta blvd ,chicago,il,60642,2010-03-10,canvass,pass,41.89989385,-87.66262876
+58367,republic,republic,55715,liquor,risk 3 (low),901 w weed st ,chicago,il,60622,2010-03-10,canvass,fail,41.90970258,-87.6511788
+58368,republic,republic,55715,liquor,risk 3 (low),901 w weed st ,chicago,il,60622,2010-03-11,consultation,pass,41.90970258,-87.6511788
+58369,the rookery,the rookery,1869443,restaurant,risk 1 (high),2109 w chicago ave ,chicago,il,60622,2010-03-11,complaint,fail,41.89575174,-87.67992373
+58370,division draft,division draft,1875106,restaurant,risk 2 (medium),2525 w division st ,chicago,il,60622,2010-03-12,canvass,pass,41.90287407,-87.69050019
+58371,the boundary,the boundary,1800782,restaurant,risk 1 (high),1932 w division st ,chicago,il,60622,2010-03-12,complaint,pass,41.90331826,-87.67618208
+58372,la condesa,la condesa,37002,restaurant,risk 1 (high),1003 n ashland ave ,chicago,il,60622,2010-03-15,canvass,pass w/ conditions,41.89981866,-87.66724858
+58373,the worm hole,wh,2021937,restaurant,risk 2 (medium),1462 n milwaukee ave ,chicago,il,60642,2010-03-15,license,fail,41.90837835,-87.67456921
+58374,greek corner restaurant cafe,greek corner restaurant cafe,48704,restaurant,risk 1 (high),958 n damen ave ,chicago,il,60622,2010-03-15,canvass,pass,41.8995039,-87.67730119
+58375,el taco veloz taqueria,el taco veloz taqueria,45693,restaurant,risk 1 (high),1745 w chicago ave ,chicago,il,60622,2010-03-15,complaint re-inspection,pass,41.89589266,-87.67156245
+58376,cabalo inc.,cabalo,1981089,restaurant,risk 1 (high),2700 w chicago ave ,chicago,il,60622,2010-03-15,canvass,pass,41.89577762,-87.69430044
+58377,monets food mart,monets food mart,1969573,grocery store,risk 3 (low),2145 w division st ,chicago,il,60622,2010-03-16,short form complaint,pass,41.90300728,-87.68148463
+58378,a tavola,a tavola,45044,restaurant,risk 1 (high),2148 w chicago ave ,chicago,il,60622,2010-03-16,canvass,pass,41.89594582,-87.68145004
+58379,tumans,tuman's,1273473,restaurant,risk 1 (high),2159 w chicago ave ,chicago,il,60622,2010-03-16,canvass,pass,41.89571957,-87.68182312
+58380,erie community center,erie community center,42649,daycare (2 - 6 years),risk 1 (high),1701 w superior st ,chicago,il,60622,2010-03-16,canvass,pass,41.89500555,-87.66981323
+58381,a & w dollar plus,empty,2021850,grocery store,risk 3 (low),1001 n western ave ,chicago,il,60622,2010-03-16,license,fail,41.89942766,-87.68679101
+58382,dee's place,dee's place,2026277,restaurant,risk 1 (high),2114 w division st ,chicago,il,60622,2010-03-22,license,fail,41.90324576,-87.68035526
+58383,bricks on the run,bricks on the run,2022226,restaurant,risk 1 (high),1940 n elston ave ,chicago,il,60642,2010-03-22,license,fail,41.91742776,-87.66730597
+58384,western round up,western round up,59381,empty,risk 1 (high),949 n western ave ,chicago,il,60622,2010-03-22,short form complaint,pass,41.89902107,-87.68677928
+58385,social club,empty,0,empty,empty,1105 n california ave ,chicago,il,60622,2010-03-22,short form complaint,pass,41.901286,-87.69669243
+58386,lush wine & spirits,lush wine & spirits,2014305,restaurant,risk 2 (medium),1412 w chicago ave ,chicago,il,60642,2010-03-23,license,pass,41.89625011,-87.66295411
+58387,blue coral contemporary sushi,blu  coral,2008548,restaurant,risk 3 (low),1265 n milwaukee ave ,chicago,il,60642,2010-03-23,license,fail,41.90485662,-87.6685902
+58388,blue coral contemporary sushi and  lounge,blu  coral,2008547,restaurant,risk 1 (high),1265 n milwaukee ave ,chicago,il,60642,2010-03-23,license,fail,41.90485662,-87.6685902
+58389,blu coral,blu coral,1738752,restaurant,risk 1 (high),1265 n milwaukee ave ,chicago,il,60642,2010-03-23,canvass,fail,41.90485662,-87.6685902
+58390,sweet cakes,sweet cakes,2026447,bakery,risk 2 (medium),901 n damen ave ,chicago,il,60622,2010-03-24,license,fail,41.89777928,-87.67695887
+58391,the rookery,the rookery,1869443,restaurant,risk 1 (high),2109 w chicago ave ,chicago,il,60622,2010-03-24,complaint re-inspection,pass,41.89575174,-87.67992373
+58392,francesca's forno,francesca's forno,1477723,restaurant,risk 1 (high),1576 n milwaukee ave ,chicago,il,60622,2010-03-24,suspected food poisoning,fail,41.91005984,-87.67719123
+58393,mercury cafe inc,mercury cafe inc,1596189,empty,risk 2 (medium),1505 w chicago ave ,chicago,il,60622,2010-03-24,out of business,pass,41.89599809,-87.66510906
+58394,peabody,peabody,24861,school,risk 1 (high),1444 w augusta blvd ,chicago,il,60622,2010-03-25,canvass,pass,41.89986912,-87.66419014
+58395,hickory's bbq salads and more...,hickory's bbq salads and more...,1517090,restaurant,risk 1 (high),1234 n halsted st ,chicago,il,60642,2010-03-25,complaint,pass w/ conditions,41.90450211,-87.64826687
+58396,dee's place,dee's place,2026277,restaurant,risk 1 (high),2114 w division st ,chicago,il,60622,2010-03-25,license re-inspection,fail,41.90324576,-87.68035526
+58397,republic,republic,55715,liquor,risk 3 (low),901 w weed st ,chicago,il,60622,2010-03-25,canvass re-inspection,pass,41.90970258,-87.6511788
+58398,uncle mike's place,uncle mike's place,39365,restaurant,risk 1 (high),1700 w grand ave ,chicago,il,60622,2010-03-26,canvass,pass,41.89105286,-87.66962354
+58399,flash taco -n- underdogg,flash taco -n- underdogg,1947473,restaurant,risk 1 (high),1570-1/2 n damen ave ,chicago,il,60622,2010-03-26,complaint,pass,41.91027897,-87.67761701
+58400,sigara hookah cafe/lounge,sigara hookah cafe/lounge,1380574,empty,risk 3 (low),2013 w division st ,chicago,il,60622,2010-03-26,out of business,pass,41.90307109,-87.67783097
+58401,sabor saveur,sabor saveur,1998853,restaurant,risk 1 (high),2013 w division st ,chicago,il,60622,2010-03-26,canvass,pass,41.90307109,-87.67783097
+58402,dee's place,dee's place,2026277,restaurant,risk 1 (high),2114 w division st ,chicago,il,60622,2010-03-26,license re-inspection,pass,41.90324576,-87.68035526
+58403,knockbox  cafe,knockbox cafe,1985711,restaurant,risk 2 (medium),1001 n california ave ,chicago,il,60622,2010-03-29,canvass,pass,41.89933092,-87.69664492
+58404,lorraine's diner inc,lorraine's diner inc,1243583,restaurant,risk 1 (high),1959 w chicago ave ,chicago,il,60622,2010-03-29,complaint,fail,41.89580311,-87.67698748
+58405,social club,empty,0,empty,empty,1105 n california ave ,chicago,il,60622,2010-03-29,short form complaint,pass,41.901286,-87.69669243
+58406,subway,subway,1677083,restaurant,risk 1 (high),1958 w chicago ave ,chicago,il,60622,2010-03-30,canvass,pass w/ conditions,41.89602257,-87.67699522
+58407,five star bar & grill,five star bar & grill,1621501,restaurant,risk 1 (high),1424 w chicago ave ,chicago,il,60642,2010-03-30,no entry,pass,41.89624197,-87.66344068
+58408,dona natys tacos,dona natys tacos,1676986,restaurant,risk 1 (high),1815 w chicago ave ,chicago,il,60622,2010-03-30,canvass,pass,41.89587067,-87.67282139
+58409,adobo grill,adobo grill,1193450,restaurant,risk 1 (high),2005-2007 w division st ,chicago,il,60622,2010-03-31,canvass,fail,41.90307675,-87.67752782
+58410,blu coral,blu coral,1738752,restaurant,risk 1 (high),1265 n milwaukee ave ,chicago,il,60642,2010-03-31,canvass re-inspection,pass w/ conditions,41.90485662,-87.6685902
+58411,blue coral contemporary sushi and  lounge,blu  coral,2008547,restaurant,risk 1 (high),1265 n milwaukee ave ,chicago,il,60642,2010-03-31,license re-inspection,fail,41.90485662,-87.6685902
+58412,blue coral contemporary sushi,blu  coral,2008548,restaurant,risk 3 (low),1265 n milwaukee ave ,chicago,il,60642,2010-03-31,license re-inspection,pass,41.90485662,-87.6685902
+58413,a & w dollar plus,empty,2021850,grocery store,risk 3 (low),1001 n western ave ,chicago,il,60622,2010-04-01,license re-inspection,fail,41.89942766,-87.68679101
+58414,walgreens #1298,walgreens #1298,18578,grocery store,risk 3 (low),1372 n milwaukee ave ,chicago,il,60622,2010-04-01,canvass,pass,41.90665738,-87.67187112
+58415,walgreens #1298,walgreens #1298,2003079,grocery store,risk 3 (low),1372 n milwaukee ave ,chicago,il,60622,2010-04-01,license,pass,41.90665738,-87.67187112
+58416,the nicholson school,the nicholson school,2002702,daycare (2 - 6 years),risk 1 (high),1700 w cortland st ,chicago,il,60622,2010-04-01,license,fail,41.91618227,-87.67034138
+58417,francesca's forno,francesca's forno,1477723,restaurant,risk 1 (high),1576 n milwaukee ave ,chicago,il,60622,2010-04-01,complaint re-inspection,pass,41.91005984,-87.67719123
+58418,clemente comm  (h/s),clemente comm  (h/s),51091,school,risk 1 (high),1147 n western ave ,chicago,il,60622,2010-04-05,canvass,fail,41.90262318,-87.68686934
+58419,a & w dollar plus,empty,2021850,grocery store,risk 3 (low),1001 n western ave ,chicago,il,60622,2010-04-05,license re-inspection,pass,41.89942766,-87.68679101
+58420,lafayette,lafayette,24121,school,risk 1 (high),2714 w augusta blvd ,chicago,il,60622,2010-04-06,canvass,pass w/ conditions,41.89940402,-87.69494543
+58421,wendy's #001206,wendy's #001206,6773,restaurant,risk 1 (high),1623 w division st ,chicago,il,60622,2010-04-06,short form complaint,pass,41.90322156,-87.66848596
+58422,el taco veloz taqueria,el taco veloz taqueria,45693,restaurant,risk 1 (high),1745 w chicago ave ,chicago,il,60622,2010-04-06,short form complaint,pass,41.89589266,-87.67156245
+58423,sweet cakes,sweet cakes,2026447,bakery,risk 2 (medium),901 n damen ave ,chicago,il,60622,2010-04-08,license,fail,41.89777928,-87.67695887
+58424,caesar's foods inc,caesar's foods inc,13670,restaurant,risk 1 (high),901 n damen ave ,chicago,il,60622,2010-04-08,canvass,pass,41.89777928,-87.67695887
+58425,be my guest events,be my guest events,1741808,restaurant,risk 1 (high),901 n damen ave ,chicago,il,60622,2010-04-08,canvass,pass,41.89777928,-87.67695887
+58426,just baked foods,just baked foods,1645618,empty,risk 1 (high),901 n damen ave ,chicago,il,60622,2010-04-08,out of business,pass,41.89777928,-87.67695887
+58427,salud tequila lounge,salud tequila lounge,33136,restaurant,risk 1 (high),1471 n milwaukee ave ,chicago,il,60622,2010-04-08,canvass,pass,41.90872609,-87.67466084
+58428,the nicholson school,the nicholson school,2002702,daycare (2 - 6 years),risk 1 (high),1700 w cortland st ,chicago,il,60622,2010-04-08,license re-inspection,pass,41.91618227,-87.67034138
+58429,bricks on the run,bricks on the run,2022226,restaurant,risk 1 (high),1940 n elston ave ,chicago,il,60642,2010-04-09,license re-inspection,pass,41.91742776,-87.66730597
+58430,wendy's #001206,wendy's #001206,6773,restaurant,risk 1 (high),1623 w division st ,chicago,il,60622,2010-04-09,suspected food poisoning,pass w/ conditions,41.90322156,-87.66848596
+58431,adobo grill,adobo grill,1193450,restaurant,risk 1 (high),2005-2007 w division st ,chicago,il,60622,2010-04-09,canvass re-inspection,pass,41.90307675,-87.67752782
+58432,janik's cafe,janik's cafe,1356941,restaurant,risk 1 (high),2011 w division st ,chicago,il,60622,2010-04-09,canvass,pass,41.90307251,-87.67775518
+58433,kendall college,kendall college-cafe/qsr,1905106,restaurant,risk 1 (high),900 n north branch ,chicago,il,60642,2010-04-12,short form complaint,pass,41.89896533,-87.64809026
+58434,"pronto 'za, llc",pronto 'za,1718300,restaurant,risk 1 (high),1234 n halsted st ,chicago,il,60642,2010-04-12,canvass,fail,41.90450211,-87.64826687
+58435,banana joe's,banana joe's,54507,restaurant,risk 1 (high),940 w weed st ,chicago,il,60642,2010-04-12,no entry,pass,41.90989553,-87.65277244
+58436,sweet cakes,sweet cakes,2026447,bakery,risk 2 (medium),901 n damen ave ,chicago,il,60622,2010-04-13,license re-inspection,pass,41.89777928,-87.67695887
+58437,piccolo,piccolo,1821656,restaurant,risk 1 (high),859 n damen ave ,chicago,il,60622,2010-04-13,no entry,pass,41.89768855,-87.67695627
+58438,life's a cabernet,life's a cabernet,2021653,liquor,risk 3 (low),1937 w north ave ,chicago,il,60622,2010-04-13,license,fail,41.91039119,-87.67657254
+58439,columbus,columbus,22791,school,risk 2 (medium),1003 n leavitt st ,chicago,il,60622,2010-04-13,canvass,pass,41.89958139,-87.68190167
+58440,filichia food & imports,filichia food & imports,1980422,restaurant,risk 1 (high),959 n western ave ,chicago,il,60622,2010-04-13,canvass,fail,41.89933654,-87.68678817
+58441,whole foods market,whole foods market,1933690,grocery store,risk 1 (high),1550 n kingsbury st ,chicago,il,60642,2010-04-14,short form complaint,pass,41.90939879,-87.6530507
+58442,lorraine's diner inc,lorraine's diner inc,1243583,restaurant,risk 1 (high),1959 w chicago ave ,chicago,il,60622,2010-04-15,complaint re-inspection,pass,41.89580311,-87.67698748
+58443,tumans,tuman's,1273473,restaurant,risk 1 (high),2159 w chicago ave ,chicago,il,60622,2010-04-15,canvass,pass w/ conditions,41.89571957,-87.68182312
+58444,california pizza kitchen,california pizza kitchen,1228435,restaurant,risk 1 (high),939 w north ave ,chicago,il,60642,2010-04-15,canvass,pass w/ conditions,41.9107384,-87.65262887
+58445,zentra,zentra,37577,restaurant,risk 3 (low),923 w weed st ,chicago,il,60642,2010-04-15,no entry,pass,41.90968971,-87.65195482
+58446,high dive,high dive,1472958,restaurant,risk 2 (medium),1938 w chicago ave ,chicago,il,60622,2010-04-15,no entry,pass,41.89603665,-87.67614943
+58447,cleo's,cleo's,72439,restaurant,risk 1 (high),1935 w chicago ave ,chicago,il,60622,2010-04-16,canvass,pass,41.89581862,-87.6760469
+58448,california pizza kitchen,california pizza kitchen,1228435,restaurant,risk 1 (high),939 w north ave ,chicago,il,60642,2010-04-16,tag removal,pass,41.9107384,-87.65262887
+58449,baza sports club,baza sports club,1696966,restaurant,risk 1 (high),2500 w chicago ave ,chicago,il,60622,2010-04-16,canvass,pass,41.89582528,-87.68937132
+58450,blue coral contemporary sushi and  lounge,blu  coral,2008547,restaurant,risk 1 (high),1265 n milwaukee ave ,chicago,il,60642,2010-04-16,license re-inspection,pass,41.90485662,-87.6685902
+58451,ruxbin kitchen,ruxbin kitchen,2027868,restaurant,risk 1 (high),851 n ashland ave ,chicago,il,60622,2010-04-19,license,fail,41.89758036,-87.66718641
+58452,burr,burr,22471,school,risk 1 (high),1621 w wabansia ave ,chicago,il,60622,2010-04-20,canvass,pass,41.91233061,-87.66864691
+58453,clemente comm  (h/s),clemente comm  (h/s),51091,school,risk 1 (high),1147 n western ave ,chicago,il,60622,2010-04-20,canvass re-inspection,pass,41.90262318,-87.68686934
+58454,puerto-mexico grocery,puerto-mexico grocery,45773,empty,risk 2 (medium),2600 w thomas st ,chicago,il,60622,2010-04-20,out of business,pass,41.90125936,-87.69203326
+58455,rock and toms,rock and toms,1740273,empty,risk 2 (medium),2600 w thomas st ,chicago,il,60622,2010-04-20,out of business,pass,41.90125936,-87.69203326
+58456,la esquinita del sabor,la esquinita del sabor,1979234,grocery store,risk 1 (high),2600 w thomas st ,chicago,il,60622,2010-04-20,complaint,pass,41.90125936,-87.69203326
+58457,j. patrick's,j. patrick's,52742,restaurant,risk 1 (high),1365-1367 w erie st ,chicago,il,60642,2010-04-20,no entry,pass,41.89330889,-87.66216684
+58458,nellies,nellies,1621190,restaurant,risk 1 (high),2458 w division st ,chicago,il,60622,2010-04-20,no entry,pass,41.90310359,-87.68934332
+58459,wells comm. acad. (h/s),wells comm. acad. (h/s),51071,school,risk 1 (high),936 n ashland ave ,chicago,il,60622,2010-04-21,canvass,pass w/ conditions,41.89900506,-87.66751989
+58460,zentra,zentra,37577,restaurant,risk 3 (low),923 w weed st ,chicago,il,60642,2010-04-21,canvass,fail,41.90968971,-87.65195482
+58461,zentra,zentra,37577,restaurant,risk 3 (low),923 w weed st ,chicago,il,60642,2010-05-03,canvass re-inspection,pass,41.90968971,-87.65195482
+58462,sabin magnet,sabin magnet,29371,school,risk 1 (high),2216 w hirsch st ,chicago,il,60622,2010-05-04,canvass,pass,41.90684338,-87.68304259
+58463,de diego community,de diego community,31261,school,risk 1 (high),1313 n claremont ,chicago,il,60622,2010-05-13,canvass,pass,41.90531549,-87.68572005
+58464,coalfire,coalfire,1800532,restaurant,risk 1 (high),1321 w grand ave ,chicago,il,60642,2010-05-13,suspected food poisoning,fail,41.89094232,-87.65985672
+58465,presence saint mary of nazareth hospital,presence saint mary of nazareth hospital,15788,hospital,risk 1 (high),2233 w division st ,chicago,il,60622,2010-05-18,canvass,fail,41.90297191,-87.68348493
+58466,forever yogurt,forever yogurt,2033239,restaurant,risk 2 (medium),1924 w north ave ,chicago,il,60622,2010-05-18,license,fail,41.91061792,-87.67610192
+58467,presence saint mary of nazareth hospital,presence saint mary of nazareth hospital,15786,hospital,risk 1 (high),2233 w division st ,chicago,il,60622,2010-05-19,canvass,pass,41.90297191,-87.68348493
+58468,duks red hots,duks red hots,69637,restaurant,risk 2 (medium),636 n ashland ave ,chicago,il,60622,2010-05-21,complaint,fail,41.89351342,-87.66736305
+58469,playa del mar inc,playa del mar inc,11627,empty,risk 3 (low),1440 w chicago ave ,chicago,il,60642,2010-05-21,out of business,pass,41.89623332,-87.66407716
+58470,habana libre,habana libre,1739016,restaurant,risk 1 (high),1440 w chicago ave ,chicago,il,60642,2010-05-21,canvass,pass,41.89623332,-87.66407716
+58471,the violet hour,the violet hour,83111,restaurant,risk 2 (medium),1520 n damen ave ,chicago,il,60622,2010-05-21,tag removal,pass,41.9089214,-87.6775678
+58472,presence saint mary of nazareth hospital,presence saint mary of nazareth hospital,15788,hospital,risk 1 (high),2233 w division st ,chicago,il,60622,2010-05-25,canvass re-inspection,pass,41.90297191,-87.68348493
+58473,garrett's popcorn shops,garrett's popcorn shops,1770430,wholesale,risk 3 (low),1716 w hubbard st ,chicago,il,60622,2010-06-02,canvass,pass,41.8899446,-87.67028663
+58474,black dog gelato,black dog gelato,2037079,restaurant,risk 2 (medium),859 n damen ave ,chicago,il,60622,2010-06-03,license,fail,41.89768855,-87.67695627
+58475,fasil,fasil,1474274,restaurant,risk 2 (medium),2729 w division st ,chicago,il,60622,2010-06-03,canvass,fail,41.90282606,-87.69560739
+58476,chicago's best sub,best sub,2036634,restaurant,risk 2 (medium),2729 w division st ,chicago,il,60622,2010-06-03,license,fail,41.90282606,-87.69560739
+58477,smother brothers,smother brothers,1880119,restaurant,risk 1 (high),107 n kedzie ave ,chicago,il,60612,2010-06-03,complaint re-inspection,pass,41.88307572,-87.70603138
+58478,diana' food & restaurant,diana's food & restaurant,1579625,restaurant,risk 1 (high),1000 n francisco ave ,chicago,il,60622,2010-06-04,canvass,pass,41.8993212,-87.69940879
+58479,chickpea,chickpea,1932890,restaurant,risk 1 (high),2018 w chicago ave ,chicago,il,60622,2010-06-04,canvass,pass,41.89600605,-87.67786193
+58480,centered chef food studios,centered chef food studios,1743488,restaurant,risk 1 (high),1715 w chicago ave ,chicago,il,60622,2010-06-09,canvass,fail,41.89591277,-87.67033934
+58481,naty's pizza #2,naty's pizza #2,38483,restaurant,risk 1 (high),1757 w chicago ave ,chicago,il,60622,2010-06-09,canvass,pass,41.89588463,-87.67203069
+58482,mac's american food,mac's american food,80542,restaurant,risk 1 (high),1801 w division st ,chicago,il,60622,2010-06-15,no entry,pass,41.90315615,-87.67242232
+58483,el taco veloz taqueria,el taco veloz taqueria,45693,restaurant,risk 1 (high),1745 w chicago ave ,chicago,il,60622,2010-06-16,complaint,fail,41.89589266,-87.67156245
+58484,adobo grill,adobo grill,2027973,restaurant,risk 1 (high),2005-2007 w division st ,chicago,il,60622,2010-06-18,license re-inspection,fail,41.90307675,-87.67752782
+58485,adobo grill,adobo grill,2027974,restaurant,risk 3 (low),2005-2007 w division st ,chicago,il,60622,2010-06-18,license re-inspection,fail,41.90307675,-87.67752782
+58486,paradise cantina,paradise cantina,1593859,restaurant,risk 1 (high),2015 w division ave ,chicago,il,60622,2010-06-18,no entry,pass,41.90306968,-87.67790676
+58487,hoosier mama pie company,hoosier mama pie company,1942500,restaurant,risk 1 (high),1618 1/2 w chicago ave ,chicago,il,60622,2010-06-21,canvass,fail,41.89616972,-87.66811805
+58488,china lite original,china lite original,2036906,restaurant,risk 1 (high),1146 n milwaukee ave ,chicago,il,60642,2010-06-21,license re-inspection,fail,41.90246227,-87.66530609
+58489,tipsycake,tipsycake,1718109,bakery,risk 2 (medium),1043 n california ave ,chicago,il,60622,2010-06-22,complaint,pass,41.90063956,-87.69667798
+58490,chikurin,chikurin sushi and chinese crusine,2003677,restaurant,risk 1 (high),1811 w north ave ,chicago,il,60622,2010-06-22,license,fail,41.91044395,-87.67305724
+58491,forever yogurt,forever yogurt,2033239,restaurant,risk 2 (medium),1924 w north ave ,chicago,il,60622,2010-06-22,license re-inspection,fail,41.91061792,-87.67610192
+58492,jewel food store #3241,jewel food store #3241,1398,grocery store,risk 1 (high),1341 n paulina st ,chicago,il,60622,2010-06-25,canvass re-inspection,pass,41.9062437,-87.66986228
+58493,the crocodile,the crocodile,1892523,restaurant,risk 2 (medium),1540 n milwaukee ave ,chicago,il,60622,2010-06-25,canvass,pass,41.90942003,-87.67619508
+58494,forever yogurt,forever yogurt,2033239,restaurant,risk 2 (medium),1924 w north ave ,chicago,il,60622,2010-06-25,license re-inspection,pass,41.91061792,-87.67610192
+58495,china lite original,china lite original,2036906,restaurant,risk 1 (high),1146 n milwaukee ave ,chicago,il,60642,2010-06-25,license re-inspection,fail,41.90246227,-87.66530609
+58496,mana food bar,mana food bar,1887987,restaurant,risk 1 (high),1742 w division st ,chicago,il,60622,2010-06-25,canvass,pass,41.90338676,-87.67174027
+58497,restaurant depot,restaurant depot,70085,wholesale,risk 3 (low),1030 w division st ,chicago,il,60622,2010-06-30,short form complaint,fail,41.90366842,-87.65369936
+58498,veggie bite,veggie bite,1892363,restaurant,risk 1 (high),1300 n milwaukee ave ,chicago,il,60622,2010-06-30,canvass,fail,41.90520009,-87.66957875
+58499,casa central community service,casa central community service,60766,restaurant,risk 1 (high),1343 n california ave ,chicago,il,60622,2010-07-01,canvass,pass,41.90598597,-87.69680736
+58500,casa central community service,casa central community service,60765,restaurant,risk 1 (high),1343 n california ave ,chicago,il,60622,2010-07-01,canvass,pass,41.90598597,-87.69680736
+58501,china lite original,china lite original,2036906,restaurant,risk 1 (high),1146 n milwaukee ave ,chicago,il,60642,2010-07-01,license re-inspection,pass,41.90246227,-87.66530609
+58502,veggie bite,veggie bite,1892363,restaurant,risk 1 (high),1300 n milwaukee ave ,chicago,il,60622,2010-07-12,canvass re-inspection,pass,41.90520009,-87.66957875
+58503,puerto rico food & liquors,puerto rico food & liquors,2033135,grocery store,risk 3 (low),2559 w augusta blvd ,chicago,il,60622,2010-07-20,license-task force,fail,41.89922158,-87.69173812
+58504,letiza's natural bakery / enoteca roma,letiza's natural bakery / enoteca roma,1489064,restaurant,risk 1 (high),2144-2146 w division st ,chicago,il,60622,2010-07-22,complaint,fail,41.90322676,-87.68149122
+58505,bob san sushi bar,harvest moon,1921939,restaurant,risk 1 (high),1805-1809 w division st ,chicago,il,60622,2010-07-27,canvass,pass,41.90315323,-87.67258598
+58506,subway,subway,2037491,restaurant,risk 1 (high),1129 n western ave ,chicago,il,60622,2010-07-28,license re-inspection,pass,41.90204391,-87.68685825
+58507,taxim,taxim,1801485,restaurant,risk 1 (high),1558 n milwaukee ave ,chicago,il,60622,2010-07-29,canvass,pass,41.90973834,-87.67669265
+58508,pizza-metro,pizza-metro,1545880,restaurant,risk 1 (high),1707 w division st ,chicago,il,60622,2010-09-27,canvass,pass,41.90319053,-87.67029009
+58509,janina's deli,bouefghaus,1094341,restaurant,risk 1 (high),1012 n western ave ,chicago,il,60622,2010-09-27,canvass,pass,41.89983387,-87.68709616
+58510,andersen,andersen,31011,school,risk 1 (high),1148 n honore st ,chicago,il,60622,2010-10-28,canvass,pass,41.90290876,-87.67373263
+58511,butterfly,butterfly,1618925,restaurant,risk 1 (high),1156 w grand ave ,chicago,il,60642,2010-10-28,suspected food poisoning re-inspection,pass,41.89119527,-87.65688616
+58512,"star lounge coffee bar, inc.","star lounge coffee bar, inc.",1942442,restaurant,risk 2 (medium),2521 w chicago ave ,chicago,il,60622,2010-10-29,canvass,fail,41.89559836,-87.69016095
+58513,duks red hots,duks red hots,69637,restaurant,risk 2 (medium),636 n ashland ave ,chicago,il,60622,2010-10-29,short form complaint,pass,41.89351342,-87.66736305
+58514,crush,crush,1939011,grocery store,risk 3 (low),1315 w chicago ave ,chicago,il,60642,2010-11-10,canvass,pass,41.8960754,-87.66014622
+58515,mini oxxo market,mini oxxo market,2060938,grocery store,risk 3 (low),1315 w chicago ave ,chicago,il,60642,2010-11-10,license,fail,41.8960754,-87.66014622
+58516,subway,subway,1622996,restaurant,risk 1 (high),780 n milwaukee ave ,chicago,il,60642,2010-11-19,canvass,pass w/ conditions,41.89579624,-87.6549536
+58517,smallbar division,small bar #2,87119,restaurant,risk 1 (high),2049 w division st ,chicago,il,60622,2010-12-03,canvass,fail,41.90304558,-87.67919511
+58518,smallbar division,small bar #2,87119,restaurant,risk 1 (high),2049 w division st ,chicago,il,60622,2010-12-14,canvass re-inspection,pass,41.90304558,-87.67919511
+58519,the aberdeen tap,the aberdeen tap,1819996,restaurant,risk 1 (high),440 n aberdeen st ,chicago,il,60642,2010-12-15,complaint,fail,41.89006821,-87.65474705
+58520,innjoy,innjoy,1118748,restaurant,risk 1 (high),2051 w division st ,chicago,il,60622,2010-12-15,canvass,fail,41.90304416,-87.6792709
+58521,clemente comm  (h/s),clemente comm  (h/s),51091,school,risk 1 (high),1147 n western ave ,chicago,il,60622,2010-12-17,canvass,pass,41.90262318,-87.68686934
+58522,"peeled,inc.",peeled,2059463,restaurant,risk 2 (medium),1571 n sheffield ave ,chicago,il,60642,2010-12-20,license,fail,41.91054576,-87.65295085
+58523,chi-town pizza,chi-town pizza,87125,restaurant,risk 1 (high),11 w division st ,chicago,il,60610,2010-12-22,complaint-fire,pass,41.90382384,-87.62916036
+58524,7-eleven #33956a,7-eleven #33956a,1889035,grocery store,risk 2 (medium),1942 n elston ave ,chicago,il,60622,2010-12-22,canvass,pass w/ conditions,41.91747359,-87.6673401
+58525,innjoy,innjoy,1118748,restaurant,risk 1 (high),2051 w division st ,chicago,il,60622,2010-12-29,canvass re-inspection,pass,41.90304416,-87.6792709
+58526,logan  square  kitchen,logan  square  kitchen,1980406,shared kitchen,risk 1 (high),2333 n milwaukee ave bldg ,chicago,il,60647,2011-01-04,canvass,pass,41.92369526,-87.69840855
+58527,compassioneat cupcakes,logan square kitchen,2073967,restaurant,risk 2 (medium),2333 n milwaukee ave ,chicago,il,60647,2011-01-04,license,pass,41.92369526,-87.69840855
+58528,gosu,gosu,2074097,restaurant,risk 1 (high),2515 n california ave ,chicago,il,60647,2011-01-06,license,fail,41.92706664,-87.69732984
+58529,el cid tacos #2,el cid tacos #2,1948872,restaurant,risk 1 (high),2645 n kedzie ave ,chicago,il,60647,2011-01-11,canvass,pass,41.92976286,-87.70722323
+58530,brand bbq market,brand bbq market,1986445,restaurant,risk 1 (high),2824 w armitage ave ,chicago,il,60647,2011-01-20,canvass,pass,41.91758959,-87.6982529
+58531,stowe,stowe elementary school,25521,school,risk 1 (high),3444 w wabansia ,chicago,il,60647,2011-01-24,canvass re-inspection,pass,41.91196584,-87.7132855
+58532,laguardia's cuban  bistro,laguardia's cuban  bistro,2050010,restaurant,risk 1 (high),3706 w armitage ave ,chicago,il,60647,2011-01-24,canvass,pass,41.91735924,-87.71951828
+58533,charles  darwin elementary school,main bldg,22881,school,risk 1 (high),3116 w belden ,chicago,il,60647,2011-02-01,canvass,pass,41.92334998,-87.70543099
+58534,charles darwin modular school,middle school annex,1964656,school,risk 1 (high),3116 w belden ave ,chicago,il,60647,2011-02-01,canvass,pass,41.92334998,-87.70543099
+58535,papa ray's pizza & wings,papa ray's pizza & wings,2064121,restaurant,risk 1 (high),2551 w fullerton ave ,chicago,il,60647,2011-02-09,canvass,pass,41.92475132,-87.69180095
+58536,the united center,nba-nhl banquet room s-207,1974745,restaurant,risk 2 (medium),1901 w madison st ,chicago,il,60612,2011-02-25,canvass,pass,41.88124146,-87.67428253
+58537,the united center,westside grill s-313,1974745,restaurant,risk 2 (medium),1901 w madison st ,chicago,il,60612,2011-02-25,canvass,pass,41.88124146,-87.67428253
+58538,the united center,mex it up s-330,1974745,restaurant,risk 2 (medium),1901 w madison st ,chicago,il,60612,2011-02-25,canvass,pass,41.88124146,-87.67428253
+58539,the united center,press lounge s- ll 120,1974745,restaurant,risk 2 (medium),1901 w madison st ,chicago,il,60612,2011-02-25,canvass,pass,41.88124146,-87.67428253
+58540,the united center,breakaway s-101,1974745,restaurant,risk 2 (medium),1901 w madison st ,chicago,il,60612,2011-02-25,canvass,pass,41.88124146,-87.67428253
+58541,chase elementary/chase  br,chase elemen./chase br,22702,school,risk 1 (high),2021 n point ,chicago,il,60647,2011-03-02,canvass,pass,41.91801539,-87.69454144
+58542,cocina de galarza,cocina de galarza,1196442,restaurant,risk 1 (high),2420 w fullerton ave ,chicago,il,60647,2011-03-03,canvass,fail,41.92500342,-87.68849232
+58543,antico,antico,2031732,restaurant,risk 1 (high),1946 n leavitt st ,chicago,il,60647,2011-03-08,license-task force,fail,41.91755732,-87.6826644
+58544,antico,antico,2031733,restaurant,risk 1 (high),1946 n leavitt st ,chicago,il,60647,2011-03-08,task force liquor 1475,fail,41.91755732,-87.6826644
+58545,rinconcito sudamericano inc,rinconcito sudamericano inc,14924,empty,risk 3 (low),2529 n milwaukee ave ,chicago,il,60647,2011-03-08,canvass,out of business,41.92738885,-87.70442806
+58546,rinconcito sudamericano inc,rinconcito sudamericano inc,14926,empty,risk 3 (low),2529 n milwaukee ave ,chicago,il,60647,2011-03-08,canvass,out of business,41.92738885,-87.70442806
+58547,suite 25,suite 25,2048701,restaurant,risk 1 (high),2529 n milwaukee ave ,chicago,il,60647,2011-03-08,license re-inspection,pass,41.92738885,-87.70442806
+58548,suite 25,suite 25,2048703,restaurant,risk 1 (high),2529 n milwaukee ave ,chicago,il,60647,2011-03-08,license re-inspection,pass,41.92738885,-87.70442806
+58549,cafe bella incorporated,cafe bella incorporated,1942619,restaurant,risk 1 (high),3311 w fullerton ave ,chicago,il,60647,2011-03-14,canvass,pass,41.92456429,-87.71106463
+58550,carnitas el paisa,carnitas el paisa,1222733,restaurant,risk 1 (high),3529 w fullerton ave ,chicago,il,60647,2011-03-17,canvass,pass,41.92451795,-87.71500694
+58551,san luis restaurant,san luis restaurant,1576631,restaurant,risk 1 (high),2903 w diversey ave ,chicago,il,60647,2011-03-23,canvass,pass w/ conditions,41.93196861,-87.7002119
+58552,"kangaroo korner learning  center and nursery, inc.",kangaroo korner learning center,2079463,daycare above and under 2 years,risk 1 (high),3446-3458 w fullerton ave ,chicago,il,60647,2011-03-24,license-task force,fail,41.92475175,-87.71396498
+58553,don chema,don chema,1577802,restaurant,risk 1 (high),2331 n california ave ,chicago,il,60647,2011-03-30,canvass re-inspection,pass,41.92381304,-87.69724202
+58554,sultan's market,sultan's market,2031862,restaurant,risk 1 (high),2057 w north ave ,chicago,il,60647,2011-03-31,complaint,fail,41.91033293,-87.67971585
+58555,corner store,corner store,1767559,grocery store,risk 3 (low),3579 w dickens ave ,chicago,il,60647,2011-04-07,canvass,pass,41.91900663,-87.7166718
+58556,ar family store,corner  store,2088794,grocery store,risk 3 (low),3579 w dickens ave ,chicago,il,60647,2011-04-07,license,fail,41.91900663,-87.7166718
+58557,"tony's finer foods enterprises, inc.",tony's finer foods,1717867,grocery store,risk 1 (high),3607 w fullerton ave ,chicago,il,60647,2011-04-18,complaint re-inspection,pass,41.92449009,-87.71728813
+58558,rinconcito cubano rest,rinconcito cubano rest,26891,restaurant,risk 1 (high),3238 w fullerton ave ,chicago,il,60647,2011-05-02,complaint,fail,41.92480974,-87.70894998
+60242,jewel food store #3170,jewel / osco,1366,grocery store,risk 1 (high),5320 s pulaski rd ,chicago,il,60632,2010-01-05,canvass,pass,41.79619759,-87.72339188
+60243,angelo's stuffed pizza corp,angelo's stuffed pizza,1045634,restaurant,risk 1 (high),4850 s pulaski rd ,chicago,il,60632,2010-01-05,canvass,pass,41.80452511,-87.7236336
+60244,zaragoza restaurant,zaragoza restaurant,1904141,restaurant,risk 1 (high),4852 s pulaski rd ,chicago,il,60632,2010-01-05,canvass,pass,41.80446826,-87.7236327
+60245,star gyros,star gyros,50600,restaurant,risk 1 (high),3400 w roosevelt rd ,chicago,il,60624,2010-01-06,complaint,pass,41.86645727,-87.71066733
+60246,"hook fish & chicken on madison, inc.","hook fish & chicken on madison, inc.",1868125,restaurant,risk 2 (medium),3952 w monroe st ,chicago,il,60624,2010-01-06,complaint,fail,41.87987491,-87.72529036
+60247,metropolitan primary academy,empty,1878468,school,risk 1 (high),4540 w washington blvd ,chicago,il,60624,2010-01-06,tag removal,pass,41.88199038,-87.73964835
+60248,boom fried rice,boom fried rice,6698,restaurant,risk 2 (medium),356 s pulaski rd ,chicago,il,60624,2010-01-06,canvass,fail,41.87537502,-87.72563428
+60249,hefferan elementary,hefferan elementary,1878441,school,risk 1 (high),4409 w wilcox st ,chicago,il,60624,2010-01-07,consultation,pass,41.87863685,-87.73583687
+60250,kiddy kare pre school inc,kiddy kare pre school inc,2013591,children's services facility,risk 1 (high),4401 s kedzie ave ,chicago,il,60632,2010-01-07,license-task force,fail,41.81349085,-87.70403979
+60251,hefferan elementary,hefferan elementary,1878441,school,risk 1 (high),4409 w wilcox st ,chicago,il,60624,2010-01-11,canvass,pass w/ conditions,41.87863685,-87.73583687
+60252,lacoco's pizza & pasta,lacoco's pizza & pasta,67229,restaurant,risk 1 (high),3350 w 47th st ,chicago,il,60632,2010-01-11,complaint,fail,41.80817261,-87.70848389
+60253,moroleon foods #2 inc.,moroleon foods #2,1801622,grocery store,risk 1 (high),4257 s rockwell st ,chicago,il,60632,2010-01-12,complaint,fail,41.81577112,-87.6893859
+60254,new happy chop suey,new happy chop suey,1675900,restaurant,risk 1 (high),3901 s california ave ,chicago,il,60632,2010-01-12,canvass,pass,41.82273508,-87.69448432
+60255,supermercado el guero #10 inc,supermercado el guero #10 inc,39978,grocery store,risk 1 (high),4023 s archer ave ,chicago,il,60632,2010-01-13,suspected food poisoning,pass,41.82058304,-87.69342617
+60256,the submarine pier inc.,the submarine pier,1092597,restaurant,risk 1 (high),4048 s archer ave ,chicago,il,60632,2010-01-13,canvass,fail,41.82014352,-87.69460124
+60257,tierra caliente inc,tierra caliente,35999,restaurant,risk 1 (high),4070 s archer ave ,chicago,il,60632,2010-01-13,canvass,pass w/ conditions,41.81969676,-87.69533211
+60258,"hook fish & chicken on madison, inc.","hook fish & chicken on madison, inc.",1868125,restaurant,risk 2 (medium),3952 w monroe st ,chicago,il,60624,2010-01-14,complaint re-inspection,pass,41.87987491,-87.72529036
+60259,boom fried rice,boom fried rice,6698,restaurant,risk 2 (medium),356 s pulaski rd ,chicago,il,60624,2010-01-14,canvass re-inspection,pass,41.87537502,-87.72563428
+60260,kiddy kare pre school inc,kiddy kare pre school inc,2013591,children's services facility,risk 1 (high),4401 s kedzie ave ,chicago,il,60632,2010-01-14,license re-inspection,pass,41.81349085,-87.70403979
+60261,frazier  international,frazier  international,29411,school,risk 1 (high),4027 w grenshaw ,chicago,il,60624,2010-01-15,canvass,pass,41.86695871,-87.72631742
+60262,hooks fish and chicken,hooks fish and chicken,1619657,restaurant,risk 2 (medium),4024 w roosevelt rd ,chicago,il,60624,2010-01-15,canvass,pass,41.86626841,-87.72611133
+60263,mcdonald's,mcdonald's,33706,restaurant,risk 2 (medium),3200 w roosevelt rd ,chicago,il,60624,2010-01-15,short form complaint,fail,41.86651389,-87.7057336
+60264,subway,subway,1447811,restaurant,risk 1 (high),4030 w roosevelt rd ,chicago,il,60624,2010-01-20,canvass,pass,41.86626526,-87.7263306
+60265,uncle remus,uncle remus,1305369,restaurant,risk 1 (high),4144 w madison st ,chicago,il,60624,2010-01-20,complaint,pass,41.88078471,-87.72986386
+60266,lacoco's pizza & pasta,lacoco's pizza & pasta,67229,restaurant,risk 1 (high),3350 w 47th st ,chicago,il,60632,2010-01-20,complaint re-inspection,pass w/ conditions,41.80817261,-87.70848389
+60267,the submarine pier inc.,the submarine pier,1092597,restaurant,risk 1 (high),4048 s archer ave ,chicago,il,60632,2010-01-20,canvass re-inspection,pass,41.82014352,-87.69460124
+60268,moroleon foods #2 inc.,moroleon foods #2,1801622,grocery store,risk 1 (high),4257 s rockwell st ,chicago,il,60632,2010-01-21,complaint re-inspection,pass,41.81577112,-87.6893859
+60269,little caesar pizza #1651,little caesar's pizza,2223,restaurant,risk 2 (medium),3225 w 47th pl ,chicago,il,60632,2010-01-21,complaint,fail,41.8066985,-87.70490021
+60270,holy family lutheran school,holy family lutheran school,2040649,school,risk 1 (high),3415 w arthington st ,chicago,il,60624,2010-01-22,canvass,fail,41.86988498,-87.7113089
+60271,mcdonald's,mcdonald's,33706,restaurant,risk 2 (medium),3200 w roosevelt rd ,chicago,il,60624,2010-01-22,complaint re-inspection,pass w/ conditions,41.86651389,-87.7057336
+60272,burger king #10366,burger king #10366,1473526,restaurant,risk 2 (medium),4060 s pulaski rd ,chicago,il,60632,2010-01-22,complaint,pass,41.81884058,-87.72411293
+60273,4343 petes fresh market,4343 petes fresh market,1336669,grocery store,risk 1 (high),4343 s pulaski rd ,chicago,il,60632,2010-01-25,complaint,pass,41.81391431,-87.72366494
+60274,las cazuelas grill inc.,las cazuelas grill,1337761,restaurant,risk 1 (high),4720 s pulaski rd ,chicago,il,60632,2010-01-25,canvass,pass,41.80721665,-87.72371316
+60275,"tita's sombrero restaurant, inc.","tita's sombrero restaurant, inc.",1845306,restaurant,risk 1 (high),4611 s pulaski rd ,chicago,il,60632,2010-01-25,canvass,pass,41.80933273,-87.72349163
+60276,nightingale elementary,nightingale elementary,24671,school,risk 1 (high),5250 s rockwell ave ,chicago,il,60632,2010-01-26,canvass,pass,41.79774019,-87.68917624
+60277,el plan inc,el plan,37815,restaurant,risk 1 (high),2532 w 51st st ,chicago,il,60632,2010-01-26,canvass,fail,41.80120185,-87.68796644
+60278,la fuente banquet hall,la fuente banquet hall,1841170,restaurant,risk 1 (high),2514 w 51st st ,chicago,il,60632,2010-01-26,canvass,fail,41.80121089,-87.68738618
+60279,"cloverhill pastry-vend,llc","cloverhill pastry-vend,llc",2004357,wholesale,risk 3 (low),4464 w 44th st ,empty,il,60632,2010-01-27,license,fail,41.81426628,-87.73601341
+60280,veterans memorial campus,veterans memorial campus,2040651,school,risk 1 (high),4601 s kildare ave ,chicago,il,60632,2010-01-27,canvass,pass,41.80940021,-87.73099367
+60281,kmart #3594,kmart/little caesar's,1475509,restaurant,risk 2 (medium),5050 s kedzie ave ,chicago,il,60632,2010-01-27,complaint,pass,41.80112411,-87.70392038
+60282,"cloverhill pastry-vend,llc","cloverhill pastry-vend,llc",2004357,wholesale,risk 3 (low),4464 w 44th st ,empty,il,60632,2010-01-28,license,fail,41.81426628,-87.73601341
+60283,vicom,vicom,2008685,wholesale,risk 3 (low),4308 w 44th st ,chicago,il,60632,2010-01-28,license,fail,41.81432843,-87.73171813
+60284,rufino tamayo,rufino tamayo,2040653,school,risk 1 (high),5135 s california ave ,chicago,il,60632,2010-02-01,canvass,pass,41.79993702,-87.69382513
+60285,dunkin donuts,dunkin donuts/baskin robbins,13468,restaurant,risk 2 (medium),3910 s archer ave ,chicago,il,60632,2010-02-01,complaint,pass,41.82270063,-87.69043573
+60286,raul's bar & grill,raul's bar & grill,1143582,restaurant,risk 1 (high),3214 w 47th st ,chicago,il,60632,2010-02-01,canvass,fail,41.80822254,-87.70462535
+60287,little caesar pizza #1651,little caesar's pizza,2223,restaurant,risk 2 (medium),3225 w 47th pl ,chicago,il,60632,2010-02-01,complaint re-inspection,pass,41.8066985,-87.70490021
+60288,el plan inc,el plan,37815,restaurant,risk 1 (high),2532 w 51st st ,chicago,il,60632,2010-02-02,canvass re-inspection,pass,41.80120185,-87.68796644
+60289,skybox sports bar,skybox sports bar,1959676,liquor,risk 3 (low),3601 w harrison st ,chicago,il,60624,2010-02-02,license-task force,fail,41.8734568,-87.71577762
+60290,holy family lutheran school,holy family lutheran school,2040649,school,risk 1 (high),3415 w arthington st ,chicago,il,60624,2010-02-02,canvass re-inspection,pass,41.86988498,-87.7113089
+60291,"cloverhill pastry-vend,llc","cloverhill pastry-vend,llc",2004357,wholesale,risk 3 (low),4464 w 44th st ,empty,il,60632,2010-02-03,license re-inspection,pass,41.81426628,-87.73601341
+60292,"cloverhill  pastry-vend,","cloverhill pastry-vend,",1985724,wholesale,risk 3 (low),4464 w 44th st ,chicago,il,60632,2010-02-03,out of business,pass,41.81426628,-87.73601341
+60293,la fuente banquet hall,la fuente banquet hall,1841170,restaurant,risk 1 (high),2514 w 51st st ,chicago,il,60632,2010-02-03,canvass re-inspection,pass w/ conditions,41.80121089,-87.68738618
+60294,waldo cooney's pizza,waldo cooney's pizza,8600,restaurant,risk 1 (high),2640 w 51st st ,chicago,il,60632,2010-02-03,canvass,pass,41.8011536,-87.69074071
+60295,ericson elementary school,ericson elementary school,29051,school,risk 1 (high),3600 w fifth ave ,chicago,il,60624,2010-02-04,canvass,pass,41.87576191,-87.71584573
+60296,popeyes,popeyes,1543798,restaurant,risk 2 (medium),3457 w roosevelt rd ,chicago,il,60624,2010-02-04,complaint,fail,41.86621302,-87.71278165
+60297,b & a supersub inc,b & a supersub,1122312,restaurant,risk 2 (medium),3943 w roosevelt rd ,chicago,il,60624,2010-02-04,canvass,pass,41.86607379,-87.72437268
+60298,chicago steak & lemonade inc.,chicago steak & lemonade inc.,1595358,restaurant,risk 2 (medium),3944 w roosevelt rd ,chicago,il,60624,2010-02-04,canvass,fail,41.86629066,-87.72456177
+60299,gateway newstands,gateway newstands,2017200,grocery store,risk 3 (low),5106 s pulaski rd ,chicago,il,60632,2010-02-05,license,fail,41.80013706,-87.72350873
+60300,officer donald marquez,officer donald marquez,2040656,school,risk 1 (high),2916 w 47th st ,chicago,il,60632,2010-02-05,canvass,pass,41.80833634,-87.69738923
+60301,piezano's ltd,piezano's,18271,restaurant,risk 1 (high),2601 w 47th st ,chicago,il,60632,2010-02-05,canvass,pass,41.80824905,-87.68938122
+60302,"don beto grill, inc.","don beto grill, inc.",1959977,restaurant,risk 1 (high),2430 w 47th st ,chicago,il,60632,2010-02-05,canvass,fail,41.8085319,-87.6855906
+60303,dollar general  store # 12061,dollar general store #12061,2009491,grocery store,risk 3 (low),4046 w roosevelt rd ,chicago,il,60624,2010-02-08,license,fail,41.86625493,-87.72704914
+60304,"adams mini market, inc.","adams mini market, inc.",1742153,grocery store,risk 2 (medium),146 s kildare ave ,chicago,il,60624,2010-02-08,complaint,fail,41.87826547,-87.73309089
+60305,luigi cafe inc,luigi cafe inc,1620328,restaurant,risk 1 (high),4212 w madison st ,chicago,il,60624,2010-02-08,canvass,fail,41.88076974,-87.7311561
+60306,westside youth tech entrepreneur,westside youth tech entreprenuer,1981131,school,risk 3 (low),4213 w madison st ,chicago,il,60624,2010-02-08,canvass,fail,41.88055026,-87.73114968
+60307,vicom,vicom,2008685,wholesale,risk 3 (low),4308 w 44th st ,chicago,il,60632,2010-02-09,license re-inspection,pass,41.81432843,-87.73171813
+60308,raul's bar & grill,raul's bar & grill,1143582,restaurant,risk 1 (high),3214 w 47th st ,chicago,il,60632,2010-02-09,canvass re-inspection,pass,41.80822254,-87.70462535
+60309,subway,subway,1840841,restaurant,risk 1 (high),3207 w 47th pl ,chicago,il,60632,2010-02-09,canvass,fail,41.80670863,-87.70424678
+60310,"usa zabiha halal distributors, llc.","usa zabiha halal distributors, llc.",1893718,wholesale,risk 3 (low),401 n trumbull ave ,chicago,il,60624,2010-02-11,complaint,fail,41.88841269,-87.71229514
+60311,"three brothers food market, inc","three brothers food market, inc",2016906,grocery store,risk 2 (medium),5360 w division st ,chicago,il,60651,2010-02-11,license re-inspection,pass,41.90230475,-87.76065826
+60312,"joe's barbque, inc",joe's barbque,18234,restaurant,risk 1 (high),4900 w madison st ,chicago,il,60644,2010-02-11,complaint-fire,fail,41.88057115,-87.74795725
+60313,"adams mini market, inc.","adams mini market, inc.",1742153,grocery store,risk 2 (medium),146 s kildare ave ,chicago,il,60624,2010-02-17,complaint re-inspection,pass,41.87826547,-87.73309089
+60314,chicago steak & lemonade inc.,chicago steak & lemonade inc.,1595358,restaurant,risk 2 (medium),3944 w roosevelt rd ,chicago,il,60624,2010-02-17,canvass re-inspection,pass,41.86629066,-87.72456177
+60315,popeyes,popeyes,1543798,restaurant,risk 2 (medium),3457 w roosevelt rd ,chicago,il,60624,2010-02-17,complaint re-inspection,pass,41.86621302,-87.71278165
+60316,luigi cafe inc,luigi cafe inc,1620328,restaurant,risk 1 (high),4212 w madison st ,chicago,il,60624,2010-02-17,canvass re-inspection,pass,41.88076974,-87.7311561
+60317,gateway foundation residential,gateway foundation residential,70744,restaurant,risk 1 (high),3828 w taylor st ,chicago,il,60624,2010-02-17,canvass,pass,41.86908618,-87.72140544
+60318,westside youth tech entrepreneur,westside youth tech entreprenuer,1981131,school,risk 3 (low),4213 w madison st ,chicago,il,60624,2010-02-17,canvass re-inspection,pass,41.88055026,-87.73114968
+60319,"g.m.warehouse,inc.","g.m.warehouse,inc.",2004289,wholesale,risk 3 (low),3925 w 43rd st ,chicago,il,60632,2010-02-18,license re-inspection,pass,41.81510592,-87.72241743
+60320,subway,subway,1840841,restaurant,risk 1 (high),3207 w 47th pl ,chicago,il,60632,2010-02-18,canvass re-inspection,pass w/ conditions,41.80670863,-87.70424678
+60321,"kids imaginations, inc.","kids imaginations, inc.",1330715,children's services facility,risk 1 (high),5334 s archer ave ,chicago,il,60632,2010-02-19,license,fail,41.79904124,-87.74123049
+60322,wing wah lau restaurant,wing wah lau restaurant,2020867,restaurant,risk 1 (high),4340 s archer ave ,chicago,il,60632,2010-02-19,license,fail,41.81455427,-87.7037213
+60323,"don beto grill, inc.","don beto grill, inc.",1959977,restaurant,risk 1 (high),2430 w 47th st ,chicago,il,60632,2010-02-19,canvass re-inspection,pass,41.8085319,-87.6855906
+60324,super carniceria el pollo,super carniceria el pollo,41768,grocery store,risk 1 (high),2458 w 47th st ,chicago,il,60632,2010-02-19,canvass,pass w/ conditions,41.80851351,-87.68655702
+60325,academy of global citizenship,academy of global citizenship,1980678,school,risk 1 (high),4647 w 47th st ,chicago,il,60632,2010-02-22,canvass,fail,41.80755107,-87.74009675
+60326,la cebollita restaurant,la cebollita restaurant,1145606,restaurant,risk 1 (high),4343 w 47th st ,chicago,il,60632,2010-02-22,complaint,fail,41.80764585,-87.73272528
+60327,mexican restaurant,mariscos luis,1305117,restaurant,risk 1 (high),4225 w 47th st ,chicago,il,60632,2010-02-22,complaint,pass,41.80768469,-87.72964243
+60328,"usa zabiha halal distributors, llc.","usa zabiha halal distributors, llc.",1893718,wholesale,risk 3 (low),401 n trumbull ave ,chicago,il,60624,2010-02-23,complaint re-inspection,pass,41.88841269,-87.71229514
+60329,dollar general  store # 12061,dollar general store #12061,2009491,grocery store,risk 3 (low),4046 w roosevelt rd ,chicago,il,60624,2010-02-23,license re-inspection,fail,41.86625493,-87.72704914
+60330,wiley's chicken & ribs,wiley's chicken & ribs,2009371,restaurant,risk 1 (high),3853 w madison st ,chicago,il,60624,2010-02-23,license,fail,41.88065243,-87.72289201
+60331,academy of global citizenship,academy of global citizenship,1980678,school,risk 1 (high),4647 w 47th st ,chicago,il,60632,2010-02-24,canvass re-inspection,pass,41.80755107,-87.74009675
+60332,st. richard school,st. richard school,2040659,school,risk 1 (high),5025 s kenneth ave ,chicago,il,60632,2010-02-24,canvass,pass,41.80148217,-87.73427404
+60333,bobak sausage company,bobak sausage company,23290,grocery store,risk 1 (high),5275 s archer ave ,chicago,il,60632,2010-02-24,canvass,pass w/ conditions,41.79928776,-87.73837902
+60334,subway,subway,1742947,restaurant,risk 1 (high),3900 w madison st ,chicago,il,60624,2010-02-26,canvass,pass w/ conditions,41.88086516,-87.72337597
+60335,the renaissance at midway,the renaissance at midway,1144625,long term care,risk 1 (high),4437 s cicero ave ,chicago,il,60632,2010-02-26,canvass,fail,41.8119896,-87.74312825
+60336,"kids imaginations, inc.","kids imaginations, inc.",1330715,children's services facility,risk 1 (high),5334 s archer ave ,chicago,il,60632,2010-02-26,license re-inspection,pass,41.79904124,-87.74123049
+60338,the great american cheese,the great american cheese,1979680,wholesale,risk 2 (medium),4727 s talman ave ,chicago,il,60632,2010-03-03,license re-inspection,pass,41.80754038,-87.69036785
+60339,dollar general  store # 12061,dollar general store #12061,2009491,grocery store,risk 3 (low),4046 w roosevelt rd ,chicago,il,60624,2010-03-04,license re-inspection,pass,41.86625493,-87.72704914
+60340,family dollar  #5877,family dollar  #5877,1382862,empty,risk 3 (low),4042 w roosevelt rd ,chicago,il,60624,2010-03-04,canvass,pass,41.86625738,-87.72687882
+60341,ymca garfiled family development center,ymca garfiled family development center,1168130,children's services facility,risk 1 (high),7 n homan blvd ,chicago,il,60624,2010-03-04,canvass,pass,41.88116608,-87.7108666
+60342,the original maxwell street,the original maxwell street,1143094,restaurant,risk 2 (medium),3801 w harrison st ,chicago,il,60624,2010-03-04,complaint,pass,41.87340465,-87.72039963
+60343,eddy's grille house inc.,eddy's grille house inc.,1903785,restaurant,risk 2 (medium),3825 w roosevelt rd ,chicago,il,60624,2010-03-04,complaint,pass,41.86611757,-87.72107503
+60344,the renaissance at midway,the renaissance at midway,1144625,long term care,risk 1 (high),4437 s cicero ave ,chicago,il,60632,2010-03-05,canvass re-inspection,pass,41.8119896,-87.74312825
+60345,la cebollita restaurant,la cebollita restaurant,1145606,restaurant,risk 1 (high),4343 w 47th st ,chicago,il,60632,2010-03-05,complaint re-inspection,pass,41.80764585,-87.73272528
+60346,wing wah lau restaurant,wing wah lau restaurant,2020867,restaurant,risk 1 (high),4340 s archer ave ,chicago,il,60632,2010-03-05,license re-inspection,pass,41.81455427,-87.7037213
+60347,wing wah lau,wing wah lau,1042730,empty,risk 1 (high),4340 s archer ave ,chicago,il,60632,2010-03-05,out of business,pass,41.81455427,-87.7037213
+60348,birrieria jalisco,birrieria jalisco,1772607,restaurant,risk 1 (high),2462 w 47th st ,chicago,il,60632,2010-03-05,canvass,pass,41.80851121,-87.68669535
+60349,super carniceria el pollo,super carniceria el pollo,41768,grocery store,risk 1 (high),2458 w 47th st ,chicago,il,60632,2010-03-05,tag removal,pass,41.80851351,-87.68655702
+60350,providence st. mel school,providence st. mel school,2040661,school,risk 2 (medium),119 s central park ave ,chicago,il,60624,2010-03-08,canvass,pass,41.87890206,-87.71568319
+60351,subway,subway,1953837,restaurant,risk 1 (high),304 n pulaski rd ,chicago,il,60624,2010-03-08,canvass,pass w/ conditions,41.88553355,-87.72595291
+60352,reme food inc.,reme food inc.,2021675,grocery store,risk 2 (medium),220 n homan ave ,chicago,il,60624,2010-03-08,license,fail,41.88529263,-87.71128591
+60353,madison  street burgers,abe's super dog,2021516,restaurant,risk 2 (medium),3407 1/2 w madison st ,chicago,il,60624,2010-03-08,license,fail,41.88080462,-87.7113755
+60354,carnitas don rafa inc,carnitas don rafa,57160,restaurant,risk 1 (high),4619 s kedzie ave ,chicago,il,60632,2010-03-09,canvass,pass w/ conditions,41.8093419,-87.70387672
+60355,carnitas don rafa inc,carnitas don rafa,1991086,restaurant,risk 1 (high),4619 s kedzie ave ,chicago,il,60632,2010-03-09,task force liquor (1481),pass,41.8093419,-87.70387672
+60356,cermak produce,cermak produce,1515206,grocery store,risk 1 (high),5220 s pulaski rd ,chicago,il,60632,2010-03-11,complaint,pass,41.79799187,-87.72344374
+60357,cocula restaurant,cocula restaurant,75052,restaurant,risk 1 (high),5241 s pulaski rd ,chicago,il,60632,2010-03-11,canvass,pass,41.79748341,-87.72313507
+60358,chop suey express,chop suey express,33687,restaurant,risk 1 (high),5160 s pulaski rd ,chicago,il,60632,2010-03-11,canvass,pass,41.79875026,-87.72346641
+60359,madison  street burgers,abe's super dog,2021516,restaurant,risk 2 (medium),3407 1/2 w madison st ,chicago,il,60624,2010-03-12,license re-inspection,fail,41.88080462,-87.7113755
+60360,saint agatha catholic academy,presentation campus,2040665,school,risk 1 (high),3900 w lexington st ,chicago,il,60624,2010-03-12,canvass,pass,41.87176641,-87.72304219
+60361,homan square cafe,homan square cafe,81024,restaurant,risk 1 (high),3333 w arthington st ,chicago,il,60624,2010-03-12,canvass,pass,41.86990722,-87.70954806
+60362,eurest dining services @ safer foundation,eurest dining services @ safer foundation,21596,restaurant,risk 1 (high),3210 w arthington st ,chicago,il,60624,2010-03-12,canvass,pass,41.87016706,-87.70628937
+60363,4700 pete's fresh market,pete's fresh market,1243125,grocery store,risk 1 (high),4700 s kedzie ave ,chicago,il,60632,2010-03-15,complaint,pass,41.80804727,-87.70411882
+60364,chinatown buffet,chinatown buffet,1841897,restaurant,risk 1 (high),5030-5050 s kedzie ave ,chicago,il,60632,2010-03-15,canvass,fail,41.80167003,-87.70393836
+60365,john marshall high school,john marshall high school,47041,school,risk 1 (high),3250 w adams  (200s) ,chicago,il,60624,2010-03-16,canvass,fail,41.87847194,-87.70801612
+60366,"abe's super dog, inc.","abe's super dog, inc.",1841549,empty,risk 2 (medium),3407 1/2 w madison st ,chicago,il,60624,2010-03-16,canvass,pass,41.88080462,-87.7113755
+60367,madison  street burgers,abe's super dog,2021516,restaurant,risk 2 (medium),3407 1/2 w madison st ,chicago,il,60624,2010-03-16,license re-inspection,pass,41.88080462,-87.7113755
+60368,john milton gregory,gregory elementary,23441,school,risk 1 (high),3715 w polk    (800s) ,chicago,il,60624,2010-03-17,canvass,pass,41.87071468,-87.71867323
+60369,uncle remus,uncle remus,1305369,restaurant,risk 1 (high),4144 w madison st ,chicago,il,60624,2010-03-17,short form complaint,pass,41.88078471,-87.72986386
+60370,reme food inc.,reme food inc.,2021675,grocery store,risk 2 (medium),220 n homan ave ,chicago,il,60624,2010-03-17,license,fail,41.88529263,-87.71128591
+60371,city submarine inc.,city submarine inc.,1845223,restaurant,risk 1 (high),3849 w madison st ,chicago,il,60624,2010-03-17,canvass,pass,41.88065415,-87.72273803
+60372,taqueria el tenampa,hacienda  del sol,2014003,restaurant,risk 1 (high),5315-17 s pulaski rd ,chicago,il,60632,2010-03-18,license-task force,fail,41.79636966,-87.72310369
+60373,taqueria el tenampa,hacienda  del sol,2014004,restaurant,risk 3 (low),5315-17 s pulaski rd ,chicago,il,60632,2010-03-18,task force liquor 1475,fail,41.79636966,-87.72310369
+60374,chuck 'e' cheese's,chuck 'e' cheese's,41897,restaurant,risk 1 (high),5030 s kedzie ave ,chicago,il,60632,2010-03-18,canvass,pass,41.80167003,-87.70393836
+60375,chinatown buffet,chinatown buffet,1841897,restaurant,risk 1 (high),5030-5050 s kedzie ave ,chicago,il,60632,2010-03-18,tag removal,pass,41.80167003,-87.70393836
+60376,pope john paul catholic,pope john paul catholic,2040668,school,risk 1 (high),4325 s richmond st ,chicago,il,60632,2010-03-19,canvass,fail,41.81472363,-87.69794253
+60377,leon's bar-b-que-#4,leon's bar-b-que-#4,43932,restaurant,risk 1 (high),4550 s archer ave ,chicago,il,60632,2010-03-19,canvass,pass,41.81036869,-87.71053551
+60378,mariscos bahia,"elias tacos, incorporated",1488236,restaurant,risk 1 (high),4465 s archer ave ,chicago,il,60632,2010-03-19,canvass,fail,41.81205449,-87.70733017
+60379,chinatown buffet,chinatown buffet,1841897,restaurant,risk 1 (high),5030-5050 s kedzie ave ,chicago,il,60632,2010-03-23,canvass re-inspection,pass,41.80167003,-87.70393836
+60380,alicia's  tamales,alicia's tamales,1980326,restaurant,risk 1 (high),2753 w 55th st ,chicago,il,60632,2010-03-23,canvass,pass w/ conditions,41.79358651,-87.69348088
+60381,john marshall high school,john marshall high school,47041,school,risk 1 (high),3250 w adams  (200s) ,chicago,il,60624,2010-03-24,canvass re-inspection,pass,41.87847194,-87.70801612
+60382,ymca marshall family dev cent,ymca marshall family dev cent,15733,children's services facility,risk 1 (high),3250 w adams st ,chicago,il,60624,2010-03-24,canvass,fail,41.87847194,-87.70801612
+60383,reme food inc.,reme food inc.,2021675,grocery store,risk 2 (medium),220 n homan ave ,chicago,il,60624,2010-03-24,license re-inspection,pass,41.88529263,-87.71128591
+60384,mcdonald's,mcdonald's,33706,restaurant,risk 2 (medium),3200 w roosevelt rd ,chicago,il,60624,2010-03-24,complaint,fail,41.86651389,-87.7057336
+60385,la central bakery,panderia la central bakery,2026360,bakery,risk 2 (medium),4124 w 47th st ,chicago,il,60632,2010-03-25,license,fail,41.80793632,-87.72719706
+60386,dunajec inc,dunajec,55891,grocery store,risk 1 (high),5060 s archer ave ,chicago,il,60632,2010-03-25,canvass,fail,41.80126689,-87.72691925
+60387,los delfines #2,los delfines #2,1547805,restaurant,risk 1 (high),5207-5209 s archer ave ,chicago,il,60632,2010-03-25,canvass,pass w/ conditions,41.79984493,-87.73474014
+60388,pope john paul catholic,pope john paul catholic,2040668,school,risk 1 (high),4325 s richmond st ,chicago,il,60632,2010-03-26,canvass re-inspection,pass,41.81472363,-87.69794253
+60389,dunajec inc,dunajec,55891,grocery store,risk 1 (high),5060 s archer ave ,chicago,il,60632,2010-03-26,tag removal,pass,41.80126689,-87.72691925
+60390,mariscos bahia,"elias tacos, incorporated",1488236,restaurant,risk 1 (high),4465 s archer ave ,chicago,il,60632,2010-03-26,canvass re-inspection,pass,41.81205449,-87.70733017
+60391,all style buffet,all style buffet,1959502,restaurant,risk 1 (high),4305 s pulaski rd ,chicago,il,60632,2010-03-26,suspected food poisoning,pass w/ conditions,41.8149936,-87.7237077
+60392,fifth city child development,fifth city child development,25796,daycare (2 - 6 years),risk 1 (high),3411 w fifth ave ,chicago,il,60624,2010-03-29,canvass,fail,41.87679531,-87.71128878
+60393,"porky's sports bar & grill , inc.","porky's sports bar & grill,inc.",1999191,restaurant,risk 1 (high),4556 w roosevelt rd ,chicago,il,60624,2010-03-29,canvass,fail,41.86607194,-87.73976973
+60394,la central bakery,panderia la central bakery,2026360,bakery,risk 2 (medium),4124 w 47th st ,chicago,il,60632,2010-03-30,license re-inspection,pass,41.80793632,-87.72719706
+60395,dunkin donuts,dunkin donuts,75929,restaurant,risk 2 (medium),4701 s kedzie ave ,chicago,il,60632,2010-03-30,canvass,fail,41.80805427,-87.70382554
+60396,nicky's hot dogs,nicky's hot dogs,3903,restaurant,risk 2 (medium),3140 w 47th st ,chicago,il,60632,2010-03-30,complaint,pass,41.80824449,-87.70316886
+60397,walgreens #05867,walgreens #05867,2004330,grocery store,risk 3 (low),3943 w 47th st ,chicago,il,60632,2010-04-01,license-task force,pass,41.80777906,-87.72284695
+60398,walgreens # 05867,walgreens # 05867,1222575,grocery store,risk 3 (low),3943 w 47th st ,chicago,il,60632,2010-04-01,canvass,pass,41.80777906,-87.72284695
+60399,little caesar pizza #1651,little caesar's pizza,2223,restaurant,risk 2 (medium),3225 w 47th pl ,chicago,il,60632,2010-04-01,short form complaint,pass,41.8066985,-87.70490021
+60400,seven star chinese cuisine,seven star chinese cuisine,1914170,restaurant,risk 1 (high),3209 w 47th pl ,chicago,il,60632,2010-04-01,canvass,pass,41.80670751,-87.70431938
+60401,ymca marshall family dev cent,ymca marshall family dev cent,15733,children's services facility,risk 1 (high),3250 w adams st ,chicago,il,60624,2010-04-02,canvass re-inspection,pass,41.87847194,-87.70801612
+60402,mcdonald's,mcdonald's,33706,restaurant,risk 2 (medium),3200 w roosevelt rd ,chicago,il,60624,2010-04-02,complaint re-inspection,pass w/ conditions,41.86651389,-87.7057336
+60403,barney's pizza,barney's pizza,1742764,restaurant,risk 1 (high),5648 w chicago ave ,chicago,il,60651,2010-04-02,short form complaint,pass,41.89493601,-87.76732423
+60404,dunajec inc,dunajec,55891,grocery store,risk 1 (high),5060 s archer ave ,chicago,il,60632,2010-04-02,canvass re-inspection,fail,41.80126689,-87.72691925
+60405,casa central la posada,casa central la posada,0,restaurant,risk 1 (high), ,empty,il,empty,2010-04-05,canvass,pass,empty,empty
+60406,fifth city child development,fifth city child development,25796,daycare (2 - 6 years),risk 1 (high),3411 w fifth ave ,chicago,il,60624,2010-04-05,canvass re-inspection,pass,41.87679531,-87.71128878
+60407,"porky's sports bar & grill , inc.","porky's sports bar & grill,inc.",1999191,restaurant,risk 1 (high),4556 w roosevelt rd ,chicago,il,60624,2010-04-05,canvass re-inspection,pass,41.86607194,-87.73976973
+60408,isla's marias,isla's marias,2027204,restaurant,risk 1 (high),4781 s archer ave ,chicago,il,60632,2010-04-05,license,fail,41.80666846,-87.71612755
+60409,taste bud banquet hall & restaurant,taste bud banquet hall & restaurant,2003571,restaurant,risk 1 (high),4422 w madison st ,chicago,il,60624,2010-04-06,license-task force,fail,41.88070919,-87.73643718
+60410,taste bud banquet hall & restaurant,taste bud banquet hall & restaurant,2017646,liquor,risk 3 (low),4422 w madison st ,chicago,il,60624,2010-04-06,task force liquor 1475,fail,41.88070919,-87.73643718
+60411,la  baby  restaurant,empty,2003937,restaurant,risk 1 (high),283 n pulaski rd ,chicago,il,60624,2010-04-06,canvass,pass,41.88536969,-87.72565624
+60412,food empire,food empire,1921059,grocery store,risk 2 (medium),3952 w monroe st ,chicago,il,60624,2010-04-06,canvass,pass w/ conditions,41.87987491,-87.72529036
+60413,dunkin donuts,dunkin donuts,75929,restaurant,risk 2 (medium),4701 s kedzie ave ,chicago,il,60632,2010-04-07,canvass re-inspection,pass,41.80805427,-87.70382554
+60414,dunajec inc,dunajec,55891,grocery store,risk 1 (high),5060 s archer ave ,chicago,il,60632,2010-04-07,canvass re-inspection,pass,41.80126689,-87.72691925
+60415,rain food,rain food,1905222,grocery store,risk 2 (medium),137 s pulaski rd ,chicago,il,60624,2010-04-08,canvass,fail,41.87869417,-87.72545343
+60416,family time eatery & snack shop,family time eatery & snack shop,2021451,grocery store,risk 3 (low),212 s pulaski rd ,chicago,il,60624,2010-04-08,complaint,fail,41.87753057,-87.72570859
+60417,amer food mart,amer food mart,1335747,grocery store,risk 2 (medium),3458 w lake st ,chicago,il,60624,2010-04-08,canvass,fail,41.88487987,-87.71342725
+60418,"webster, hansberry",daniel webster elementary/lorraine hansberry cpc,25791,school,risk 1 (high),4055 w arthington  (900s) ,chicago,il,60624,2010-04-12,canvass,fail,41.86988904,-87.72748159
+60419,roosevelt food & dollar,roosevelt food & dollar,1355985,grocery store,risk 2 (medium),3902 w roosevelt rd ,chicago,il,60624,2010-04-12,canvass,pass,41.86631367,-87.72287642
+60420,el tarasco,el tarasco,2008409,restaurant,risk 1 (high),4358 w 51st st ,chicago,il,60632,2010-04-13,license-task force,fail,41.80057495,-87.73317635
+60421,el tarasco,el tarasco,2008410,liquor,risk 1 (high),4358 w 51 st st ,chicago,il,60632,2010-04-13,task force liquor 1475,fail,41.80057495,-87.73317635
+60422,goldblatt,nathan r.goldblatt elementary,26561,school,risk 1 (high),4257 w adams  (200s) ,chicago,il,60624,2010-04-14,canvass,fail,41.87778081,-87.73273021
+60423,chicago born losers motorcycle club,chicago born losers motorcycle club,1675323,restaurant,risk 2 (medium),4420 w madison st ,chicago,il,60624,2010-04-14,canvass,fail,41.88070991,-87.73636108
+60424,vera's,vera's,2027307,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-04-14,license,fail,41.88049855,-87.73567206
+60425,taste bud banquet hall & restaurant,taste bud banquet hall & restaurant,2003571,restaurant,risk 1 (high),4422 w madison st ,chicago,il,60624,2010-04-14,license re-inspection,pass,41.88070919,-87.73643718
+60426,taste bud banquet hall & restaurant,taste bud banquet hall & restaurant,2017646,liquor,risk 3 (low),4422 w madison st ,chicago,il,60624,2010-04-14,license re-inspection,pass,41.88070919,-87.73643718
+60427,amer food mart,amer food mart,1335747,grocery store,risk 2 (medium),3458 w lake st ,chicago,il,60624,2010-04-15,canvass re-inspection,pass,41.88487987,-87.71342725
+60428,rain food,rain food,1905222,grocery store,risk 2 (medium),137 s pulaski rd ,chicago,il,60624,2010-04-15,canvass re-inspection,pass,41.87869417,-87.72545343
+60429,family time eatery & snack shop,family time eatery & snack shop,2021451,grocery store,risk 3 (low),212 s pulaski rd ,chicago,il,60624,2010-04-15,consultation,fail,41.87753057,-87.72570859
+60430,the roseland market,the roseland market,1382093,grocery store,risk 2 (medium),3407 w madison st ,chicago,il,60624,2010-04-15,canvass,fail,41.88080462,-87.7113755
+60431,el rey del taco & burritos,el rey del taco & burritos,1893928,restaurant,risk 1 (high),4157 s california ave ,chicago,il,60632,2010-04-15,canvass,pass,41.81751836,-87.69434315
+60432,subway,subway,1948417,restaurant,risk 1 (high),2756 w 55th st ,chicago,il,60632,2010-04-15,canvass,pass,41.79380306,-87.69365621
+60433,columbia explorers,columbia explorers,20071,school,risk 1 (high),4520 s kedzie ave ,chicago,il,60632,2010-04-19,canvass,pass,41.81105689,-87.70423481
+60434,el  taconzazo,el taconzazo,1981216,restaurant,risk 1 (high),5145 s pulaski rd ,chicago,il,60632,2010-04-19,canvass,fail,41.79916646,-87.72318613
+60435,china ho restaurant,china ho restaurant,2004404,restaurant,risk 1 (high),5151 s pulaski rd ,chicago,il,60632,2010-04-19,canvass,pass,41.79901235,-87.72318127
+60436,subway,subway,1356009,restaurant,risk 1 (high),5131 s pulaski rd ,chicago,il,60632,2010-04-19,canvass,fail,41.79952555,-87.72319591
+60437,vera's,vera's,2027307,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-04-20,license,fail,41.88049855,-87.73567206
+60438,mookie's food mart co.,mookie's food mart co.,1799437,grocery store,risk 2 (medium),24 s kostner ave ,chicago,il,60624,2010-04-20,canvass,fail,41.87976262,-87.73559412
+60439,"webster, hansberry",daniel webster elementary/lorraine hansberry cpc,25791,school,risk 1 (high),4055 w arthington  (900s) ,chicago,il,60624,2010-04-21,canvass re-inspection,pass,41.86988904,-87.72748159
+60440,goldblatt,nathan r.goldblatt elementary,26561,school,risk 1 (high),4257 w adams  (200s) ,chicago,il,60624,2010-04-21,canvass re-inspection,pass,41.87778081,-87.73273021
+60441,family time eatery & snack shop,family time eatery & snack shop,2021451,grocery store,risk 3 (low),212 s pulaski rd ,chicago,il,60624,2010-04-22,complaint re-inspection,pass,41.87753057,-87.72570859
+60442,family time eatery & snack shop,family time eatery & snack shop,2031368,restaurant,risk 2 (medium),212 s pulaski rd ,chicago,il,60624,2010-04-22,license,pass,41.87753057,-87.72570859
+60443,vera's,vera's,2027307,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-04-22,license re-inspection,fail,41.88049855,-87.73567206
+60444,chicago born losers motorcycle club,chicago born losers motorcycle club,1675323,restaurant,risk 2 (medium),4420 w madison st ,chicago,il,60624,2010-04-22,canvass re-inspection,pass,41.88070991,-87.73636108
+60445,the roseland market,the roseland market,1382093,grocery store,risk 2 (medium),3407 w madison st ,chicago,il,60624,2010-04-22,canvass re-inspection,pass,41.88080462,-87.7113755
+60446,african supermarket & liquor,african supermarket & liquor,28149,grocery store,risk 2 (medium),4156-4158 w madison st ,chicago,il,60624,2010-04-22,canvass,pass w/ conditions,41.88077997,-87.73030601
+60447,vera's,vera's,2027307,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-04-23,license re-inspection,pass,41.88049855,-87.73567206
+60448,new madison sub,new madison sub,1516937,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-04-23,out of business,pass,41.88049855,-87.73567206
+60449,el tarasco,el tarasco,2008409,restaurant,risk 1 (high),4358 w 51st st ,chicago,il,60632,2010-04-23,license re-inspection,fail,41.80057495,-87.73317635
+60450,el tarasco,el tarasco,2008410,liquor,risk 1 (high),4358 w 51 st st ,chicago,il,60632,2010-04-23,license re-inspection,fail,41.80057495,-87.73317635
+60451,taqueria el tenampa,hacienda  del sol,2014003,restaurant,risk 1 (high),5315-17 s pulaski rd ,chicago,il,60632,2010-04-23,license,fail,41.79636966,-87.72310369
+60452,taqueria el tenampa,hacienda  del sol,2014004,restaurant,risk 3 (low),5315-17 s pulaski rd ,chicago,il,60632,2010-04-23,task force liquor 1475,fail,41.79636966,-87.72310369
+60453,la esquina del sabor,southern style grill,2031633,restaurant,risk 1 (high),3143 w 51 st st ,chicago,il,60632,2010-04-27,license,fail,41.8007213,-87.70307308
+60454,club nutricional,club nutricional,2028012,restaurant,risk 2 (medium),5115 s kedzie ave ,chicago,il,60632,2010-04-27,license,fail,41.80033459,-87.70360601
+60455,restaurante y taqueria los pay asos,restaurante y taqueria los pay asos,2026332,restaurant,risk 1 (high),2820 w 55th st ,chicago,il,60632,2010-04-27,license,fail,41.79378362,-87.69477733
+60456,edwards (main),edwards,23081,school,risk 1 (high),4815 s karlov ,chicago,il,60632,2010-04-28,canvass,pass,41.80552325,-87.72581893
+60457,edwards (annex),edwards (annex),2040683,school,risk 1 (high),4815 s karlov ,chicago,il,60632,2010-04-28,canvass,pass,41.80552325,-87.72581893
+60458,el tarasco,el tarasco,2008409,restaurant,risk 1 (high),4358 w 51st st ,chicago,il,60632,2010-04-28,license re-inspection,pass,41.80057495,-87.73317635
+60459,el tarasco,el tarasco,2008410,liquor,risk 1 (high),4358 w 51 st st ,chicago,il,60632,2010-04-28,license re-inspection,pass,41.80057495,-87.73317635
+60460,el tarasco,el tarasco,1649985,restaurant,risk 1 (high),4358 w 51st st ,chicago,il,60632,2010-04-28,canvass,fail,41.80057495,-87.73317635
+60461,el tarasco,el tarasco,1649991,restaurant,risk 1 (high),4358 w 51st st ,chicago,il,60632,2010-04-28,canvass,fail,41.80057495,-87.73317635
+60462,el  taconzazo,el taconzazo,1981216,restaurant,risk 1 (high),5145 s pulaski rd ,chicago,il,60632,2010-04-28,canvass re-inspection,pass,41.79916646,-87.72318613
+60463,subway,subway,1356009,restaurant,risk 1 (high),5131 s pulaski rd ,chicago,il,60632,2010-04-28,canvass re-inspection,pass w/ conditions,41.79952555,-87.72319591
+60464,mookie's food mart co.,mookie's food mart co.,1799437,grocery store,risk 2 (medium),24 s kostner ave ,chicago,il,60624,2010-04-29,canvass re-inspection,pass,41.87976262,-87.73559412
+60465,"yousef grocery,inc.","yousef grocery,inc.",2004565,grocery store,risk 2 (medium),616 s pulaski rd ,chicago,il,60624,2010-04-29,complaint,pass,41.87301727,-87.72555237
+60466,dunkin donuts,dunkin donuts,1909356,restaurant,risk 2 (medium),4649 s cicero ave ,chicago,il,60632,2010-04-29,complaint,fail,41.80799862,-87.74301216
+60467,club nutricional,club nutricional,2028012,restaurant,risk 2 (medium),5115 s kedzie ave ,chicago,il,60632,2010-04-29,license re-inspection,pass,41.80033459,-87.70360601
+60468,"yayos rest.,inc.",don beto's grill,2027366,restaurant,risk 1 (high),2430 w 47th st ,chicago,il,60632,2010-04-29,license,pass,41.8085319,-87.6855906
+60469,"don beto grill, inc.","don beto grill, inc.",1959977,restaurant,risk 1 (high),2430 w 47th st ,chicago,il,60632,2010-04-29,canvass,fail,41.8085319,-87.6855906
+60470,christopher school,christopher school,30031,school,risk 1 (high),5042 s artesian ave ,chicago,il,60632,2010-05-03,canvass,pass,41.8016744,-87.68564411
+60471,mckinley park elem,mckinley park elem,26821,school,risk 1 (high),2744 w pershing rd.  (3900s) ,chicago,il,60632,2010-05-03,canvass,pass,41.82291183,-87.69397186
+60472,burger king # 3386,burger king # 3386,1543349,restaurant,risk 2 (medium),5211 s cicero ave ,chicago,il,60632,2010-05-03,complaint,pass,41.79828531,-87.74276777
+60473,la esquina del sabor,southern style grill,2031633,restaurant,risk 1 (high),3143 w 51 st st ,chicago,il,60632,2010-05-03,license re-inspection,pass,41.8007213,-87.70307308
+60474,southern grill,southern grill,1986298,restaurant,risk 1 (high),3143 w 51st st bldg ,chicago,il,60632,2010-05-03,canvass,fail,41.8007213,-87.70307308
+60475,red lobster restaurant #277,red lobster restaurant #277,31571,restaurant,risk 1 (high),5201 s pulaski rd ,chicago,il,60632,2010-05-04,complaint,pass,41.79850995,-87.72316542
+60476,jackys hot dogs,jackys hot dogs,3775,restaurant,risk 1 (high),5415 s pulaski rd ,chicago,il,60632,2010-05-04,canvass,pass,41.79456097,-87.72305196
+60477,genevieve melody elementary,melody elementary,26351,school,risk 1 (high),412 s keeler  (4200w) ,chicago,il,60624,2010-05-05,canvass,pass w/ conditions,41.87474954,-87.73051772
+60478,tony's sub,tony's sub,1927010,restaurant,risk 2 (medium),3959 w harrison st ,chicago,il,60624,2010-05-05,canvass,pass,41.87333369,-87.725329
+60479,mary's snack shop,mary's snack shop,29766,restaurant,risk 1 (high),606 s pulaski rd ,chicago,il,60624,2010-05-05,canvass,pass w/ conditions,41.87326901,-87.725555
+60480,shields annex,shields annex,25361,school,risk 1 (high),4231 s talman ave ,chicago,il,60632,2010-05-06,canvass,fail,41.81648727,-87.69063241
+60481,shields elementary main,shields elementary main,2040685,school,risk 1 (high),4250 s rockwell ave ,chicago,il,60632,2010-05-06,canvass,fail,41.81593528,-87.68968453
+60482,dunkin donuts,dunkin donuts,1909356,restaurant,risk 2 (medium),4649 s cicero ave ,chicago,il,60632,2010-05-06,complaint re-inspection,pass,41.80799862,-87.74301216
+60483,subway,subway,1516132,restaurant,risk 1 (high),4735 s cicero ave ,chicago,il,60632,2010-05-06,canvass,pass,41.80657206,-87.74297702
+60484,martin  ryerson elementary,martin  ryerson elementary,25201,school,risk 1 (high),646 n lawndale (3700w) ,chicago,il,60624,2010-05-07,canvass,pass,41.89321142,-87.71883334
+60485,one stop,nijar food & liquor,2032029,grocery store,risk 3 (low),4401 w madison st ,chicago,il,60624,2010-05-07,license,fail,41.88049945,-87.73559596
+60486,nathan davis elementary,nathan davis elementary,22891,school,risk 1 (high),3014 w 39th st ,chicago,il,60632,2010-05-10,canvass,pass,41.82278588,-87.7002007
+60487,davis elementary (annex),davis elementary (annex),2040687,school,risk 1 (high),3050 w 39th pl ,chicago,il,60632,2010-05-10,canvass,pass,41.82185442,-87.70160957
+60488,davis n. branch,davis n. branch,70220,school,risk 1 (high),2940 w 40th place (4032s) ,chicago,il,60632,2010-05-10,canvass,pass,41.82011084,-87.69871545
+60489,el salvador restaurant,el salvador restaurant,2032271,restaurant,risk 1 (high),4125 s archer ave ,chicago,il,60632,2010-05-10,license,fail,41.81846434,-87.69688004
+60490,restaurante y taqueria los pay asos,restaurante y taqueria los pay asos,2026332,restaurant,risk 1 (high),2820 w 55th st ,chicago,il,60632,2010-05-11,license re-inspection,pass,41.79378362,-87.69477733
+60491,los taquitos grill,los taquitos grill,1986896,restaurant,risk 1 (high),2811 w 55th st ,chicago,il,60632,2010-05-11,canvass,pass w/ conditions,41.79357208,-87.69431304
+60492,crazy pizza,crazy pizza,1991656,restaurant,risk 1 (high),2809 w 55th st ,chicago,il,60632,2010-05-11,canvass,pass,41.79357367,-87.69422154
+60493,george tilton,tilton elementary,25621,school,risk 1 (high),223 n keeler  (4200w) ,chicago,il,60624,2010-05-12,canvass,pass,41.88409703,-87.73052949
+60494,mcdonald's,mcdonald's,33706,restaurant,risk 2 (medium),3200 w roosevelt rd ,chicago,il,60624,2010-05-12,short form complaint,pass,41.86651389,-87.7057336
+60495,murry's fish & chicken,murry's fish & chicken,1969134,restaurant,risk 2 (medium),3357 w harrison st ,chicago,il,60624,2010-05-12,canvass,pass,41.87352017,-87.71063937
+60496,duwell fish inc. #2,duwell fish inc. #2,1914029,grocery store,risk 2 (medium),617 s pulaski rd ,chicago,il,60624,2010-05-12,canvass,pass,41.87297338,-87.72525817
+60497,shields annex,shields annex,25361,school,risk 1 (high),4231 s talman ave ,chicago,il,60632,2010-05-13,canvass re-inspection,pass,41.81648727,-87.69063241
+60498,shields elementary main,shields elementary main,2040685,school,risk 1 (high),4250 s rockwell ave ,chicago,il,60632,2010-05-13,canvass re-inspection,pass,41.81593528,-87.68968453
+60499,super avenida fruteria,empty,45237,grocery store,risk 1 (high),2557 w pope john paul ii dr ,chicago,il,60632,2010-05-13,canvass,fail,41.81551345,-87.68938071
+60500,la haciendita taqueria inc,la haciendita taqueria,1479601,restaurant,risk 1 (high),3322 w 47th st ,chicago,il,60632,2010-05-13,canvass,fail,41.80818631,-87.70743369
+60501,michael faraday elementary,michael faraday elementary,24371,school,risk 1 (high),3250 w monroe st (100s) ,chicago,il,60624,2010-05-14,canvass,pass,41.87974117,-87.70808199
+60502,wiley's chicken & ribs,wiley's chicken & ribs,2009371,restaurant,risk 1 (high),3853 w madison st ,chicago,il,60624,2010-05-14,license re-inspection,pass,41.88065243,-87.72289201
+60503,shields branch,shields branch,25362,school,risk 1 (high),4420 s fairfield ave ,chicago,il,60632,2010-05-17,canvass,pass,41.81309752,-87.69327474
+60504,talman,talman,26781,school,risk 1 (high),5450 s talman ave ,chicago,il,60632,2010-05-17,canvass,pass,41.79407382,-87.6902983
+60505,computer and network solutions,cafe internet,2033165,restaurant,risk 2 (medium),5311 s kedzie ave ,chicago,il,60632,2010-05-17,license,fail,41.79678066,-87.70350236
+60506,gateway newstands,gateway newstands,2017200,grocery store,risk 3 (low),5106 s pulaski rd ,chicago,il,60632,2010-05-18,license re-inspection,pass,41.80013706,-87.72350873
+60507,pulaski,pulaski,1478221,empty,risk 3 (low),5106 s pulaski rd ,chicago,il,60632,2010-05-18,canvass,pass,41.80013706,-87.72350873
+60508,"a & b tobacco, inc","a & b tobacco, inc",26716,empty,risk 3 (low),5106 s pulaski rd ,chicago,il,60632,2010-05-18,canvass,pass,41.80013706,-87.72350873
+60509,el cangrejo,el cangrejo,1986451,restaurant,risk 1 (high),5087 s archer ave ,chicago,il,60632,2010-05-18,canvass,pass,41.8008335,-87.72829049
+60511,john c. burroughs elementary,john c. burroughs elementary,22481,school,risk 1 (high),3542 s washtenaw ,chicago,il,60632,2010-05-19,canvass,pass,41.8288631,-87.69249318
+60512,brighton park,brighton park,26451,school,risk 1 (high),3825 s washtenaw ave ,chicago,il,60632,2010-05-19,canvass,pass,41.82391375,-87.69204069
+60513,el salvador restaurant,el salvador restaurant,2032271,restaurant,risk 1 (high),4125 s archer ave ,chicago,il,60632,2010-05-19,license re-inspection,pass,41.81846434,-87.69688004
+60514,el salvador restaurant,el salvador restaurant,65197,restaurant,risk 1 (high),4125 s archer ave ,chicago,il,60632,2010-05-19,canvass,pass,41.81846434,-87.69688004
+60515,taqueria el tenampa,hacienda  del sol,2014003,restaurant,risk 1 (high),5315-17 s pulaski rd ,chicago,il,60632,2010-05-19,license re-inspection,pass,41.79636966,-87.72310369
+60516,taqueria el tenampa,hacienda  del sol,2014004,restaurant,risk 3 (low),5315-17 s pulaski rd ,chicago,il,60632,2010-05-19,license re-inspection,pass,41.79636966,-87.72310369
+60517,chicago talent development charter,chicago talent development charter,66031,school,risk 1 (high),4319 w washington ,chicago,il,60624,2010-05-20,canvass,pass,41.8818379,-87.73387033
+60518,buffalo sam,buffalo sam,1927332,restaurant,risk 2 (medium),508 s kostner ave ,chicago,il,60624,2010-05-20,canvass,pass,41.87389732,-87.73537557
+60519,one stop,nijar food & liquor,2032029,grocery store,risk 3 (low),4401 w madison st ,chicago,il,60624,2010-05-20,license re-inspection,pass,41.88049945,-87.73559596
+60520,nijar food & liquor inc,nijar food & liquor inc,19565,empty,risk 3 (low),4401 w madison st ,chicago,il,60624,2010-05-20,canvass,pass,41.88049945,-87.73559596
+60521,"white castle system, inc.","white castle system, inc.",28489,restaurant,risk 2 (medium),3901 w madison st ,chicago,il,60624,2010-05-20,canvass,pass w/ conditions,41.88064565,-87.72337094
+60522,power house high,drw charter,2040690,school,risk 1 (high),931 s homan ave ,chicago,il,60624,2010-05-21,canvass,pass,41.86931497,-87.71048996
+60523,dave's 's red hot,dave's 's red hot,1515517,restaurant,risk 2 (medium),3422 w roosevelt rd ,chicago,il,60624,2010-05-21,canvass,pass,41.86644737,-87.71149959
+60524,"m. l. k.  food mart, inc.",m. l. k. food mart,2027911,grocery store,risk 2 (medium),4001 w adams st ,chicago,il,60624,2010-05-21,license,fail,41.87786891,-87.72569911
+60525,m & m chicken koop,m & m chicken koop,1933087,restaurant,risk 1 (high),3529 w fifth ave ,chicago,il,60624,2010-05-21,canvass,pass,41.87602591,-87.71405613
+60526,gunsaulus elementary,gunsaulus elementary,29121,school,risk 1 (high),4420 s sacramento ,chicago,il,60632,2010-05-24,canvass,pass,41.81299531,-87.69940042
+60527,sawyer  (annex),sawyer,25231,school,risk 1 (high),5247 s spaulding ,chicago,il,60632,2010-05-24,canvass,pass,41.79756784,-87.70597566
+60528,sawyer (main),sawyer,2040692,school,risk 3 (low),5248 s sawyer ave ,chicago,il,60632,2010-05-24,canvass,pass,41.79752155,-87.70504311
+60529,la haciendita taqueria inc,la haciendita taqueria,1479601,restaurant,risk 1 (high),3322 w 47th st ,chicago,il,60632,2010-05-24,canvass re-inspection,pass,41.80818631,-87.70743369
+60530,super avenida fruteria,empty,45237,grocery store,risk 1 (high),2557 w pope john paul ii dr ,chicago,il,60632,2010-05-25,canvass re-inspection,pass,41.81551345,-87.68938071
+60531,computer and network solutions,cafe internet,2033165,restaurant,risk 2 (medium),5311 s kedzie ave ,chicago,il,60632,2010-05-25,license re-inspection,fail,41.79678066,-87.70350236
+60532,superdollarmex  plus,empty,2002808,grocery store,risk 3 (low),2828 w 55th st ,chicago,il,60632,2010-05-25,canvass,pass,41.79378047,-87.69496028
+60533,"don gollo supermercado, inc.",superdollarmex plus,2036612,grocery store,risk 2 (medium),2826-2828 w 55th st ,chicago,il,60632,2010-05-25,license,pass,41.79378047,-87.69496028
+60534,westinghouse campus,westinghouse high school,20068,school,risk 1 (high),3223 w franklin blvd ,chicago,il,60624,2010-05-26,canvass,pass,41.88994963,-87.70734353
+60535,african supermarket & liquor,african supermarket & liquor,28149,grocery store,risk 2 (medium),4156-4158 w madison st ,chicago,il,60624,2010-05-26,tag removal,pass w/ conditions,41.88077997,-87.73030601
+60536,sweet tooth and more,sweet tooth and more,2036222,grocery store,risk 2 (medium),1103 s pulaski rd ,chicago,il,60624,2010-05-26,license,fail,41.86788014,-87.72509606
+60537,kelly high school,kelly high school,46181,school,risk 1 (high),4136 s california (2800w) ,chicago,il,60632,2010-05-28,canvass,fail,41.81871101,-87.69467483
+60538,las islas marias,las islas marias,1820018,empty,risk 1 (high),4781 s archer ave ,chicago,il,60632,2010-05-28,canvass,pass,41.80666846,-87.71612755
+60539,isla's marias,isla's marias,2027204,restaurant,risk 1 (high),4781 s archer ave ,chicago,il,60632,2010-05-28,license re-inspection,pass,41.80666846,-87.71612755
+60540,taqueria jamay,taqueria jamay,1596342,restaurant,risk 1 (high),2500 w 51st st ,chicago,il,60632,2010-05-28,canvass,fail,41.80122255,-87.68674543
+60541,gilmart's  food & liquor,gilmart's  food & liquor,22715,grocery store,risk 1 (high),5044-5054 s archer ave ,chicago,il,60632,2010-06-02,complaint,pass w/ conditions,41.80140003,-87.72604374
+60542,curie metro. (h/s),curie metro. (h/s),53101,school,risk 1 (high),4959 s archer ,chicago,il,60632,2010-06-03,canvass,pass,41.80304615,-87.72200673
+60543,paleteria el sabor de michoacan inc.,paleteria el sabor de michoacan,1986793,restaurant,risk 1 (high),2456 w 47th st ,chicago,il,60632,2010-06-03,complaint,pass,41.80851466,-87.68648786
+60544,mariscos el kora restaurant,mariscos el kora restaurant,1922200,empty,risk 1 (high),3016-18 w 47th st ,chicago,il,60632,2010-06-03,canvass,pass,41.80829789,-87.69983243
+60545,mariscos el kora inc,mariscos el kora,1974111,restaurant,risk 1 (high),3016-3018 w 47th st ,chicago,il,60632,2010-06-03,canvass,pass,41.80829789,-87.69983243
+60546,"fish & chicken on roosevelt, inc.",fish & chicken on roosevelt,2032087,restaurant,risk 2 (medium),3537 w roosevelt rd ,chicago,il,60624,2010-06-04,license,fail,41.86619143,-87.71446376
+60547,big daddy food mart,big daddy food mart,1937110,grocery store,risk 2 (medium),3845 w roosevelt rd ,chicago,il,60624,2010-06-04,short form complaint,pass,41.86610631,-87.72194013
+60548,b & a supersub inc,b & a supersub,1122312,restaurant,risk 2 (medium),3943 w roosevelt rd ,chicago,il,60624,2010-06-04,short form complaint,pass w/ conditions,41.86607379,-87.72437268
+60549,kelly high school,kelly high school,46181,school,risk 1 (high),4136 s california (2800w) ,chicago,il,60632,2010-06-07,canvass re-inspection,pass,41.81871101,-87.69467483
+60550,st.pancratius,st.pancratius,0,special event,risk 1 (high),2957 w 40th pl ,chicago,il,60632,2010-06-07,special events (festivals),fail,41.8198661,-87.69935992
+60551,taqueria jamay,taqueria jamay,1596342,restaurant,risk 1 (high),2500 w 51st st ,chicago,il,60632,2010-06-07,canvass re-inspection,pass,41.80122255,-87.68674543
+60552,"la quebrada #3, inc.",la quebrada,1243021,restaurant,risk 1 (high),5100-5102 s california ave ,chicago,il,60632,2010-06-07,canvass,pass,41.80089564,-87.69414412
+60553,submarine port inc,submarine port inc,3946,restaurant,risk 1 (high),2759 w 51st st ,chicago,il,60632,2010-06-07,canvass,fail,41.80088087,-87.69393527
+60554,marathon gas,marathon gas,2036421,grocery store,risk 3 (low),410 s kostner ave ,chicago,il,60624,2010-06-09,license,pass,41.87475054,-87.73541489
+60555,"aza petroleum, inc.","aza petroleum, inc.",1596250,empty,risk 3 (low),414 s kostner ave ,chicago,il,60624,2010-06-09,canvass,pass,41.87461461,-87.73540785
+60556,j.a.b.s. corp,j.a.b.s. corp,28614,empty,risk 3 (low),414 s kostner ave ,chicago,il,60624,2010-06-09,canvass,pass,41.87461461,-87.73540785
+60557,"white castle system, inc.","white castle system, inc.",28489,restaurant,risk 2 (medium),3901 w madison st ,chicago,il,60624,2010-06-09,tag removal,pass,41.88064565,-87.72337094
+60558,little giants child care center,little giant's child care center,1170576,daycare (2 - 6 years),risk 1 (high),3863 w harrison st ,chicago,il,60624,2010-06-09,canvass,fail,41.87335315,-87.72288302
+60559,f&f foods,f&f foods,2026811,wholesale,risk 2 (medium),3501 w 48th pl ,chicago,il,60632,2010-06-10,license,fail,41.80549508,-87.71130902
+60560,"m. l. k.  food mart, inc.",m. l. k. food mart,2027911,grocery store,risk 2 (medium),4001 w adams st ,chicago,il,60624,2010-06-11,license re-inspection,fail,41.87786891,-87.72569911
+60561,north lawndale ymca,north lawndale ymca,1043826,daycare above and under 2 years,risk 1 (high),3449 w arthington st ,chicago,il,60624,2010-06-11,canvass,pass,41.86986985,-87.71259474
+60562,north lawndale ymca,north lawndale ymca,1168131,daycare above and under 2 years,risk 1 (high),3449 w arthington st ,chicago,il,60624,2010-06-11,canvass,pass,41.86986985,-87.71259474
+60563,finki elementary academy,finki elementary academy,23541,school,risk 1 (high),2332 s western (2400w) ,chicago,il,60608,2010-06-14,canvass,fail,empty,empty
+60564,pickard elementary,josiah pickard elementary,24961,school,risk 1 (high),2301 w 21st place (2132s) ,chicago,il,60608,2010-06-14,canvass,fail,41.85287295,-87.6833397
+60565,ruiz elementary school,ruiz elementary school,24931,school,risk 1 (high),2410 s leavitt (2200w) ,chicago,il,60608,2010-06-15,canvass,pass w/ conditions,41.84809742,-87.68078114
+60566,plamondon elementary,plamondon elementary,24981,school,risk 1 (high),2642 w 15th place  (1532s) ,chicago,il,60608,2010-06-15,canvass,pass,41.86028668,-87.69250468
+60567,chicago tech academy (charter),medill campus,24481,school,risk 1 (high),1301 w 14th st  (1400s) ,chicago,il,60608,2010-06-16,canvass,pass,41.86327277,-87.65914247
+60568,joyner cpc,smyth cpc,25412,school,risk 1 (high),1315 s blue island (1300s) ,chicago,il,60608,2010-06-16,canvass,pass,41.86505167,-87.65485148
+60569,smyth,smyth,25411,school,risk 1 (high),1059 w 13th   (1300s) st ,chicago,il,60608,2010-06-16,canvass,pass,41.86532347,-87.65347031
+60570,fifth city child development,fifth city child development,25796,daycare (2 - 6 years),risk 1 (high),3411 w fifth ave ,chicago,il,60624,2010-06-17,license,fail,41.87679531,-87.71128878
+60571,little giants child care center,little giant's child care center,1170576,daycare (2 - 6 years),risk 1 (high),3863 w harrison st ,chicago,il,60624,2010-06-17,canvass re-inspection,pass,41.87335315,-87.72288302
+60572,little giants child care center,little giant's child care center,1170576,daycare (2 - 6 years),risk 1 (high),3863 w harrison st ,chicago,il,60624,2010-06-17,license,pass,41.87335315,-87.72288302
+60573,vera's,vera's,2027307,restaurant,risk 2 (medium),4403 w madison st ,chicago,il,60624,2010-06-17,complaint,pass w/ conditions,41.88049855,-87.73567206
+60574,"m. l. k.  food mart, inc.",m. l. k. food mart,2027911,grocery store,risk 2 (medium),4001 w adams st ,chicago,il,60624,2010-06-17,license re-inspection,pass,41.87786891,-87.72569911
+60575,family time eatery & snack shop,family time eatery & snack shop,2031368,restaurant,risk 2 (medium),212 s pulaski rd ,chicago,il,60624,2010-06-17,short form complaint,pass,41.87753057,-87.72570859
+60576,bobak sausage company,bobak sausage company,23290,grocery store,risk 1 (high),5275 s archer ave ,chicago,il,60632,2010-06-18,canvass,pass,41.79928776,-87.73837902
+60577,laristos,laristos,1221746,tavern,risk 3 (low),606 e 75th st ,chicago,il,60619,2010-06-18,canvass,fail,41.75860006,-87.60995116
+60578,finki elementary academy,finki elementary academy,23541,school,risk 1 (high),2332 s western (2400w) ,chicago,il,60608,2010-07-06,canvass re-inspection,pass,empty,empty
+60579,pickard elementary,josiah pickard elementary,24961,school,risk 1 (high),2301 w 21st place (2132s) ,chicago,il,60608,2010-07-06,canvass re-inspection,pass,41.85287295,-87.6833397
+60580,fifth city child development,fifth city child development,25796,daycare (2 - 6 years),risk 1 (high),3411 w fifth ave ,chicago,il,60624,2010-07-06,license re-inspection,pass,41.87679531,-87.71128878
+60581,church's chicken # 970,church's chicken # 970,1273267,restaurant,risk 2 (medium),2 s pulaski rd ,chicago,il,60624,2010-07-06,complaint,fail,41.88067699,-87.72581613
+60582,f&f foods,f&f foods,2026811,wholesale,risk 2 (medium),3501 w 48th pl ,chicago,il,60632,2010-07-07,license re-inspection,pass,41.80549508,-87.71130902
+60583,f & f foods inc,f & f foods inc,46461,grocery store,risk 3 (low),3501 w 48th pl ,chicago,il,60632,2010-07-07,canvass,out of business,41.80549508,-87.71130902
+60584,f & f foods inc,f & f foods inc,1619381,grocery store,risk 3 (low),3501 w 48th pl ,chicago,il,60632,2010-07-07,canvass,out of business,41.80549508,-87.71130902
+60585,submarine port inc,submarine port inc,3946,restaurant,risk 1 (high),2759 w 51st st ,chicago,il,60632,2010-07-07,canvass re-inspection,pass,41.80088087,-87.69393527
+60586,los taquitos grill,los taquitos grill,1986896,restaurant,risk 1 (high),2811 w 55th st ,chicago,il,60632,2010-07-07,short form complaint,pass w/ conditions,41.79357208,-87.69431304
+63229,collins academy high school,collins academy/north lawndale college prep,49131,school,risk 1 (high),1313 s sacramento ,chicago,il,60623,2010-01-20,canvass,fail,41.86416169,-87.70200761
+63230,la kermese,la kermese,18786,restaurant,risk 1 (high),3000 -3002 w 26th st ,chicago,il,60623,2010-01-20,canvass,pass w/ conditions,41.84471918,-87.70021954
+63231,our lady of lourdes,our lady of lourdes,42575,daycare (under 2 years),risk 1 (high),1449 s keeler ave ,chicago,il,60623,2010-01-21,canvass re-inspection,pass,41.86100327,-87.72976248
+63232,our lady of lourdes,our lady of lourdes,42577,daycare (under 2 years),risk 1 (high),1449 s keeler ave ,chicago,il,60623,2010-01-21,canvass re-inspection,pass,41.86100327,-87.72976248
+63233,james weldon johnson school,james weldon johnson school,26231,school,risk 1 (high),1420 s albany  (3100w) ,chicago,il,60623,2010-01-22,canvass,pass,41.86183983,-87.7031756
+63234,james weldon johnson cpc,james weldon johnson  cpc,26232,school,risk 1 (high),1504 s albany (3100w) ,chicago,il,60623,2010-01-22,canvass,pass,41.86115278,-87.70315429
+63235,las islas marias,las islas marias,1943409,restaurant,risk 1 (high),2400 s pulaski rd ,chicago,il,60623,2010-01-22,canvass,pass w/ conditions,41.84785765,-87.72479531
+63236,roswell mason cpc,roswell mason cpc,24382,school,risk 1 (high),4216 w 19th st ,chicago,il,60623,2010-01-25,canvass,pass,41.85505735,-87.73040482
+63237,roswell mason elementary school,legacy chapter  campus,24381,school,risk 1 (high),4217 w 18th st ,chicago,il,60623,2010-01-25,canvass,pass,41.85685194,-87.73049117
+63238,mcdonald's,mcdonald's,1332913,restaurant,risk 2 (medium),2609 s kedzie ave ,chicago,il,60623,2010-01-26,complaint,fail,41.84420224,-87.70488699
+63239,"san jose restaurant, inc.","san jose restaurant, inc.",1958715,restaurant,risk 1 (high),3121 w cermak rd ,chicago,il,60623,2010-01-26,canvass,pass,41.85167409,-87.70378753
+63240,collins academy high school,collins academy/north lawndale college prep,49131,school,risk 1 (high),1313 s sacramento ,chicago,il,60623,2010-01-27,canvass re-inspection,pass,41.86416169,-87.70200761
+63241,frank food #4,frank food #4,1767467,grocery store,risk 3 (low),1819 s kedzie ave ,chicago,il,60623,2010-01-27,complaint re-inspection,pass,41.85714095,-87.70526117
+63242,taqueria los comales #1 inc,taqueria los comales #1,66734,restaurant,risk 1 (high),3141 w 26th st ,chicago,il,60623,2010-01-27,complaint,pass,41.84441606,-87.70421001
+63243,charles hammond elementary,charles hammond elementary,23531,school,risk 1 (high),2819 w 21st place   (2132s) ,chicago,il,60623,2010-02-01,canvass,fail,41.85269133,-87.69627777
+63244,"armando's y santa barbara, inc",armando's santa barbara,2013791,grocery store,risk 1 (high),2627 s kedzie ave ,chicago,il,60623,2010-02-01,license,fail,41.84369455,-87.70487055
+63245,rosario castellanos,rosario castellanos elementary school,22461,school,risk 1 (high),2524 s central park (3600w) ,chicago,il,60623,2010-02-02,canvass,pass,41.84544296,-87.71496352
+63246,lindo mexico,lindo mexico,50821,restaurant,risk 1 (high),3115 w 26th st ,chicago,il,60623,2010-02-02,canvass,pass,41.84442867,-87.70323687
+63247,mcdonald's,mcdonald's,1332913,restaurant,risk 2 (medium),2609 s kedzie ave ,chicago,il,60623,2010-02-02,complaint re-inspection,pass,41.84420224,-87.70488699
+63248,el fandango,el fandango,1621729,restaurant,risk 1 (high),3331 w 26th st ,chicago,il,60623,2010-02-03,canvass,pass,41.84435801,-87.70862525
+63249,birrieria patinos ocotlan,birrieria patinos ocotlan,38804,restaurant,risk 1 (high),3809 w 26th st ,chicago,il,60623,2010-02-03,canvass,pass,41.84420207,-87.72009767
+63250,charles hammond elementary,charles hammond elementary,23531,school,risk 1 (high),2819 w 21st place   (2132s) ,chicago,il,60623,2010-02-08,canvass re-inspection,pass,41.85269133,-87.69627777
+63251,la chapparita grocery,la chapparita grocery,1045268,restaurant,risk 1 (high),2500 s whipple st ,chicago,il,60623,2010-02-08,canvass,pass w/ conditions,41.84628775,-87.70156192
+63252,mariscos luis,mariscos luis,1514084,restaurant,risk 1 (high),3124 w 25th st ,chicago,il,60623,2010-02-08,canvass,pass,41.84646241,-87.70371914
+63253,los arriados incorporated,los arriados,38025,restaurant,risk 1 (high),3101 w 26th st ,chicago,il,60623,2010-02-08,canvass,pass,41.8444375,-87.70262831
+63254,markos tacos & cafe,markos tacos & cafe,2017438,restaurant,risk 1 (high),3009 w cermak rd ,chicago,il,60623,2010-02-09,license,fail,41.85172138,-87.70078598
+63255,atardecer acapulqueno inc.,atardecer acapulqueno inc.,1910118,restaurant,risk 1 (high),2906 w cermak rd ,chicago,il,60623,2010-02-09,canvass,pass,41.85195988,-87.69953768
+63256,maria saucedo elementary,maria saucedo scholastic academy,29151,school,risk 1 (high),2850 w 24th st ,chicago,il,60623,2010-02-10,canvass,pass,41.84796859,-87.69728712
+63257,telpochcalli,telpochcalli (cps),2042643,school,risk 1 (high),2832 w 24th st ,chicago,il,60623,2010-02-10,canvass,pass,41.84797834,-87.6966316
+63258,chickies,chickies,1848186,restaurant,risk 2 (medium),2839 s pulaski rd ,chicago,il,60623,2010-02-10,complaint,fail,41.83938905,-87.72427111
+63259,la merced inc,la merced inc,6834,grocery store,risk 1 (high),4335 w 26th st ,chicago,il,60623,2010-02-11,canvass,pass,41.8440328,-87.73243286
+63260,"jessica's bakery, inc",jessica's bakery,59149,bakery,risk 2 (medium),4341 w 26th st ,chicago,il,60623,2010-02-11,canvass,pass w/ conditions,41.844029,-87.73267453
+63261,izalco restaurant,izalco restaurant,1842835,restaurant,risk 1 (high),4377 w 26th st ,chicago,il,60623,2010-02-11,canvass,pass w/ conditions,41.8440059,-87.73404649
+63262,david g farragut academy  h/s,farragut,53091,school,risk 1 (high),2345 s christiana ,chicago,il,60623,2010-02-16,complaint,fail,41.8485793,-87.70866954
+63263,catedral cyber cafe,catedral cyber cafe,1618395,restaurant,risk 1 (high),2500 s christiana ave ,chicago,il,60623,2010-02-16,canvass,pass,41.8461842,-87.70888991
+63264,plaza food & liquor,plaza food & liquor,8776,grocery store,risk 3 (low),3459 w ogden ave ,chicago,il,60623,2010-02-17,complaint,pass,41.85526591,-87.71240156
+63265,catherine's place,i'm hungry,1986813,restaurant,risk 1 (high),4203 w cermak rd ,chicago,il,60623,2010-02-17,license re-inspection,pass,41.85136621,-87.72976632
+63266,abe's in & out,abe's in & out,1948539,grocery store,risk 2 (medium),3661 w ogden ave ,chicago,il,60623,2010-02-17,short form complaint,pass,41.85357266,-87.71725429
+63267,veridiana garcia,veridiana garcia,2017921,restaurant,risk 2 (medium),3402 w 26th    st ,chicago,il,60623,2010-02-17,license,fail,41.84455767,-87.71006591
+63268,danny's pizza,danny's pizza,75285,restaurant,risk 1 (high),3257 w 26th st ,chicago,il,60623,2010-02-18,canvass,pass,41.84437604,-87.70731997
+63269,daniel j corkery school,daniel j corkery school,22851,school,risk 1 (high),2510 s kildare (4300w) ,chicago,il,60623,2010-02-19,canvass,pass,41.84559878,-87.73122946
+63270,chickies,chickies,1848186,restaurant,risk 2 (medium),2839 s pulaski rd ,chicago,il,60623,2010-02-19,complaint re-inspection,pass,41.83938905,-87.72427111
+63271,cermak produce,cermak produce,1770942,grocery store,risk 1 (high),3311 w 26th st ,chicago,il,60623,2010-02-19,complaint,pass,41.84436673,-87.70789805
+63272,anton dvorak elementary,anton dvorak elementary,26051,school,risk 1 (high),3615 w 16th st  (1600s) ,chicago,il,60623,2010-02-22,canvass,pass,41.85885599,-87.71574626
+63273,el chisme rest inc,el chisme rest inc,14811,restaurant,risk 1 (high),3322 w 26th st ,chicago,il,60623,2010-02-22,canvass,pass,41.84457881,-87.70853991
+63274,dennis pizza guzman,dennis pizza guzman,1166484,restaurant,risk 1 (high),4030 w 26th st ,chicago,il,60623,2010-02-23,canvass,pass,41.84434308,-87.72591101
+63275,blanco & negro restaurant,blanco & negro restaurant,1954915,restaurant,risk 1 (high),4043 w 26th st ,chicago,il,60623,2010-02-23,canvass,pass,41.84412068,-87.72621334
+63276,david g farragut academy  h/s,farragut,53091,school,risk 1 (high),2345 s christiana ,chicago,il,60623,2010-02-24,complaint re-inspection,pass,41.8485793,-87.70866954
+63277,sun food mart,sun food mart,2009479,grocery store,risk 3 (low),3601 w cermak rd ,empty,il,empty,2010-02-24,short form complaint,pass,41.85155346,-87.71505929
+63278,rest y taqueria la justicia,rest y taqueria la justicia,40902,restaurant,risk 1 (high),3901 w 26th st ,chicago,il,60623,2010-02-24,canvass,pass,41.84417342,-87.72216918
+63279,"neveria auros, inc.","neveria auros, inc.",1515263,restaurant,risk 1 (high),3633 w 26th st ,chicago,il,60623,2010-02-24,canvass,pass,41.84425865,-87.71594584
+63280,lazaro cardenas elementary,lazaro cardenas elementary,24051,school,risk 1 (high),2345 s millard ,chicago,il,60623,2010-02-25,canvass,fail,41.8485071,-87.71598119
+63281,home run inn,home run inn,41530,restaurant,risk 1 (high),4254 w 31st st ,chicago,il,60623,2010-02-25,canvass,pass,41.83691323,-87.7314113
+63282,st agnes of bohemia school,st agnes of bohemia school,1878446,school,risk 1 (high),2643 s central park ave ,chicago,il,60623,2010-02-26,canvass,pass,41.84310007,-87.71460345
+63283,las isabelas,las isabelas,35950,grocery store,risk 3 (low),2700 s central park ave ,chicago,il,60623,2010-02-26,canvass,pass,41.8424589,-87.71488723
+63284,asimexfoods,asixmefoods,2021362,wholesale,risk 3 (low),234o s springfield ave ,chicago,il,60623,2010-02-26,license,fail,41.87715978,-87.72325441
+63285,walgreens #215,walgreens #215,2004321,grocery store,risk 3 (low),3045 w 26th st ,chicago,il,60623,2010-03-02,license,pass,41.84446925,-87.70193021
+63286,walgreens #215,walgreens #215,18435,grocery store,risk 3 (low),3045 w 26th st ,chicago,il,60623,2010-03-02,canvass,pass,41.84446925,-87.70193021
+63287,sosa wireless inc.,sosa wireless,2016653,grocery store,risk 2 (medium),1358 s tripp   ave ,chicago,il,60623,2010-03-02,license,fail,41.86252188,-87.73132287
+63288,markos tacos & cafe,markos tacos & cafe,2017438,restaurant,risk 1 (high),3009 w cermak rd ,chicago,il,60623,2010-03-02,license re-inspection,pass,41.85172138,-87.70078598
+63289,epiphany elementary school,epiphany school,1878452,school,risk 1 (high),4223 w 25th st ,chicago,il,60623,2010-03-04,canvass,pass,41.84588739,-87.73049371
+63290,armando's finder foods inc,armando's finder foods inc,7741,grocery store,risk 1 (high),2633 s kedzie ave ,chicago,il,60623,2010-03-04,out of business,pass,41.84352502,-87.70486482
+63291,"armando's y santa barbara, inc",armando's santa barbara,2013791,grocery store,risk 1 (high),2627 s kedzie ave ,chicago,il,60623,2010-03-04,license re-inspection,pass,41.84369455,-87.70487055
+63292,fine fair food & liquor,fine fair food & liquor,10306,grocery store,risk 2 (medium),3357-3359 w 16th st ,chicago,il,60623,2010-03-08,complaint,fail,41.85892069,-87.71017389
+63293,nathaniel pope elementary,nathaniel pope elementary,25001,school,risk 1 (high),1852 s albany (3100w) ,chicago,il,60623,2010-03-09,canvass,pass,41.85570712,-87.70299144
+63294,natys pizza 26,natys pizza 26,1974864,restaurant,risk 1 (high),3849 w 26th st ,chicago,il,60623,2010-03-09,canvass,pass,41.84418037,-87.72159139
+63295,sosa wireless inc.,sosa wireless,2016653,grocery store,risk 2 (medium),1358 s tripp   ave ,chicago,il,60623,2010-03-12,license re-inspection,pass,41.86252188,-87.73132287
+63296,birrieria y taqueria el chivito,birrieria y taqueria el chivito,2022084,restaurant,risk 1 (high),2459 s homan ave ,chicago,il,60623,2010-03-12,license,pass,41.8463554,-87.70981612
+63297,taqueria y cenaduria el caminero,taqueria y cenaduria el caminero,1953927,empty,risk 1 (high),2459 s homan ave ,chicago,il,60623,2010-03-12,canvass,pass,41.8463554,-87.70981612
+63298,los dos laredos restaurant,los dos laredos restaurant,6996,restaurant,risk 1 (high),3120 w 26th st ,chicago,il,60623,2010-03-12,canvass,pass,41.84464481,-87.70349686
+63299,xtra health,xtra health,2022230,grocery store,risk 2 (medium),3051 w cermak rd ,chicago,il,60623,2010-03-17,license,pass,41.85169486,-87.70237885
+63300,church's chicken # 1068,church's chicken # 1068,1273278,restaurant,risk 2 (medium),2806 w cermak rd ,chicago,il,60623,2010-03-18,complaint,pass,41.85200737,-87.69586997
+63301,birrieria la tapatia de ocotlan,birrieria la tapatia de ocotlan,1675193,restaurant,risk 1 (high),2861 w cermak rd ,chicago,il,60623,2010-03-18,canvass,pass,41.85175767,-87.69802349
+63302,joseph  gary school,joseph gary school,23311,school,risk 1 (high),3740 w 31st st   (3100s) ,chicago,il,60623,2010-03-19,canvass,pass,41.83709246,-87.71870452
+63303,joseph  gary school/modular/annex,joseph gary school/modular/annex,23312,school,risk 1 (high),3737 w 31st st (3000s) ,chicago,il,60623,2010-03-19,canvass,pass,41.83687735,-87.71847377
+63304,yolanda's restaurant inc,yolanda's restaurant,32834,restaurant,risk 1 (high),3058 s central park ave ,chicago,il,60623,2010-03-19,canvass,pass,41.83714669,-87.71474144
+63305,north lawndale school college prep,north lawndale college  prep,1878486,school,risk 1 (high),1615 s christiana ,chicago,il,60623,2010-03-22,canvass,pass w/ conditions,41.85853654,-87.70894972
+63306,catalyst elementary school,catalyst elementary ( howland elementary),1878488,school,risk 1 (high),1616 s spaulding st ,chicago,il,60623,2010-03-22,canvass,pass,41.85850181,-87.70802532
+63307,extreme cream ice cream,extreme cream ice cream,1981050,restaurant,risk 2 (medium),3808 w 26th st ,chicago,il,60623,2010-03-22,canvass,pass w/ conditions,41.84442156,-87.72010367
+63308,gerald delgado kanoon elementary,gerald delgado kanoon elementary,29071,school,risk 1 (high),2233 s kedzie (3200w) ,chicago,il,60623,2010-04-05,canvass,pass,41.85077575,-87.70507547
+63309,eli whitney elementary school,eli whitney elementary school,25841,school,risk 1 (high),2815 s komensky  (4032w) ,chicago,il,60623,2010-04-06,canvass,pass,41.84006197,-87.7255084
+63310,subway sandwich & salads,subway,1352613,restaurant,risk 1 (high),2811 s kedzie ave ,chicago,il,60623,2010-04-06,canvass,pass,41.84053695,-87.70477333
+63311,taqueria el arco,el pollo cris cris,1495623,restaurant,risk 1 (high),3105 w 26th st ,chicago,il,60623,2010-04-07,canvass,pass w/ conditions,41.84443293,-87.70281289
+63312,little village elementary,little village academy,22521,school,risk 1 (high),2620 s lawndale ,chicago,il,60623,2010-04-08,canvass,pass,41.84368588,-87.71735516
+63313,matthew a. henson elementary school/cpc,henson/olive elementary school,25971,school,risk 1 (high),1326 s avers  (3832w) ,chicago,il,60623,2010-04-12,canvass,pass,41.86356038,-87.72158636
+63314,la cenaduria de elda,la cenaduria de elda,1998587,restaurant,risk 1 (high),3551 w 26th st bldg ,chicago,il,60623,2010-04-12,canvass,pass,41.84428142,-87.71438586
+63315,sol crown community academy,sol crown community academy,2042634,school,risk 1 (high),2128 s st louis st ,chicago,il,60623,2010-04-14,canvass,fail,41.85266155,-87.7125068
+63316,john spry community school,john spry community school,25451,school,risk 1 (high),2400 s marshall ,chicago,il,60623,2010-04-15,canvass,pass,41.84815451,-87.69912725
+63317,cyrus h mccormick elementary school & mobile unit,cyrus h mccormick elementary school & mobile unit,24431,school,risk 1 (high),2712 s sawyer (3232w) ,chicago,il,60623,2010-04-19,canvass,pass,41.84224508,-87.706336
+63318,cyrus h mccormick elementary school modular,cyrus h mccormick elementary school modular,1878445,school,risk 1 (high),2738 s sawyer st ,chicago,il,60623,2010-04-19,canvass,pass,41.84151128,-87.70631316
+63319,sol crown community academy,sol crown community academy,2042634,school,risk 1 (high),2128 s st louis st ,chicago,il,60623,2010-04-21,canvass re-inspection,pass,41.85266155,-87.7125068
+63320,sparrer sausage co,sparrer sausage co,4040,empty,risk 3 (low),4325 w ogden ave ,chicago,il,60623,2010-04-22,canvass,fail,41.84835577,-87.73212847
+63321,sparrer sausage co,sparrer sausage co,2027838,wholesale,risk 1 (high),4325 w ogden ave ,chicago,il,60623,2010-04-22,license,pass,41.84835577,-87.73212847
+63322,theodore herzl elementary school,theodore herzl elementary school/frazier  charter,23771,school,risk 1 (high),3711 w douglas blvd ,chicago,il,60623,2010-04-23,canvass,fail,41.86225473,-87.71825927
+63323,theodore herzl elementary school/cpc,theodore herzl elementary school/cpc,23772,school,risk 1 (high),1401 s hamlin ave ,chicago,il,60623,2010-04-23,canvass,pass,41.86205108,-87.7200236
+63324,lawndale community academy,lawndale community academy annex,31161,school,risk 1 (high),3444 w douglas blvd ,chicago,il,60623,2010-04-26,canvass,fail,41.86299557,-87.71223193
+63325,ortiz  de dominguez elementary school,josefa ortiz de dominguez elementary school,23411,school,risk 1 (high),3000 s lawndale ave ,chicago,il,60623,2010-04-28,canvass,pass,41.83875333,-87.71722614
+63326,good shepherd/zapata academy branch,good shepherd /zapata branch,23612,school,risk 2 (medium),2725 s kolin ave ,chicago,il,60623,2010-04-28,canvass,pass,41.84152228,-87.73284474
+63327,kipp ascend primary school,kipp ascend primary school,26041,school,risk 2 (medium),1440 s christiana st ,chicago,il,60623,2010-04-29,canvass,pass,41.86119482,-87.7093241
+63328,lawndale community academy,lawndale community academy annex,31161,school,risk 1 (high),3444 w douglas blvd ,chicago,il,60623,2010-05-03,canvass re-inspection,pass,41.86299557,-87.71223193
+63329,theodore herzl elementary school,theodore herzl elementary school/frazier  charter,23771,school,risk 1 (high),3711 w douglas blvd ,chicago,il,60623,2010-05-03,canvass re-inspection,pass,41.86225473,-87.71825927
+63330,francisco i. madero middle school,francisco i. madero middle school,41041,school,risk 1 (high),3202 w 28th st ,chicago,il,60623,2010-05-05,canvass,pass,41.84098398,-87.70508585
+63331,community christian alternative academy,c c a academy,70234,school,risk 1 (high),1231 s pulaski  rd ,chicago,il,60623,2010-05-06,canvass,pass,41.86520124,-87.72499307
+63332,academy bakery,academy bakery,1544567,empty,risk 2 (medium),1239 s pulaski rd ,chicago,il,60623,2010-05-06,canvass,fail,41.86496597,-87.72498573
+63333,c s w career academy culinary arts high school,cswca academy,2042652,school,risk 2 (medium),1239 s pulaski rd ,chicago,il,60623,2010-05-06,canvass,pass,41.86496597,-87.72498573
+63334,blanca e gutierrez,paleteria pancho,1355970,restaurant,risk 1 (high),2513 s pulaski rd ,chicago,il,60623,2010-05-06,canvass,pass,41.84568784,-87.72445601
+63335,chicago westside christian school,chicago westside christian school,2042653,school,risk 1 (high),1240 s pulaski rd ,chicago,il,60623,2010-05-07,canvass,pass,41.8649426,-87.72527877
+63336,el gran burrito express,el gran burrito express,1979829,restaurant,risk 1 (high),1207 s pulaski rd ,chicago,il,60623,2010-05-07,canvass,pass w/ conditions,41.86590627,-87.72500867
+63337,st. gregory episcopal school,empty,2042654,school,risk 1 (high),2130 s central park ave ,chicago,il,60623,2010-05-10,canvass,fail,41.85250437,-87.71517024
+63338,rodriguez fruits & vegetable,rodriguez fruits & vegetable,18231,grocery store,risk 1 (high),2458 s st louis ave ,chicago,il,60623,2010-05-10,canvass,pass w/ conditions,41.84632986,-87.7125514
+63339,pizza tango inc,pizza tango inc,1879666,restaurant,risk 1 (high),2859 w cermak rd ,chicago,il,60623,2010-05-11,canvass,pass,41.85175898,-87.69794352
+63340,our lady of tepeyac high school,our lady of tepeyac high school,2042635,school,risk 3 (low),2228 s whipple st ,chicago,il,60623,2010-05-12,canvass,pass,41.85093475,-87.70169706
+63341,our lady of tepeyac headstart,our lady of tepeyac headstart,42579,daycare (2 - 6 years),risk 1 (high),2414 s albany ave ,chicago,il,60623,2010-05-12,canvass,pass,41.84768526,-87.70282759
+63342,apollo's 2000,apollo's 2000,12125,restaurant,risk 1 (high),2875 w cermak rd ,chicago,il,60623,2010-05-12,canvass,pass,41.85174848,-87.6985833
+63343,little village high school,little village high school,49121,school,risk 1 (high),3120-3126 s kostner ,chicago,il,60623,2010-05-13,canvass,pass,41.83601953,-87.73419465
+63344,supermercado alex,supermercado alex,1772307,grocery store,risk 1 (high),4134 w 31st st ,chicago,il,60623,2010-05-13,canvass,pass,41.83694724,-87.72814236
+63345,pancho's,pancho's,57268,restaurant,risk 1 (high),4055 w 31st st ,chicago,il,60623,2010-05-13,canvass,pass,41.83674601,-87.7265528
+63346,cocula restaurant,cocula restaurant,8741,restaurant,risk 1 (high),2801 w cermak rd ,chicago,il,60623,2010-05-14,canvass,pass w/ conditions,41.85179054,-87.69562562
+63347,las quince letras,las quince letras,760,restaurant,risk 1 (high),2880 w cermak rd ,chicago,il,60623,2010-05-14,canvass re-inspection,pass,41.85196403,-87.69882966
+63348,st. gregory episcopal school,empty,2042654,school,risk 1 (high),2130 s central park ave ,chicago,il,60623,2010-05-17,canvass re-inspection,pass,41.85250437,-87.71517024
+63349,16th st food mart,16th st food mart,1845450,grocery store,risk 2 (medium),3614 w 16th st ,chicago,il,60623,2010-05-17,complaint,pass,41.85907438,-87.71590916
+63350,"central park food mart, inc","central park food mart, inc",1645883,empty,risk 3 (low),3614 w 16th st ,chicago,il,60623,2010-05-17,canvass,fail,41.85907438,-87.71590916
+63351,china  snack     (i.d required),china snack,1545541,restaurant,risk 1 (high),3025 w cermak rd ,chicago,il,60623,2010-05-17,canvass,pass,41.85170859,-87.70151949
+63352,china snack,china snack,28031,empty,risk 1 (high),3025 w cermak rd ,chicago,il,60623,2010-05-17,canvass,fail,41.85170859,-87.70151949
+63353,la azteca paleteria,la azteca paleteria,1716434,restaurant,risk 1 (high),3018 w cermak rd ,chicago,il,60623,2010-05-17,canvass,pass,41.85193447,-87.70113232
+63354,jalisco restaurant,jalisco restaurant,2031658,restaurant,risk 1 (high),4224 w 31st st ,chicago,il,60623,2010-05-18,license re-inspection,pass,41.8369238,-87.7303689
+63355,jalisco restaurant,jalisco restaurant,1620353,restaurant,risk 1 (high),4224 w 31st st ,chicago,il,60623,2010-05-18,canvass,fail,41.8369238,-87.7303689
+63356,jalisco restaurant,jalisco restaurant,82979,restaurant,risk 1 (high),4224 w 31st st ,chicago,il,60623,2010-05-18,canvass,fail,41.8369238,-87.7303689
+63357,la roqueta restaurant,la roqueta restaurant,1823527,restaurant,risk 1 (high),4023-4025 w 31st st ,chicago,il,60623,2010-05-18,canvass,pass,41.83676105,-87.72527035
+63358,carole robertson center for learning,carole robertson center for learning,24630,daycare (under 2 years),risk 1 (high),2929 w 19th st ,chicago,il,60623,2010-05-19,canvass,pass,41.85537899,-87.70040522
+63359,carole robertson center for learning,carole robertson center for learning,1122989,daycare (under 2 years),risk 1 (high),2929 w 19th st ,chicago,il,60623,2010-05-19,canvass,pass,41.85537899,-87.70040522
+63360,rodriguez fruits & vegetable,rodriguez fruits & vegetable,18231,grocery store,risk 1 (high),2458 s st louis ave ,chicago,il,60623,2010-05-19,tag removal,pass,41.84632986,-87.7125514
+63361,sacramento food mart,sacramento food mart,5940,grocery store,risk 1 (high),2458 s sacramento ave ,chicago,il,60623,2010-05-19,canvass,pass,41.84648339,-87.70034533
+63362,carlos h. cantu children and family center,carlos h. cantu children and family center,1842600,children's services facility,risk 1 (high),2434 s kildare ave ,chicago,il,60623,2010-05-20,canvass,pass,41.8468538,-87.73126779
+63363,celis pizzeria  inc,celis pizzeria  inc,1476033,restaurant,risk 1 (high),2605 s kostner ave ,chicago,il,60623,2010-05-20,canvass,pass,41.84390995,-87.73412958
+63364,the green house stakes,the green house steak,27859,restaurant,risk 1 (high),2700 s millard ave ,chicago,il,60623,2010-05-20,canvass,pass w/ conditions,41.84244181,-87.71610534
+63365,mado healthcare-douglas park,mado healthcare-douglas park,5211,long term care,risk 1 (high),1550 s albany ave ,chicago,il,60623,2010-05-21,canvass,pass,41.85987046,-87.70311589
+63366,el concordia,el concordia,6975,restaurant,risk 1 (high),3801 w 26th st ,chicago,il,60623,2010-05-21,canvass,fail,41.84420701,-87.71973394
+63367,las islas marias,las islas marias,1943409,restaurant,risk 1 (high),2400 s pulaski rd ,chicago,il,60623,2010-05-26,canvass,pass,41.84785765,-87.72479531
+63368,las islas marias,las islas marias,2009081,restaurant,risk 1 (high),2400 s pulaski rd ,chicago,il,60623,2010-05-26,license,fail,41.84785765,-87.72479531
+63369,village of hope learning center,village of hope learning center,2014092,daycare combo 1586,risk 1 (high),1400 s kolin ave ,chicago,il,60623,2010-06-01,license re-inspection,pass,41.86230534,-87.7337691
+63370,el concordia,el concordia,6975,restaurant,risk 1 (high),3801 w 26th st ,chicago,il,60623,2010-06-01,canvass re-inspection,pass,41.84420701,-87.71973394
+63371,las tres campanitas #2,las tres campanitas #2,2033134,restaurant,risk 2 (medium),3510 w 26th st ,chicago,il,60623,2010-06-01,license,fail,41.84451594,-87.71286845
+63372,el mezquite grill,el mezquite grill,2032557,restaurant,risk 1 (high),3121 w cermak rd ,chicago,il,60623,2010-06-02,license re-inspection,pass,41.85167409,-87.70378753
+63373,paleteria azteca #2,paleteria azteca #2,1816604,restaurant,risk 2 (medium),3119 w cermak rd ,chicago,il,60623,2010-06-02,canvass,pass,41.85167565,-87.70369582
+63374,burger king #17392,burger king,2003825,restaurant,risk 2 (medium),2345 s pulaski rd ,chicago,il,60623,2010-06-02,canvass,pass,41.84855902,-87.72453224
+63375,"tasty beef, inc.","tasty beef, inc.",1618318,restaurant,risk 2 (medium),3701 w 16th st ,chicago,il,60623,2010-06-03,complaint,pass,41.85883568,-87.71772086
+63376,midwest grocery,midwest grocery,1916187,grocery store,risk 2 (medium),4310 w 16th st ,chicago,il,60623,2010-06-03,short form complaint,pass,41.85886839,-87.73277498
+63377,el barzon restaurant inc,el barzon,1353421,restaurant,risk 1 (high),3002 s pulaski rd ,chicago,il,60623,2010-06-03,canvass,pass,41.83857172,-87.72454335
+63378,geo's hot dog,george's hot dog,6101,restaurant,risk 2 (medium),2612 s kedzie ave ,chicago,il,60623,2010-06-03,canvass,pass,41.84408464,-87.70517689
+63379,a-zmall world child development center,a-zmall world child development center,1909165,daycare (2 - 6 years),risk 1 (high),2629 s lawndale ave ,chicago,il,60623,2010-06-04,canvass,pass,41.84346389,-87.717055
+63380,marco's grocery,marco's grocery,1442278,grocery store,risk 1 (high),3001 s avers ave ,chicago,il,60623,2010-06-04,canvass,pass,41.83869584,-87.72058887
+63381,marcy - newberry/ marcy,marcy - newberry/ marcy center,15712,daycare (2 - 6 years),risk 1 (high),1539 s springfield ave ,chicago,il,60623,2010-06-07,canvass,fail,41.85955201,-87.72239509
+63382,los candiles,los candiles,46041,restaurant,risk 1 (high),2624 s central park ave ,chicago,il,60623,2010-06-07,canvass,pass,41.84360781,-87.71491199
+63383,burger king #207,burger king #207,1473478,restaurant,risk 2 (medium),2700 s kedzie ave ,chicago,il,60623,2010-06-07,canvass,pass,41.84260253,-87.70512781
+65206,"a & g fresh market, inc",a & g fresh market,1515999,grocery store,risk 1 (high),5630 w belmont ave ,chicago,il,60634,2010-02-19,complaint-fire,pass,41.93866932,-87.76777554
+67732,wolcott's,troquet,1992039,restaurant,risk 1 (high),1834 w montrose ave ,chicago,il,60613,2010-01-04,license re-inspection,pass,41.96160567,-87.67596677
+67733,wolcott's,troquet,1992040,restaurant,risk 1 (high),1834 w montrose ave ,chicago,il,60613,2010-01-04,license re-inspection,pass,41.96160567,-87.67596677
+67736,"monticello food mart, inc","monticello food mart, inc",2013259,grocery store,risk 2 (medium),1000 n monticello ave ,chicago,il,60651,2010-01-05,license,fail,41.89918623,-87.71780427
+67738,michael's on main cafe,michael's on main cafe,2008948,restaurant,risk 1 (high),8750 w bryn wawr ave ,chicago,il,60631,2010-01-04,license,fail,empty,empty
+67739,el taconazo restaurant,el taconazo restaurant,1964480,restaurant,risk 1 (high),5849 s kedzie ave ,chicago,il,60629,2010-01-05,short form complaint,pass,41.78662296,-87.7032112
+67741,citgo,citgo,2013296,grocery store,risk 3 (low),11500 s halsted st ,chicago,il,60628,2010-01-05,license,fail,41.68502626,-87.64229737
+67743,el milagro,el milagro,43519,restaurant,risk 1 (high),3050-3052 w 26th st ,chicago,il,60623,2010-01-05,canvass,pass,41.84468662,-87.70218762
+67744,golden crown restaurant,golden crown restaurant,2013539,restaurant,risk 1 (high),2341 n narragansett ave ,chicago,il,60639,2010-01-05,license,fail,41.92309768,-87.78527866
+67746,"noah food group, inc","noah food group, inc",1980401,grocery store,risk 3 (low),4959 w augusta blvd ,chicago,il,60651,2010-01-05,complaint,pass w/ conditions,41.89852362,-87.75066659
+67747,el milagro,el milagro,43513,grocery store,risk 2 (medium),3048 w 26th st ,chicago,il,60623,2010-01-05,complaint,pass,41.84468733,-87.70210294
+67748,little learning academy,little learning academy,1974787,daycare (2 - 6 years),risk 1 (high),7039 s wentworth st ,chicago,il,60621,2010-01-05,license,fail,41.76609247,-87.62964152
+67749,cochiaros pizza #2,cochiaros pizza #2,1044752,restaurant,risk 1 (high),4741 w fullerton ave ,chicago,il,60639,2010-01-05,complaint,pass,41.92414063,-87.74552934
+67753,wabash pantry,wabash pantry,2008633,grocery store,risk 3 (low),203 n wabash ave ,chicago,il,60601,2010-01-05,license re-inspection,pass,41.88582829,-87.62613826
+67754,abe's in & out,abe's in & out,1948539,grocery store,risk 2 (medium),3661 w ogden ave ,chicago,il,60623,2010-01-05,complaint,pass,41.85357266,-87.71725429
+67756,lagniappe-a creole cajun joynt,lagniappe-a creole cajun joynt,1986108,riverwalk cafe,risk 2 (medium),55 w riverwalk south ,chicago,il,60601,2010-01-05,license re-inspection,fail,41.886952,-87.62987459
+67757,dunkin donuts/baskin-robbins,dunkin donuts/baskin-robbins,1380279,restaurant,risk 2 (medium),100 w randolph st ,chicago,il,60601,2010-01-04,tag removal,pass,41.88458627,-87.63101045
+67758,su taqueria el gallo bravo #4,su taqueria el gallo bravo #4,1766968,restaurant,risk 1 (high),5650 w grand ave ,chicago,il,60639,2010-01-05,complaint,fail,41.91922446,-87.7677343
+67759,finley mahony's,finley mahony's,1801271,restaurant,risk 1 (high),3701 n broadway ,chicago,il,60613,2010-01-05,canvass,pass w/ conditions,41.94924955,-87.6482598
+67760,mc intosh's,mc intosh's,1648623,empty,risk 1 (high),748 w 61st st ,chicago,il,60621,2010-01-05,out of business,fail,41.78350298,-87.64438638
+67761,garfield shell,garfield shell,55267,grocery store,risk 2 (medium),801 w 55th blvd ,chicago,il,60621,2010-01-06,complaint re-inspection,pass,41.79383347,-87.64520727
+67762,dannys tacos #2,dannys tacos #2,1998643,restaurant,risk 1 (high),9220 s cottage grove st bldg ,chicago,il,60619,2010-01-06,license re-inspection,fail,41.72685342,-87.60473617
+67763,san miguel bakery inc.,san miguel bakery inc.,1381258,bakery,risk 2 (medium),1607 w montrose ave ,chicago,il,60613,2010-01-06,canvass,fail,41.96147702,-87.66957103
+67764,dona torta,dona torta,1354422,restaurant,risk 1 (high),3057 n ashland ave ,chicago,il,60657,2010-01-06,canvass,pass w/ conditions,41.93775888,-87.66844527
+67765,zavala's grocery store inc,zavala's grocery store inc,1044988,grocery store,risk 1 (high),2657 s kolin ave ,chicago,il,60623,2010-01-06,canvass,pass,41.84242346,-87.73287257
+67767,armitage produce inc,armitage produce inc,1771323,grocery store,risk 1 (high),2007 n kimball ave ,chicago,il,60647,2010-01-06,complaint re-inspection,pass,41.91756242,-87.71175511
+67768,mcdonald's #490,mcdonald's #490,81721,restaurant,risk 2 (medium),10320 s kedzie ave ,chicago,il,60655,2010-01-06,short form complaint,fail,41.7055203,-87.70145804
+67769,mcdonalds #5471,mcdonalds #5471,54687,restaurant,risk 2 (medium),4338 w north ave ,chicago,il,60639,2010-01-06,complaint,pass,41.90988087,-87.7351582
+67770,we 8 incorporated,citgo,1598242,grocery store,risk 3 (low),210 w 103rd st ,chicago,il,60628,2010-01-06,short form complaint,pass,41.70720612,-87.628815
+67771,philly's best,philly's best,1520673,restaurant,risk 1 (high),907 w belmont ave ,chicago,il,60657,2010-01-06,canvass,fail,41.93983429,-87.65188242
+67772,dubois,dubois,26601,school,risk 1 (high),330 e 133rd  (13300s) st ,chicago,il,60827,2010-01-06,canvass,pass,41.65376037,-87.61434156
+67773,los sauces taqueria,los sauces taqueria,1914003,restaurant,risk 1 (high),2700 s trumbull ave ,chicago,il,60623,2010-01-06,complaint,pass w/ conditions,41.84251235,-87.71122481
+67774,church's chicken # 1414,church's chicken # 1414,1273251,restaurant,risk 2 (medium),4812 w north ave ,chicago,il,60639,2010-01-06,complaint,pass,41.90972882,-87.74663995
+67775,bamboo garden restaurant,bamboo garden,1741769,restaurant,risk 1 (high),3203 n clark st ,chicago,il,60657,2010-01-06,canvass,pass,41.94015623,-87.65067301
+67776,wendy's,wendy's,1145749,restaurant,risk 2 (medium),7 e 111th st ,chicago,il,60628,2010-01-06,short form complaint,pass,41.69247632,-87.62284192
+67777,uncommon ground,uncommon ground,1491426,restaurant,risk 1 (high),3800 n clark st ,chicago,il,60613,2010-01-06,complaint,fail,41.95106405,-87.65979513
+67778,los arcos pizzeria,los arcos pizzeria,2004575,restaurant,risk 1 (high),6102 w diversey ave ,chicago,il,60639,2010-01-06,license re-inspection,pass,41.93121277,-87.77853674
+67780,domino's pizza,domino's pizza,36834,restaurant,risk 2 (medium),4039 w 26th st ,chicago,il,60623,2010-01-06,canvass,pass,41.84412236,-87.72602914
+67781,potbelly sandwich works,potbelly sandwich works,1841496,restaurant,risk 1 (high),924 w belmont ave ,chicago,il,60657,2010-01-06,canvass,pass,41.94004451,-87.65253926
+67782,subway,subway,1841435,restaurant,risk 1 (high),11629 s halsted st ,chicago,il,60628,2010-01-06,complaint,pass,41.68300249,-87.64193645
+67783,steve's lounge,steve's lounge,833,restaurant,risk 1 (high),13200 s baltimore ave ,chicago,il,60633,2010-01-06,complaint,pass,41.65541665,-87.54729079
+67784,"surf & turf where seafood & steak meet, inc.","surf & turf where seafood & steak meet, inc.",1869406,restaurant,risk 1 (high),13205 s muskegon ave ,chicago,il,60633,2010-01-06,out of business,fail,41.65535108,-87.55428021
+67785,marathon,marathon,2009293,restaurant,risk 2 (medium),2800 w 63rd st ,chicago,il,60629,2010-01-07,license re-inspection,pass,41.77922453,-87.69345644
+67786,gas on california,gas on california,1621557,empty,risk 3 (low),2800 w 63rd st ,chicago,il,60629,2010-01-07,out of business,fail,41.77922453,-87.69345644
+67787,subway store  # 25458,subway,1492724,restaurant,risk 1 (high),1818 w montrose ave ,chicago,il,60613,2010-01-07,canvass,pass w/ conditions,41.96161297,-87.67536187
+67788,carson (old),carson (old),22601,school,risk 1 (high),5516 s maplewood (2532w) ave ,chicago,il,60629,2010-01-07,canvass,pass,empty,empty
+67789,mcdonald's #6491,mcdonald's,2009449,restaurant,risk 2 (medium),36 w randolph st ,chicago,il,60601,2010-01-07,license,fail,41.88459085,-87.62923601
+67790,jewel food store #3441,jewel food store #3441,1375,grocery store,risk 1 (high),2940 n ashland ave ,chicago,il,60657,2010-01-07,canvass,fail,41.93547203,-87.66865454
+67791,cafe orchid,cafe orchid,1821381,restaurant,risk 1 (high),1746 w addison st ,chicago,il,60613,2010-01-07,canvass,fail,41.94704229,-87.673233
+67792,afc sushi @ jewel osco # 2940,afc sushi @ jewel osco # 2940,1516125,grocery store,risk 1 (high),2940 n ashland ave ,chicago,il,60657,2010-01-07,canvass,pass,41.93547203,-87.66865454
+67793,carson (new),carson (new),70217,school,risk 1 (high),2550 w 56th (5600s) st ,chicago,il,60629,2010-01-07,canvass,pass,41.79206744,-87.68847815
+67794,super mercado guadalajara,super mercado guadalajara,15844,grocery store,risk 1 (high),2300 s sacramento ave ,chicago,il,60623,2010-01-07,canvass,pass,41.84992324,-87.70044617
+67795,emperor wok,emperor wok,1874409,restaurant,risk 1 (high),2910 n ashland ave ,chicago,il,60657,2010-01-07,canvass,pass,41.93456195,-87.66862107

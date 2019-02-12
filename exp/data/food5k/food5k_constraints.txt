@@ -1,0 +1,5 @@
+t1&t2&EQ(t1.license,t2.license)&IQ(t1.facilitytype,t2.facilitytype)
+t1&t2&EQ(t1.license,t2.license)&IQ(t1.address,t2.address)
+t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.city,t2.city)
+t1&t2&EQ(t1.zip,t2.zip)&IQ(t1.state,t2.state)
+
