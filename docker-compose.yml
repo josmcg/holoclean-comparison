@@ -1,0 +1,14 @@
+version: "2.3"
+services:
+  holoclean:
+    build: .
+    ipc: host
+    volumes: 
+      - .:/vol
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: abcd1234
+      POSTGRES_USER: holocleanuser
+      POSTGRES_DB: holo

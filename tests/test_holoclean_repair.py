@@ -6,6 +6,7 @@ from repair.featurize import *
 def test_hospital():
     # 1. Setup a HoloClean session.
     hc = holoclean.HoloClean(
+        db_host="db",
         db_name='holo',
         domain_thresh_1=0.0,
         domain_thresh_2=0.0,
