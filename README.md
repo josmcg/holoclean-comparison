@@ -3,6 +3,22 @@ Master:
 Dev:
 [![Build Status](https://travis-ci.org/HoloClean/holoclean.svg?branch=dev)](https://travis-ci.org/HoloClean/holoclean)
 
+# Installation
+
+In the main directory run 
+
+`docker-compose build`
+
+# Usage
+
+To start the system run 
+
+1. `docker-compose up db -d`
+2. `docker-compose run holoclean bash`
+3. Inside the docker container, run `source activate holo_env`
+4. Ensure you are in the directory `/vol` (this is synced with your active repo)
+5. `cd exp && ./run.sh`
+
 # HoloClean: A Machine Learning System for Data Enrichment
 
 [HoloClean](http://www.holoclean.io) is built on top of PyTorch and PostgreSQL.
